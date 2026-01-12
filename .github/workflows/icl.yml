@@ -1,5 +1,8 @@
 name: Scraper ICL
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 2 * * *" # todos los días 02:00 UTC

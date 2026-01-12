@@ -1,5 +1,8 @@
 name: Scraper Combustibles
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 6 1,16 * *" # día 1 y 16 de cada mes a las 06:00 UTC

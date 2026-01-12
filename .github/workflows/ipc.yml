@@ -1,5 +1,8 @@
 name: Scraper IPC
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 5 14 * *" # día 14 de cada mes
