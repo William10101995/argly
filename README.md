@@ -3,7 +3,7 @@
 ![ICL](https://github.com/William10101995/datos-argentina-api/actions/workflows/icl.yml/badge.svg)
 ![IPC](https://github.com/William10101995/datos-argentina-api/actions/workflows/ipc.yml/badge.svg)
 ![Combustibles](https://github.com/William10101995/datos-argentina-api/actions/workflows/combustibles.yml/badge.svg)
-[![Base URL API](https://img.shields.io/badge/website-online-brightgreen)](https://datos-argentina-api.vercel.app/)
+[![Base URL API](https://img.shields.io/badge/website-online-brightgreen)](https://api.argly.com.ar)
 
 API pública que expone índices y precios de combustibles en Argentina a partir de fuentes públicas, con actualización automática y despliegue continuo.
 
@@ -25,13 +25,14 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
 - 📉 **IPC (Índice de Precios al Consumidor)**
 
   - Valor vigente del IPC
-  - Fecha de publicación
   - Mes
   - Año
+  - Fecha de publicación
+  - Fecha de próxima publicación
 
 ## 🌐 Endpoints disponibles
 
-La API se encuentra disponible públicamente en: `https://datos-argentina-api.vercel.app`
+La API se encuentra disponible públicamente en: `https://api.argly.com.ar`
 
 Todos los endpoints descriptos a continuación deben utilizar esta URL como base.
 
@@ -83,7 +84,7 @@ Los datos se mantienen actualizados mediante **GitHub Actions (cron jobs)**:
 
 - 🛢️ Combustibles: cada **15 días**
 - 📈 ICL: **todos los días a las 09:00, 10:00, 11:00 y 12:00**
-- 📉 IPC: **día 10, 11, 12 y 13 de cada mes**
+- 📉 IPC: **día 10, 11, 12, 13 y 14 de cada mes**
 
 ## 🧪 Desarrollo local
 
