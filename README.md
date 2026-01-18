@@ -3,7 +3,7 @@
 ![ICL](https://github.com/William10101995/datos-argentina-api/actions/workflows/icl.yml/badge.svg)
 ![IPC](https://github.com/William10101995/datos-argentina-api/actions/workflows/ipc.yml/badge.svg)
 ![Combustibles](https://github.com/William10101995/datos-argentina-api/actions/workflows/combustibles.yml/badge.svg)
-[![Base URL API](https://img.shields.io/badge/website-online-brightgreen)](https://api.argly.com.ar)
+[![Base URL API](https://img.shields.io/badge/website-online-brightgreen)](https://argly.com.ar)
 
 API pública que expone índices y precios de combustibles en Argentina a partir de fuentes públicas, con actualización automática y despliegue continuo.
 
@@ -12,18 +12,15 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
 ## 🚀 Características
 
 - 📊 **Combustibles**
-
   - Gasolineras por provincia
   - Gasolineras por empresa
   - Precio promedio por provincia y tipo de combustible
 
 - 📈 **ICL (Índice de Contratos de Locación)**
-
   - Fecha de publicación
   - Valor vigente del ICL
 
 - 📉 **IPC (Índice de Precios al Consumidor)**
-
   - Valor vigente del IPC
   - Mes
   - Año
