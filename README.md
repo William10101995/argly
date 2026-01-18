@@ -1,4 +1,4 @@
-# Datos Argentina API 🇦🇷
+# Argly: datos públicos de Argentina, simples y accesibles 🇦🇷
 
 ![ICL](https://github.com/William10101995/datos-argentina-api/actions/workflows/icl.yml/badge.svg)
 ![IPC](https://github.com/William10101995/datos-argentina-api/actions/workflows/ipc.yml/badge.svg)
