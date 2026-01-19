@@ -42,14 +42,14 @@ def obtener_icl_actual():
                     fecha = cols[1].get_text(strip=True)
                     valor_str = cols[2].get_text(strip=True)
 
-                    # Limpiamos el valor para que sea un número flotante válido (opcional)
+                    # Limpiamos el valor para que sea un número flotante válido
                     # Reemplazamos coma por punto
                     try:
                         valor_num = float(valor_str.replace(".", "").replace(",", "."))
                     except ValueError:
                         valor_num = valor_str  # Si falla, guardamos el string original
 
-                    # Retornamos el OBJETO (diccionario)
+                    # Retornamos el Objeto (diccionario)
                     return {
                         "fecha": fecha,
                         "valor": valor_num,

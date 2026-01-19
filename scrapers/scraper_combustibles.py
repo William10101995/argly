@@ -6,9 +6,7 @@ import re
 from pathlib import Path
 from utils import save_dataset_json
 
-# =========================
 # CONFIGURACIÓN
-# =========================
 
 PROVINCIAS = [
     "chaco",
@@ -41,9 +39,8 @@ BASE_URL = "https://combustibles.ar/precios"
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (FuelScraper/1.0)"}
 
-# =========================
+
 # HELPERS
-# =========================
 
 
 def text_from_a(td):
@@ -87,9 +84,7 @@ def make_key(provincia, empresa, localidad, direccion, combustible):
     )
 
 
-# =========================
 # SCRAPER
-# =========================
 
 resultados = {}
 resultados.clear()  # IMPORTANTE para entornos persistentes
@@ -150,10 +145,8 @@ for provincia in PROVINCIAS:
             }
 
         page += 1
-        time.sleep(1)  # no saturar el sitio
+        time.sleep(1)  # para no saturar el sitio
 
-# =========================
 # EXPORTAR JSON (REEMPLAZA SIEMPRE)
-# =========================
 
 save_dataset_json(dataset="combustibles", data=list(resultados.values()))

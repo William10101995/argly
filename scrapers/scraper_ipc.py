@@ -26,18 +26,14 @@ MESES = {
     "diciembre": 12,
 }
 
-# =========================
 # REQUEST
-# =========================
 
 response = requests.get(URL, headers=HEADERS, timeout=20)
 response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
 
-# =========================
 # FECHA DE PUBLICACIÓN
-# =========================
 
 fecha_publicacion = None
 anio_publicacion = None
@@ -49,9 +45,7 @@ if titulo:
         fecha_publicacion = match.group(1)
         anio_publicacion = 2000 + int(fecha_publicacion.split("/")[-1])
 
-# =========================
 # TEXTO PRINCIPAL IPC
-# =========================
 
 indice_ipc = None
 mes_ipc = None
@@ -71,9 +65,7 @@ if texto_ipc:
     if match_mes:
         mes_ipc = match_mes.group(1).lower()
 
-# =========================
 # AÑO IPC (MES VENCIDO)
-# =========================
 
 if mes_ipc and anio_publicacion:
     if MESES.get(mes_ipc) == 12:
@@ -81,9 +73,7 @@ if mes_ipc and anio_publicacion:
     else:
         anio_ipc = anio_publicacion
 
-# =========================
 # PRÓXIMO INFORME
-# =========================
 
 fecha_proximo_informe = None
 
@@ -94,9 +84,7 @@ for p in soup.find_all("p"):
             fecha_proximo_informe = match.group(1)
         break
 
-# =========================
 # RESULTADO FINAL
-# =========================
 
 resultado = {
     "indice_ipc": indice_ipc,
@@ -106,15 +94,11 @@ resultado = {
     "fecha_proximo_informe": fecha_proximo_informe,
 }
 
-# =========================
 # CARGAR HISTÓRICO
-# =========================
 
 historico = []
 
-# =========================
 # EVITAR DUPLICADOS (mes + año)
-# =========================
 
 ya_existe = any(
     item["mes"] == resultado["mes"] and item["anio"] == resultado["anio"]
@@ -127,8 +111,6 @@ if not ya_existe:
 else:
     print("ℹ El registro ya existe, no se agregó")
 
-# =========================
 # GUARDAR JSON
-# =========================
 
 save_dataset_json(dataset="ipc", data=historico)
