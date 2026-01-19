@@ -124,6 +124,18 @@ MIT License
 
 Proyecto desarrollado y mantenido por **William López**.
 
+## 📚 Documentación
+
+Diagramas de arquitectura y flujos del sistema:
+
+| Documento | Descripción |
+|-----------|-------------|
+| [Arquitectura General](docs/arquitectura.md) | Vista completa del sistema y sus componentes |
+| [Pipeline CI/CD](docs/ci-cd.md) | Flujo de integración y despliegue continuo |
+| [Flujo de API](docs/api-flow.md) | Cómo se procesan las peticiones HTTP |
+| [Flujo de Scraping](docs/scraping.md) | Proceso de recolección de datos |
+| [Estructura de Datos](docs/data-structure.md) | Estructura de los JSONs y archivos |
+
 ## ⭐ Contribuciones
 
 Pull requests, sugerencias y mejoras son bienvenidas.
