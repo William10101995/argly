@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 import unicodedata
+from datetime import datetime
+
 
 BASE_DATA_PATH = Path(__file__).resolve().parents[2] / "data"
 
@@ -107,6 +109,26 @@ def get_icl_history():
     return result
 
 
+def get_icl_range(desde: str, hasta: str):
+    historico = get_icl_history()
+
+    try:
+        d_desde = datetime.strptime(desde, "%Y-%m-%d").date()
+        d_hasta = datetime.strptime(hasta, "%Y-%m-%d").date()
+    except ValueError:
+        return []
+
+    result = []
+
+    for item in historico:
+        fecha = datetime.strptime(item["fecha"], "%d/%m/%Y").date()
+
+        if d_desde <= fecha <= d_hasta:
+            result.append(item)
+
+    return result
+
+
 # -------- IPC --------
 
 
@@ -139,6 +161,7 @@ def get_ipc_history():
 
             indice = item.get("indice_ipc")
             mes = item.get("mes")
+            anio = item.get("anio")
             nombre_mes = item.get("nombre_mes")
 
             if indice is None or mes is None:
@@ -147,6 +170,7 @@ def get_ipc_history():
             result.append(
                 {
                     "mes": mes,
+                    "anio": anio,
                     "nombre_mes": nombre_mes,
                     "valor": indice,
                 }
@@ -157,4 +181,32 @@ def get_ipc_history():
 
     # ordenar por mes (opcional, útil si el histórico es anual)
     result.sort(key=lambda x: x["mes"])
+    return result
+
+
+def get_ipc_range(desde: str, hasta: str):
+    historico = get_ipc_history()
+
+    try:
+        desde_dt = datetime.strptime(desde, "%Y-%m")
+        hasta_dt = datetime.strptime(hasta, "%Y-%m")
+    except ValueError:
+        return []
+
+    result = []
+
+    for item in historico:
+        anio = item.get("anio")
+        mes = item.get("mes")
+
+        if not anio or not mes:
+            continue
+
+        fecha_ipc = datetime(anio, mes, 1)
+
+        if desde_dt <= fecha_ipc <= hasta_dt:
+            result.append(item)
+
+    # ya viene ordenado, pero por las dudas
+    result.sort(key=lambda x: (x["anio"], x["mes"]))
     return result
