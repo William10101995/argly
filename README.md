@@ -1,9 +1,10 @@
 # Argly: datos públicos de Argentina, simples y accesibles 🇦🇷
 
-![ICL](https://github.com/William10101995/datos-argentina-api/actions/workflows/icl.yml/badge.svg)
-![IPC](https://github.com/William10101995/datos-argentina-api/actions/workflows/ipc.yml/badge.svg)
-![Combustibles](https://github.com/William10101995/datos-argentina-api/actions/workflows/combustibles.yml/badge.svg)
+![ICL](https://github.com/William10101995/argly/actions/workflows/icl.yml/badge.svg)
+![IPC](https://github.com/William10101995/argly/actions/workflows/ipc.yml/badge.svg)
+![Combustibles](https://github.com/William10101995/argly/actions/workflows/combustibles.yml/badge.svg)
 [![Base URL API](https://img.shields.io/badge/website-online-brightgreen)](https://argly.com.ar)
+![GitHub stars](https://img.shields.io/github/stars/William10101995/argly)
 
 API pública que expone índices y precios de combustibles en Argentina a partir de fuentes públicas, con actualización automática y despliegue continuo.
 
@@ -57,10 +58,22 @@ GET /api/combustibles/promedio/<provincia>/<combustible>
 
 ### 📈 ICL
 
-**Valor y fecha de publicación**
+**Valor y fecha de publicación del ICL del día en curso**
 
 ```
 GET /api/icl
+```
+
+**Historico del ICL**
+
+```
+GET /api/icl/history
+```
+
+**ICL en un rango de fechas**
+
+```
+GET /api/icl/range?desde=AAAA-MM-DD&hasta=AAAA-MM-DD
 ```
 
 ---
@@ -73,7 +86,17 @@ GET /api/icl
 GET /api/ipc
 ```
 
----
+**Historico del IPC**
+
+```
+GET /api/ipc/history
+```
+
+**IPC en un rango de fechas**
+
+```
+GET /api/ipc/range?desde=AAAA-MM&hasta=AAAA-MM
+```
 
 ## 🔄 Actualización de datos
 
@@ -116,10 +139,6 @@ http://localhost:5000
 - No se garantiza exactitud legal o comercial.
 - Uso bajo responsabilidad del consumidor.
 
-## 📄 Licencia
-
-MIT License
-
 ## 📚 Documentación
 
 Diagramas de arquitectura y flujos del sistema:
@@ -136,7 +155,17 @@ Diagramas de arquitectura y flujos del sistema:
 
 Proyecto desarrollado y mantenido por **William López**.
 
+## 🤝 Contribuidores
+
+Gracias a todas las personas que aportan a este proyecto 💙
+
+- [@dchaves80](https://github.com/dchaves80)
+
 ## ⭐ Contribuciones
 
 Pull requests, sugerencias y mejoras son bienvenidas.
 Este proyecto está pensado para crecer y ser útil a la comunidad.
+
+## 📄 Licencia
+
+MIT License
