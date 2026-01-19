@@ -74,9 +74,87 @@ def get_icl():
     return {"fecha": item.get("fecha"), "valor": item.get("valor")}
 
 
+def get_icl_history():
+    icl_path = BASE_DATA_PATH / "icl"
+
+    if not icl_path.exists():
+        return []
+
+    files = [
+        f for f in icl_path.iterdir() if f.suffix == ".json" and f.name != "latest.json"
+    ]
+
+    result = []
+
+    for file in files:
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            if not data:
+                continue
+
+            item = data[0]
+            result.append(
+                {"fecha": item.get("fecha") or file.stem, "valor": item.get("valor")}
+            )
+
+        except Exception:
+            continue
+
+    # orden cronológico
+    result.sort(key=lambda x: x["fecha"])
+    return result
+
+
 # -------- IPC --------
 
 
 def get_ipc():
     data = _load_latest("ipc")
     return data[0] if data else None
+
+
+def get_ipc_history():
+    ipc_path = BASE_DATA_PATH / "ipc"
+
+    if not ipc_path.exists():
+        return []
+
+    files = [
+        f for f in ipc_path.iterdir() if f.suffix == ".json" and f.name != "latest.json"
+    ]
+
+    result = []
+
+    for file in files:
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            if not data:
+                continue
+
+            item = data[0]
+
+            indice = item.get("indice_ipc")
+            mes = item.get("mes")
+            nombre_mes = item.get("nombre_mes")
+
+            if indice is None or mes is None:
+                continue
+
+            result.append(
+                {
+                    "mes": mes,
+                    "nombre_mes": nombre_mes,
+                    "valor": indice,
+                }
+            )
+
+        except Exception:
+            continue
+
+    # ordenar por mes (opcional, útil si el histórico es anual)
+    result.sort(key=lambda x: x["mes"])
+    return result

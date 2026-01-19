@@ -11,6 +11,26 @@ URL = "https://www.indec.gob.ar/Nivel4/Tema/3/5/31"
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
+
+# NORMALIZAR FECHA
+def normalizar_fecha(fecha: str | None) -> str | None:
+    """
+    Convierte fechas tipo 10/2/26 o 13/01/26 a DD/MM/YYYY
+    """
+    if not fecha:
+        return None
+
+    d, m, y = fecha.split("/")
+    d = d.zfill(2)
+    m = m.zfill(2)
+
+    if len(y) == 2:
+        y = "20" + y
+
+    return f"{d}/{m}/{y}"
+
+
+# MAPA DE MESES A NÚMEROS
 MESES = {
     "enero": 1,
     "febrero": 2,
@@ -86,12 +106,15 @@ for p in soup.find_all("p"):
 
 # RESULTADO FINAL
 
+mes_numero = MESES.get(mes_ipc)
+
 resultado = {
     "indice_ipc": indice_ipc,
-    "mes": mes_ipc,
+    "mes": mes_numero,
+    "nombre_mes": mes_ipc,
     "anio": anio_ipc,
-    "fecha_publicacion": fecha_publicacion,
-    "fecha_proximo_informe": fecha_proximo_informe,
+    "fecha_publicacion": normalizar_fecha(fecha_publicacion),
+    "fecha_proximo_informe": normalizar_fecha(fecha_proximo_informe),
 }
 
 # CARGAR HISTÓRICO
