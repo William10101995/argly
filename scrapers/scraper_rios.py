@@ -4,10 +4,30 @@ from datetime import datetime, timezone
 from collections import defaultdict
 import urllib3
 from utils import save_dataset_json
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 URL = "https://contenidosweb.prefecturanaval.gob.ar/alturas/"
+
+
+def _session():
+    retry = Retry(
+        total=5,
+        backoff_factor=2,
+        status_forcelist=[500, 502, 503, 504],
+        allowed_methods=["GET"],
+    )
+
+    adapter = HTTPAdapter(max_retries=retry)
+
+    session = requests.Session()
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+
+    return session
 
 
 def _to_float(text):
@@ -77,7 +97,16 @@ def normalizar_estado(raw):
 def obtener_estado_rios():
     headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/120 Safari/537.36"}
 
-    res = requests.get(URL, headers=headers, verify=False)
+    # res = requests.get(URL, headers=headers, verify=False)
+    session = _session()
+
+    res = session.get(
+        URL,
+        headers=headers,
+        verify=False,
+        timeout=(10, 30),  # 10s conexión, 30s lectura
+    )
+
     res.raise_for_status()
 
     soup = BeautifulSoup(res.text, "html.parser")
@@ -163,6 +192,11 @@ def obtener_estado_rios():
 
 
 if __name__ == "__main__":
-    data = obtener_estado_rios()
-    if data:
-        save_dataset_json(dataset="rios", data=[data])
+    try:
+        data = obtener_estado_rios()
+        if data:
+            save_dataset_json(dataset="rios", data=[data])
+        else:
+            print("⚠ No se pudo obtener data de rios")
+    except Exception as e:
+        print(f"❌ Error scraping rios: {e}")

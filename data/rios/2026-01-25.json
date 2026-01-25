@@ -1,7 +1,7 @@
 [
   {
     "source": "prefectura_naval_argentina",
-    "updated_at": "2026-01-25T17:51:22.364515+00:00",
+    "updated_at": "2026-01-25T20:55:10.826927+00:00",
     "rios": [
       {
         "nombre": "IGUAZU",
@@ -259,12 +259,12 @@
           },
           {
             "nombre": "PARANA",
-            "altura_m": 2.73,
-            "variacion_m": -0.03,
+            "altura_m": 2.71,
+            "variacion_m": -0.02,
             "periodo": "12",
             "estado": "baja",
             "fecha": "2026-01-25",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "SANTA FE",
@@ -377,7 +377,7 @@
       },
       {
         "nombre": "DELTA PARANA",
-        "estado_general": "baja",
+        "estado_general": "crece",
         "puertos": [
           {
             "nombre": "SAN PEDRO",
@@ -399,12 +399,12 @@
           },
           {
             "nombre": "ZARATE",
-            "altura_m": 0.12,
-            "variacion_m": -0.39,
+            "altura_m": 1.87,
+            "variacion_m": 1.75,
             "periodo": "12",
-            "estado": "baja",
+            "estado": "crece",
             "fecha": "2026-01-25",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "CAMPANA",
@@ -508,12 +508,12 @@
         ],
         "resumen": {
           "puertos_total": 14,
-          "crece": 6,
-          "baja": 7,
+          "crece": 7,
+          "baja": 6,
           "estac": 0,
           "s/e": 0,
-          "altura_promedio_m": 0.71,
-          "altura_max_m": 1.4,
+          "altura_promedio_m": 0.85,
+          "altura_max_m": 1.87,
           "altura_min_m": 0.0
         }
       },
