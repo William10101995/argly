@@ -1,63 +1,52 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from collections import defaultdict
 import urllib3
-from utils import save_dataset_json
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-import subprocess
-import sys
+from utils import save_dataset_json
 
-
+# Desactivar advertencias de SSL inseguro (necesario para gob.ar a veces)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 URL = "https://contenidosweb.prefecturanaval.gob.ar/alturas/"
 
+# Configuración de headers para simular un navegador real en español
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "es-AR,es;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Referer": "https://www.argentina.gob.ar/",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+}
 
-def fetch_html():
+
+def get_session():
     """
-    Usa curl del sistema para evitar bloqueos TLS de requests
+    Crea una sesión robusta con estrategia de reintentos y soporte de Proxy.
     """
-    try:
-        html = subprocess.check_output(
-            [
-                "curl",
-                "-L",
-                "--silent",
-                "--show-error",
-                "--max-time",
-                "30",
-                "--connect-timeout",
-                "10",
-                "-A",
-                "Mozilla/5.0 (X11; Linux x86_64)",
-                URL,
-            ],
-            text=True,
-        )
-        if not html or len(html) < 500:
-            return None
-        return html
+    session = requests.Session()
 
-    except subprocess.CalledProcessError as e:
-        print("❌ curl error:", e, file=sys.stderr)
-        return None
-
-
-def _session():
-    retry = Retry(
-        total=5,
-        backoff_factor=2,
-        status_forcelist=[500, 502, 503, 504],
-        allowed_methods=["GET"],
+    # Estrategia de reintentos: 3 intentos, con espera exponencial (backoff)
+    retry_strategy = Retry(
+        total=3,
+        backoff_factor=2,  # espera 2s, 4s, 8s...
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["HEAD", "GET", "OPTIONS"],
     )
 
-    adapter = HTTPAdapter(max_retries=retry)
-
-    session = requests.Session()
+    adapter = HTTPAdapter(max_retries=retry_strategy)
     session.mount("https://", adapter)
     session.mount("http://", adapter)
+
+    # Checkear si hay un PROXY configurado en las variables de entorno
+    proxy_str = os.environ.get("RIO_PROXY")
+    if proxy_str:
+        print(f"Usando Proxy configurado...")
+        session.proxies = {"http": proxy_str, "https": proxy_str}
 
     return session
 
@@ -89,23 +78,15 @@ MONTHS = {
 
 
 def parse_fecha_hora(raw):
-    """
-    Ej: '25/JAN/26 - 0900'
-    -> ('2026-01-25', '09:00')
-    """
     if not raw or "-" not in raw:
         return None, None
-
     try:
         date_part, time_part = [p.strip() for p in raw.split("-")]
-
         day, mon, year = date_part.split("/")
         month = MONTHS.get(mon.upper())
         full_year = f"20{year}"
-
         fecha = f"{full_year}-{month}-{day.zfill(2)}"
         hora = f"{time_part[:2]}:{time_part[2:]}"
-
         return fecha, hora
     except Exception:
         return None, None
@@ -113,7 +94,6 @@ def parse_fecha_hora(raw):
 
 def normalizar_estado(raw):
     raw = raw.strip().upper()
-
     if raw == "CRECE":
         return "crece"
     if raw == "BAJA":
@@ -122,30 +102,36 @@ def normalizar_estado(raw):
         return "estac"
     if raw in ("S/E", "SE"):
         return "s/e"
-
     return "desconocido"
 
 
 def obtener_estado_rios():
-    headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/120 Safari/537.36"}
+    session = get_session()
 
-    # res = requests.get(URL, headers=headers, verify=False)
-    html = fetch_html()
-    if not html:
-        print("⚠ No se pudo obtener HTML desde Prefectura")
+    try:
+        # Timeout explícito de 30 segundos para evitar hang
+        print(f"Conectando a {URL}...")
+        res = session.get(URL, headers=HEADERS, verify=False, timeout=30)
+        res.raise_for_status()
+    except requests.exceptions.RequestException as e:
+        print(f"Error crítico al conectar: {e}")
         return None
 
-    soup = BeautifulSoup(html, "html.parser")
-
+    soup = BeautifulSoup(res.text, "html.parser")
     table = soup.find("table")
 
     if not table:
+        print("No se encontró la tabla en el HTML")
         return None
 
     rios = defaultdict(list)
 
-    for row in table.find("tbody").find_all("tr"):
-        th = row.find("th")  # Puerto
+    tbody = table.find("tbody")
+    if not tbody:
+        return None
+
+    for row in tbody.find_all("tr"):
+        th = row.find("th")
         cols = row.find_all("td")
 
         if not th or len(cols) < 6:
@@ -153,14 +139,11 @@ def obtener_estado_rios():
 
         puerto = th.get_text(strip=True)
         rio = cols[0].get_text(strip=True)
-
         altura = _to_float(cols[1].get_text(strip=True))
         variacion = _to_float(cols[2].get_text(strip=True))
         periodo = cols[3].get_text(strip=True)
-
         fecha_hora_raw = cols[4].get_text(strip=True)
         fecha, hora = parse_fecha_hora(fecha_hora_raw)
-
         estado = normalizar_estado(cols[5].get_text(strip=True))
 
         rios[rio].append(
@@ -199,12 +182,15 @@ def obtener_estado_rios():
             "altura_min_m": min(alturas) if alturas else None,
         }
 
-        # estado general: ignora s/e
         estados_validos = ["baja", "estac", "crece"]
-        estado_general = max(
-            estados_validos,
-            key=lambda e: sum(1 for p in puertos if p["estado"] == e),
-        )
+        # Evitar crash si no hay estados válidos
+        try:
+            estado_general = max(
+                estados_validos,
+                key=lambda e: sum(1 for p in puertos if p["estado"] == e),
+            )
+        except ValueError:
+            estado_general = "desconocido"
 
         resultado["rios"].append(
             {
@@ -219,11 +205,9 @@ def obtener_estado_rios():
 
 
 if __name__ == "__main__":
-    try:
-        data = obtener_estado_rios()
-        if data:
-            save_dataset_json(dataset="rios", data=[data])
-        else:
-            print("⚠ No se pudo obtener data de rios")
-    except Exception as e:
-        print(f"❌ Error scraping rios: {e}")
+    data = obtener_estado_rios()
+    if data:
+        save_dataset_json(dataset="rios", data=[data])
+    else:
+        # Fallar el action si no hay datos para que te enteres
+        exit(1)
