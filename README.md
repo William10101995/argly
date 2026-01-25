@@ -169,7 +169,7 @@ GET /api/rios
 **Nivel de un río específico**
 
 ```
-GET /api/rios/<nombre_rio>
+GET /api/rios/rio/<nombre_rio>
 ```
 
 ## 🔄 Actualización de datos
