@@ -105,7 +105,7 @@ def get_icl_history():
             continue
 
     # orden cronológico
-    result.sort(key=lambda x: x["fecha"])
+    result.sort(key=lambda x: datetime.strptime(x["fecha"], "%d/%m/%Y"))
     return result
 
 
@@ -179,8 +179,8 @@ def get_ipc_history():
         except Exception:
             continue
 
-    # ordenar por mes (opcional, útil si el histórico es anual)
-    result.sort(key=lambda x: x["mes"])
+    # ordenar por anio y mes
+    result.sort(key=lambda x: (x["anio"], x["mes"]))
     return result
 
 
@@ -255,7 +255,7 @@ def get_uvi_history():
             continue
 
     # orden cronológico
-    result.sort(key=lambda x: x["fecha"])
+    result.sort(key=lambda x: datetime.strptime(x["fecha"], "%d/%m/%Y"))
     return result
 
 
@@ -321,7 +321,7 @@ def get_uva_history():
         except Exception:
             continue
 
-    result.sort(key=lambda x: x["fecha"])
+    result.sort(key=lambda x: datetime.strptime(x["fecha"], "%d/%m/%Y"))
     return result
 
 
