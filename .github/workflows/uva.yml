@@ -1,0 +1,38 @@
+name: Scraper UVA
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # 09:00 AR
+    - cron: "0 13 * * *" # 10:00 AR
+    - cron: "0 14 * * *" # 11:00 AR
+  workflow_dispatch:
+
+jobs:
+  uva:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run scraper UVA
+        run: |
+          python scrapers/scraper_uva.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/uva
+          git commit -m "chore: update UVA" || echo "No changes"
+          git push

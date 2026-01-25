@@ -2,6 +2,8 @@
 
 ![ICL](https://github.com/William10101995/argly/actions/workflows/icl.yml/badge.svg)
 ![IPC](https://github.com/William10101995/argly/actions/workflows/ipc.yml/badge.svg)
+![UVA](https://github.com/William10101995/argly/actions/workflows/uva.yml/badge.svg)
+![UVI](https://github.com/William10101995/argly/actions/workflows/uvi.yml/badge.svg)
 ![Combustibles](https://github.com/William10101995/argly/actions/workflows/combustibles.yml/badge.svg)
 [![Base URL API](https://img.shields.io/badge/website-online-brightgreen)](https://argly.com.ar)
 ![GitHub stars](https://img.shields.io/github/stars/William10101995/argly)
@@ -18,15 +20,24 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
   - Precio promedio por provincia y tipo de combustible
 
 - 📈 **ICL (Índice de Contratos de Locación)**
-  - Fecha de publicación
   - Valor vigente del ICL
+  - Histórico
+  - Histórico por rango de fechas
 
 - 📉 **IPC (Índice de Precios al Consumidor)**
   - Valor vigente del IPC
-  - Mes
-  - Año
-  - Fecha de publicación
-  - Fecha de próxima publicación
+  - Histórico
+  - Histórico por rango de fechas
+
+- 🏠 **UVI (Unidad de Vivienda)**
+  - Valor vigente del UVI
+  - Histórico
+  - Histórico por rango de fechas
+
+- 🏦 **UVA (Unidad de Valor Adquisitivo)**
+  - Valor vigente del UVA
+  - Histórico
+  - Histórico por rango de fechas
 
 ## 🌐 Endpoints disponibles
 
@@ -96,6 +107,48 @@ GET /api/ipc/history
 
 ```
 GET /api/ipc/range?desde=AAAA-MM&hasta=AAAA-MM
+```
+
+### 🏠 UVI
+
+**Valor y fecha de publicación de la UVI del día en curso**
+
+```
+GET /api/uvi
+```
+
+**Historico de la UVI**
+
+```
+GET /api/uvi/history
+```
+
+**UVI en un rango de fechas**
+
+```
+GET /api/uvi/range?desde=AAAA-MM-DD&hasta=AAAA-MM-DD
+```
+
+---
+
+### 🏦 UVA
+
+**Valor y fecha de publicación de la UVA del día en curso**
+
+```
+GET /api/uva
+```
+
+**Historico de la UVA**
+
+```
+GET /api/uva/history
+```
+
+**UVA en un rango de fechas**
+
+```
+GET /api/uva/range?desde=AAAA-MM-DD&hasta=AAAA-MM-DD
 ```
 
 ## 🔄 Actualización de datos

@@ -210,3 +210,135 @@ def get_ipc_range(desde: str, hasta: str):
     # ya viene ordenado, pero por las dudas
     result.sort(key=lambda x: (x["anio"], x["mes"]))
     return result
+
+
+# -------- UVI --------
+
+
+def get_uvi():
+    data = _load_latest("uvi")
+    if not data:
+        return None
+    item = data[0]
+    return {"fecha": item.get("fecha"), "valor": item.get("valor")}
+
+
+def get_uvi_history():
+    uvi_path = BASE_DATA_PATH / "uvi"
+
+    if not uvi_path.exists():
+        return []
+
+    files = [
+        f for f in uvi_path.iterdir() if f.suffix == ".json" and f.name != "latest.json"
+    ]
+
+    result = []
+
+    for file in files:
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            if not data:
+                continue
+
+            item = data[0]
+            result.append(
+                {
+                    "fecha": item.get("fecha") or file.stem,
+                    "valor": item.get("valor"),
+                }
+            )
+
+        except Exception:
+            continue
+
+    # orden cronológico
+    result.sort(key=lambda x: x["fecha"])
+    return result
+
+
+def get_uvi_range(desde: str, hasta: str):
+    historico = get_uvi_history()
+
+    try:
+        d_desde = datetime.strptime(desde, "%Y-%m-%d").date()
+        d_hasta = datetime.strptime(hasta, "%Y-%m-%d").date()
+    except ValueError:
+        return []
+
+    result = []
+
+    for item in historico:
+        fecha = datetime.strptime(item["fecha"], "%d/%m/%Y").date()
+
+        if d_desde <= fecha <= d_hasta:
+            result.append(item)
+
+    return result
+
+
+# -------- UVA --------
+
+
+def get_uva():
+    data = _load_latest("uva")
+    if not data:
+        return None
+    item = data[0]
+    return {"fecha": item.get("fecha"), "valor": item.get("valor")}
+
+
+def get_uva_history():
+    uva_path = BASE_DATA_PATH / "uva"
+
+    if not uva_path.exists():
+        return []
+
+    files = [
+        f for f in uva_path.iterdir() if f.suffix == ".json" and f.name != "latest.json"
+    ]
+
+    result = []
+
+    for file in files:
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            if not data:
+                continue
+
+            item = data[0]
+            result.append(
+                {
+                    "fecha": item.get("fecha") or file.stem,
+                    "valor": item.get("valor"),
+                }
+            )
+
+        except Exception:
+            continue
+
+    result.sort(key=lambda x: x["fecha"])
+    return result
+
+
+def get_uva_range(desde: str, hasta: str):
+    historico = get_uva_history()
+
+    try:
+        d_desde = datetime.strptime(desde, "%Y-%m-%d").date()
+        d_hasta = datetime.strptime(hasta, "%Y-%m-%d").date()
+    except ValueError:
+        return []
+
+    result = []
+
+    for item in historico:
+        fecha = datetime.strptime(item["fecha"], "%d/%m/%Y").date()
+        if d_desde <= fecha <= d_hasta:
+            result.append(item)
+
+    return result
