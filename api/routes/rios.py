@@ -16,7 +16,7 @@ def obtener_rios():
     return success(data)
 
 
-@rios_bp.route("/<nombre>", methods=["GET"])
+@rios_bp.route("/rio/<nombre>", methods=["GET"])
 def obtener_rio(nombre):
     data = get_rio_by_nombre(nombre)
     if not data:
