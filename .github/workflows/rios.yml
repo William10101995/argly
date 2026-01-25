@@ -1,5 +1,8 @@
 name: Scraper Rios
 
+env:
+  SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
+
 permissions:
   contents: write
 

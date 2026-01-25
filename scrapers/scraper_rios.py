@@ -4,51 +4,16 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from collections import defaultdict
 import urllib3
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 from utils import save_dataset_json
 
-# Desactivar advertencias de SSL inseguro (necesario para gob.ar a veces)
+# Desactivar advertencias, aunque ScraperAPI maneja el SSL, es buena práctica mantenerlo
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-URL = "https://contenidosweb.prefecturanaval.gob.ar/alturas/"
+# URL real a la que queremos acceder
+TARGET_URL = "https://contenidosweb.prefecturanaval.gob.ar/alturas/"
 
-# Configuración de headers para simular un navegador real en español
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-    "Accept-Language": "es-AR,es;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Referer": "https://www.argentina.gob.ar/",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-}
-
-
-def get_session():
-    """
-    Crea una sesión robusta con estrategia de reintentos y soporte de Proxy.
-    """
-    session = requests.Session()
-
-    # Estrategia de reintentos: 3 intentos, con espera exponencial (backoff)
-    retry_strategy = Retry(
-        total=3,
-        backoff_factor=2,  # espera 2s, 4s, 8s...
-        status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["HEAD", "GET", "OPTIONS"],
-    )
-
-    adapter = HTTPAdapter(max_retries=retry_strategy)
-    session.mount("https://", adapter)
-    session.mount("http://", adapter)
-
-    # Checkear si hay un PROXY configurado en las variables de entorno
-    proxy_str = os.environ.get("RIO_PROXY")
-    if proxy_str:
-        print(f"Usando Proxy configurado...")
-        session.proxies = {"http": proxy_str, "https": proxy_str}
-
-    return session
+# Obtenemos la key desde los secretos de GitHub
+SCRAPERAPI_KEY = os.environ.get("SCRAPERAPI_KEY")
 
 
 def _to_float(text):
@@ -106,27 +71,51 @@ def normalizar_estado(raw):
 
 
 def obtener_estado_rios():
-    session = get_session()
+    if not SCRAPERAPI_KEY:
+        print("Error: No se encontró la variable SCRAPERAPI_KEY")
+        return None
+
+    # Configuración para ScraperAPI
+    payload = {
+        "api_key": SCRAPERAPI_KEY,
+        "url": TARGET_URL,
+        "keep_headers": "true",  # Mantiene nuestros headers (útil para simular navegador)
+        # 'country_code': 'ar'  # Opcional: Si tienes plan pago, descomenta esto para forzar IP argentina
+    }
+
+    # Headers para "engañar" al sitio final (se pasan a través de ScraperAPI)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+
+    print(f"Contactando a Prefectura vía ScraperAPI...")
 
     try:
-        # Timeout explícito de 30 segundos para evitar hang
-        print(f"Conectando a {URL}...")
-        res = session.get(URL, headers=HEADERS, verify=False, timeout=30)
-        res.raise_for_status()
+        # Llamamos a ScraperAPI, no directamente a Prefectura
+        res = requests.get(
+            "http://api.scraperapi.com", params=payload, headers=headers, timeout=60
+        )
+
+        if res.status_code != 200:
+            print(f"Error en la petición: Status {res.status_code}")
+            print(res.text)  # Para ver qué error devuelve la API
+            return None
+
     except requests.exceptions.RequestException as e:
-        print(f"Error crítico al conectar: {e}")
+        print(f"Error de conexión con ScraperAPI: {e}")
         return None
 
     soup = BeautifulSoup(res.text, "html.parser")
     table = soup.find("table")
 
     if not table:
-        print("No se encontró la tabla en el HTML")
+        print("No se encontró la tabla en el HTML devuelto")
+        # A veces devuelven un captcha o página de error si detectan algo raro
         return None
 
     rios = defaultdict(list)
-
     tbody = table.find("tbody")
+
     if not tbody:
         return None
 
@@ -183,7 +172,6 @@ def obtener_estado_rios():
         }
 
         estados_validos = ["baja", "estac", "crece"]
-        # Evitar crash si no hay estados válidos
         try:
             estado_general = max(
                 estados_validos,
@@ -209,5 +197,5 @@ if __name__ == "__main__":
     if data:
         save_dataset_json(dataset="rios", data=[data])
     else:
-        # Fallar el action si no hay datos para que te enteres
+        # Forzamos error para que GitHub Actions te avise
         exit(1)
