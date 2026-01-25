@@ -342,3 +342,30 @@ def get_uva_range(desde: str, hasta: str):
             result.append(item)
 
     return result
+
+
+# -------- RIOS --------
+
+
+def get_rios():
+    """
+    Devuelve el snapshot completo de ríos
+    """
+    data = _load_latest("rios")
+    if not data:
+        return None
+    return data[0]
+
+
+def get_rio_by_nombre(nombre: str):
+    data = get_rios()
+    if not data:
+        return None
+
+    nombre_norm = _normalize(nombre)
+
+    for rio in data.get("rios", []):
+        if _normalize(rio.get("nombre", "")) == nombre_norm:
+            return rio
+
+    return None

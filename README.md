@@ -4,6 +4,7 @@
 ![IPC](https://github.com/William10101995/argly/actions/workflows/ipc.yml/badge.svg)
 ![UVA](https://github.com/William10101995/argly/actions/workflows/uva.yml/badge.svg)
 ![UVI](https://github.com/William10101995/argly/actions/workflows/uvi.yml/badge.svg)
+![RIOS](https://github.com/William10101995/argly/actions/workflows/rios.yml/badge.svg)
 ![Combustibles](https://github.com/William10101995/argly/actions/workflows/combustibles.yml/badge.svg)
 [![Base URL API](https://img.shields.io/badge/website-online-brightgreen)](https://argly.com.ar)
 ![GitHub stars](https://img.shields.io/github/stars/William10101995/argly)
@@ -38,6 +39,10 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
   - Valor vigente del UVA
   - Histórico
   - Histórico por rango de fechas
+
+- 🌊 **Estado de los rios**
+  - Nivel de los ríos en cada puerto
+  - Nivel de un río específico
 
 ## 🌐 Endpoints disponibles
 
@@ -151,6 +156,22 @@ GET /api/uva/history
 GET /api/uva/range?desde=AAAA-MM-DD&hasta=AAAA-MM-DD
 ```
 
+---
+
+### 🌊 Estado de los ríos
+
+**Nivel de los ríos en cada puerto**
+
+```
+GET /api/rios
+```
+
+**Nivel de un río específico**
+
+```
+GET /api/rios/<nombre_rio>
+```
+
 ## 🔄 Actualización de datos
 
 Los datos se mantienen actualizados mediante **GitHub Actions (cron jobs)**:
@@ -158,6 +179,9 @@ Los datos se mantienen actualizados mediante **GitHub Actions (cron jobs)**:
 - 🛢️ Combustibles: cada **15 días**
 - 📈 ICL: **todos los días a las 09:00, 10:00, 11:00 y 12:00**
 - 📉 IPC: **día 10, 11, 12, 13 y 14 de cada mes**
+- 🏠 UVI: **todos los días a las 09:00, 10:00 y 11:00**
+- 🏦 UVA: **todos los días a las 09:00, 10:00 y 11:00**
+- 🌊 Ríos: **todos los días a las 09:30 y 12:30**
 
 ## 🧪 Desarrollo local
 

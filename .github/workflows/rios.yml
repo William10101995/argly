@@ -1,0 +1,37 @@
+name: Scraper Rios
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "30 12 * * *" # 09:30 AR
+    - cron: "30 15 * * *" # 12:30 AR
+  workflow_dispatch:
+
+jobs:
+  rios:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run scraper Rios
+        run: |
+          python scrapers/scraper_rios.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/rios
+          git commit -m "chore: update rios" || echo "No changes"
+          git push
