@@ -1,7 +1,7 @@
 [
   {
     "source": "prefectura_naval_argentina",
-    "updated_at": "2026-01-25T20:55:10.826927+00:00",
+    "updated_at": "2026-01-25T21:09:55.511111+00:00",
     "rios": [
       {
         "nombre": "IGUAZU",
@@ -214,12 +214,12 @@
           },
           {
             "nombre": "RECONQUISTA",
-            "altura_m": 2.68,
-            "variacion_m": 0.0,
+            "altura_m": 2.99,
+            "variacion_m": 0.31,
             "periodo": "12",
-            "estado": "estac",
+            "estado": "crece",
             "fecha": "2026-01-25",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "ESQUINA",
@@ -341,11 +341,11 @@
         ],
         "resumen": {
           "puertos_total": 31,
-          "crece": 8,
+          "crece": 9,
           "baja": 18,
-          "estac": 5,
+          "estac": 4,
           "s/e": 0,
-          "altura_promedio_m": 7.57,
+          "altura_promedio_m": 7.58,
           "altura_max_m": 67.04,
           "altura_min_m": 0.3
         }
@@ -643,12 +643,12 @@
         "puertos": [
           {
             "nombre": "EL SOBERBIO",
-            "altura_m": 1.0,
-            "variacion_m": -0.3,
+            "altura_m": 0.75,
+            "variacion_m": -0.25,
             "periodo": "12",
             "estado": "baja",
             "fecha": "2026-01-25",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "ALBA POSSE",
@@ -680,11 +680,11 @@
           {
             "nombre": "PUERTO CONCEPCION",
             "altura_m": 2.13,
-            "variacion_m": -0.08,
-            "periodo": "24",
-            "estado": "baja",
+            "variacion_m": 0.0,
+            "periodo": "12",
+            "estado": "estac",
             "fecha": "2026-01-25",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "GARRUCHOS",
@@ -870,12 +870,12 @@
         "resumen": {
           "puertos_total": 25,
           "crece": 6,
-          "baja": 16,
-          "estac": 3,
+          "baja": 15,
+          "estac": 4,
           "s/e": 0,
-          "altura_promedio_m": 5.12,
+          "altura_promedio_m": 5.11,
           "altura_max_m": 35.07,
-          "altura_min_m": 1.0
+          "altura_min_m": 0.75
         }
       },
       {

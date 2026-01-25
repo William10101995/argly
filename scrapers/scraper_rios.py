@@ -6,11 +6,43 @@ import urllib3
 from utils import save_dataset_json
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import subprocess
+import sys
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 URL = "https://contenidosweb.prefecturanaval.gob.ar/alturas/"
+
+
+def fetch_html():
+    """
+    Usa curl del sistema para evitar bloqueos TLS de requests
+    """
+    try:
+        html = subprocess.check_output(
+            [
+                "curl",
+                "-L",
+                "--silent",
+                "--show-error",
+                "--max-time",
+                "30",
+                "--connect-timeout",
+                "10",
+                "-A",
+                "Mozilla/5.0 (X11; Linux x86_64)",
+                URL,
+            ],
+            text=True,
+        )
+        if not html or len(html) < 500:
+            return None
+        return html
+
+    except subprocess.CalledProcessError as e:
+        print("❌ curl error:", e, file=sys.stderr)
+        return None
 
 
 def _session():
@@ -98,18 +130,13 @@ def obtener_estado_rios():
     headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/120 Safari/537.36"}
 
     # res = requests.get(URL, headers=headers, verify=False)
-    session = _session()
+    html = fetch_html()
+    if not html:
+        print("⚠ No se pudo obtener HTML desde Prefectura")
+        return None
 
-    res = session.get(
-        URL,
-        headers=headers,
-        verify=False,
-        timeout=(10, 30),  # 10s conexión, 30s lectura
-    )
+    soup = BeautifulSoup(html, "html.parser")
 
-    res.raise_for_status()
-
-    soup = BeautifulSoup(res.text, "html.parser")
     table = soup.find("table")
 
     if not table:
