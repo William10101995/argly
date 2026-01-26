@@ -33,4 +33,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data/combustibles
           git commit -m "chore: update combustibles" || echo "No changes"
+          git pull --rebase origin main
           git push

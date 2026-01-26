@@ -40,4 +40,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data/rios
           git commit -m "chore: update rios" || echo "No changes"
+          git pull --rebase origin main
           git push

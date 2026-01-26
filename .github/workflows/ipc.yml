@@ -37,4 +37,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data/ipc
           git commit -m "chore: update IPC" || echo "No changes"
+          git pull --rebase origin main
           git push
