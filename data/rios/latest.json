@@ -1,7 +1,7 @@
 [
   {
     "source": "prefectura_naval_argentina",
-    "updated_at": "2026-02-05T16:08:03.810661+00:00",
+    "updated_at": "2026-02-05T22:35:13.622913+00:00",
     "rios": [
       {
         "nombre": "IGUAZU",
@@ -9,39 +9,43 @@
         "puertos": [
           {
             "nombre": "CAXIA (BRASIL)",
-            "altura_m": 16.54,
-            "variacion_m": -4.0,
+            "altura_m": 22.07,
+            "variacion_m": 5.53,
             "periodo": "24",
-            "estado": "baja",
-            "fecha": "2026-02-04",
+            "estado": "crece",
+            "estado_raw": "CRECE",
+            "fecha": "2026-02-05",
             "hora": "09:00"
           },
           {
             "nombre": "REPRESA CAPANEMA (BRASIL)",
-            "altura_m": 18.94,
-            "variacion_m": 5.79,
+            "altura_m": 20.26,
+            "variacion_m": 1.32,
             "periodo": "24",
             "estado": "crece",
-            "fecha": "2026-02-04",
+            "estado_raw": "CRECE",
+            "fecha": "2026-02-05",
             "hora": "09:00"
           },
           {
             "nombre": "ANDRESITO",
-            "altura_m": 1.0,
-            "variacion_m": 0.2,
+            "altura_m": 1.3,
+            "variacion_m": 0.3,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "IGUAZU",
-            "altura_m": 10.7,
-            "variacion_m": 1.0,
+            "altura_m": 9.7,
+            "variacion_m": -1.0,
             "periodo": "12",
-            "estado": "crece",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           }
         ],
         "resumen": {
@@ -50,9 +54,9 @@
           "baja": 1,
           "estac": 0,
           "s/e": 0,
-          "altura_promedio_m": 11.79,
-          "altura_max_m": 18.94,
-          "altura_min_m": 1.0
+          "altura_promedio_m": 13.33,
+          "altura_max_m": 22.07,
+          "altura_min_m": 1.3
         }
       },
       {
@@ -61,20 +65,22 @@
         "puertos": [
           {
             "nombre": "GUAYRA (BRASIL)",
-            "altura_m": 65.0,
-            "variacion_m": -0.68,
+            "altura_m": 67.72,
+            "variacion_m": 2.72,
             "periodo": "24",
-            "estado": "baja",
-            "fecha": "2026-02-04",
+            "estado": "crece",
+            "estado_raw": "CRECE",
+            "fecha": "2026-02-05",
             "hora": "09:00"
           },
           {
             "nombre": "REPRESA ITAIPU (BRASIL)",
-            "altura_m": 80.57,
-            "variacion_m": 3.25,
+            "altura_m": 82.99,
+            "variacion_m": 2.42,
             "periodo": "24",
             "estado": "crece",
-            "fecha": "2026-02-04",
+            "estado_raw": "CRECE",
+            "fecha": "2026-02-05",
             "hora": "09:00"
           },
           {
@@ -83,6 +89,7 @@
             "variacion_m": 0.6,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -92,17 +99,19 @@
             "variacion_m": 0.4,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
           {
             "nombre": "LIBERTADOR",
-            "altura_m": 7.24,
-            "variacion_m": -0.1,
+            "altura_m": 7.23,
+            "variacion_m": -0.01,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "PUERTO MANI",
@@ -110,6 +119,7 @@
             "variacion_m": -0.17,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -119,17 +129,19 @@
             "variacion_m": 0.05,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
           {
             "nombre": "POSADAS",
             "altura_m": 10.19,
-            "variacion_m": -0.09,
+            "variacion_m": 0.0,
             "periodo": "12",
-            "estado": "baja",
+            "estado": "estac",
+            "estado_raw": "ESTAC.",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "ITUZAINGO",
@@ -137,6 +149,7 @@
             "variacion_m": -0.9,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -146,6 +159,7 @@
             "variacion_m": 0.4,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -155,6 +169,7 @@
             "variacion_m": 0.01,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -164,6 +179,7 @@
             "variacion_m": 0.02,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -173,6 +189,7 @@
             "variacion_m": 0.04,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -182,17 +199,19 @@
             "variacion_m": 0.04,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
           {
             "nombre": "EMPEDRADO",
-            "altura_m": 1.59,
-            "variacion_m": 0.0,
+            "altura_m": 1.65,
+            "variacion_m": 0.06,
             "periodo": "12",
-            "estado": "estac",
+            "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "BELLA VISTA",
@@ -200,6 +219,7 @@
             "variacion_m": -0.06,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -209,6 +229,7 @@
             "variacion_m": -0.08,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -218,6 +239,7 @@
             "variacion_m": -0.07,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -227,6 +249,7 @@
             "variacion_m": -0.08,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -236,6 +259,7 @@
             "variacion_m": 0.01,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -245,6 +269,7 @@
             "variacion_m": -0.05,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -254,17 +279,19 @@
             "variacion_m": -0.03,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
           {
             "nombre": "PARANA",
-            "altura_m": 2.03,
-            "variacion_m": -0.02,
+            "altura_m": 2.02,
+            "variacion_m": -0.01,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "SANTA FE",
@@ -272,6 +299,7 @@
             "variacion_m": -0.02,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -281,44 +309,49 @@
             "variacion_m": -0.02,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
           {
             "nombre": "VICTORIA",
-            "altura_m": 3.47,
+            "altura_m": 3.46,
             "variacion_m": -0.01,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "SAN LORENZO",
-            "altura_m": 2.13,
-            "variacion_m": 0.0,
+            "altura_m": 2.11,
+            "variacion_m": -0.02,
             "periodo": "12",
-            "estado": "estac",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "ROSARIO",
-            "altura_m": 2.04,
-            "variacion_m": 0.0,
+            "altura_m": 2.01,
+            "variacion_m": -0.03,
             "periodo": "12",
-            "estado": "estac",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "VILLA CONSTITUCION",
-            "altura_m": 1.47,
-            "variacion_m": 0.0,
+            "altura_m": 1.51,
+            "variacion_m": 0.04,
             "periodo": "12",
-            "estado": "estac",
+            "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "SAN NICOLAS",
@@ -326,6 +359,7 @@
             "variacion_m": 0.07,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -335,18 +369,19 @@
             "variacion_m": 0.23,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           }
         ],
         "resumen": {
           "puertos_total": 31,
-          "crece": 12,
+          "crece": 15,
           "baja": 15,
-          "estac": 4,
+          "estac": 1,
           "s/e": 0,
-          "altura_promedio_m": 7.76,
-          "altura_max_m": 80.57,
+          "altura_promedio_m": 7.93,
+          "altura_max_m": 82.99,
           "altura_min_m": 0.5
         }
       },
@@ -360,6 +395,7 @@
             "variacion_m": -0.05,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           }
@@ -385,26 +421,29 @@
             "variacion_m": 0.16,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
           {
             "nombre": "BARADERO",
-            "altura_m": 0.95,
-            "variacion_m": 0.05,
-            "periodo": "12",
-            "estado": "crece",
+            "altura_m": 0.94,
+            "variacion_m": -0.01,
+            "periodo": "4",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "12:00"
+            "hora": "16:00"
           },
           {
             "nombre": "ZARATE",
-            "altura_m": 1.41,
-            "variacion_m": 0.76,
+            "altura_m": 0.45,
+            "variacion_m": -0.96,
             "periodo": "12",
-            "estado": "crece",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "CAMPANA",
@@ -412,6 +451,7 @@
             "variacion_m": -0.7,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -421,6 +461,7 @@
             "variacion_m": -0.6,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -430,6 +471,7 @@
             "variacion_m": 0.05,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -439,6 +481,7 @@
             "variacion_m": -0.4,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -447,7 +490,8 @@
             "altura_m": null,
             "variacion_m": null,
             "periodo": "12",
-            "estado": "desconocido",
+            "estado": "s/e",
+            "estado_raw": "S/E.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -457,6 +501,7 @@
             "variacion_m": -0.8,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -466,6 +511,7 @@
             "variacion_m": -0.55,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -475,6 +521,7 @@
             "variacion_m": -0.6,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -484,17 +531,19 @@
             "variacion_m": -0.7,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
           {
             "nombre": "SAN ISIDRO",
-            "altura_m": 1.9,
-            "variacion_m": 0.9,
+            "altura_m": 1.0,
+            "variacion_m": -0.9,
             "periodo": "12",
-            "estado": "crece",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "OLIVOS",
@@ -502,18 +551,19 @@
             "variacion_m": -1.2,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           }
         ],
         "resumen": {
           "puertos_total": 14,
-          "crece": 5,
-          "baja": 8,
+          "crece": 2,
+          "baja": 11,
           "estac": 0,
-          "s/e": 0,
-          "altura_promedio_m": 1.17,
-          "altura_max_m": 1.9,
+          "s/e": 1,
+          "altura_promedio_m": 1.02,
+          "altura_max_m": 1.85,
           "altura_min_m": 0.4
         }
       },
@@ -527,6 +577,7 @@
             "variacion_m": -0.1,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           }
@@ -552,6 +603,7 @@
             "variacion_m": -0.25,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           }
@@ -576,7 +628,8 @@
             "altura_m": null,
             "variacion_m": null,
             "periodo": "12",
-            "estado": "desconocido",
+            "estado": "s/e",
+            "estado_raw": "S/E.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -585,7 +638,8 @@
             "altura_m": null,
             "variacion_m": null,
             "periodo": "12",
-            "estado": "desconocido",
+            "estado": "s/e",
+            "estado_raw": "S/E.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -595,6 +649,7 @@
             "variacion_m": -0.03,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -604,6 +659,7 @@
             "variacion_m": 0.0,
             "periodo": "12",
             "estado": "estac",
+            "estado_raw": "ESTAC.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -613,6 +669,7 @@
             "variacion_m": 0.0,
             "periodo": "12",
             "estado": "estac",
+            "estado_raw": "ESTAC.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -622,6 +679,7 @@
             "variacion_m": 0.06,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           }
@@ -631,7 +689,7 @@
           "crece": 1,
           "baja": 1,
           "estac": 2,
-          "s/e": 0,
+          "s/e": 2,
           "altura_promedio_m": 1.81,
           "altura_max_m": 2.5,
           "altura_min_m": 1.1
@@ -643,12 +701,13 @@
         "puertos": [
           {
             "nombre": "EL SOBERBIO",
-            "altura_m": 1.9,
-            "variacion_m": 0.4,
+            "altura_m": 1.12,
+            "variacion_m": -0.78,
             "periodo": "12",
-            "estado": "crece",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "ALBA POSSE",
@@ -656,6 +715,7 @@
             "variacion_m": 0.1,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -665,6 +725,7 @@
             "variacion_m": 0.28,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -674,6 +735,7 @@
             "variacion_m": 0.22,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -683,8 +745,9 @@
             "variacion_m": 0.0,
             "periodo": "12",
             "estado": "estac",
+            "estado_raw": "ESTAC.",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "GARRUCHOS",
@@ -692,6 +755,7 @@
             "variacion_m": 0.0,
             "periodo": "12",
             "estado": "estac",
+            "estado_raw": "ESTAC.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -701,6 +765,7 @@
             "variacion_m": -0.06,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -710,17 +775,19 @@
             "variacion_m": -0.09,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
           {
             "nombre": "LA CRUZ",
-            "altura_m": 2.14,
-            "variacion_m": -0.14,
+            "altura_m": 2.05,
+            "variacion_m": -0.09,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "YAPEYU",
@@ -728,6 +795,7 @@
             "variacion_m": -0.08,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -736,7 +804,8 @@
             "altura_m": null,
             "variacion_m": null,
             "periodo": "12",
-            "estado": "desconocido",
+            "estado": "s/e",
+            "estado_raw": "S/E.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -745,7 +814,8 @@
             "altura_m": null,
             "variacion_m": null,
             "periodo": "12",
-            "estado": "desconocido",
+            "estado": "s/e",
+            "estado_raw": "S/E.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -754,7 +824,8 @@
             "altura_m": null,
             "variacion_m": null,
             "periodo": "12",
-            "estado": "desconocido",
+            "estado": "s/e",
+            "estado_raw": "S/E.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -764,6 +835,7 @@
             "variacion_m": 0.0,
             "periodo": "12",
             "estado": "estac",
+            "estado_raw": "ESTAC.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -773,6 +845,7 @@
             "variacion_m": 0.01,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -782,6 +855,7 @@
             "variacion_m": 0.01,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -791,6 +865,7 @@
             "variacion_m": 0.06,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -800,6 +875,7 @@
             "variacion_m": 0.07,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -809,6 +885,7 @@
             "variacion_m": -0.22,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -818,6 +895,7 @@
             "variacion_m": -0.16,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -827,6 +905,7 @@
             "variacion_m": -0.17,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -836,6 +915,7 @@
             "variacion_m": -0.15,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -845,6 +925,7 @@
             "variacion_m": -0.12,
             "periodo": "12",
             "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -854,6 +935,7 @@
             "variacion_m": 0.0,
             "periodo": "12",
             "estado": "estac",
+            "estado_raw": "ESTAC.",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -863,19 +945,20 @@
             "variacion_m": 0.06,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           }
         ],
         "resumen": {
           "puertos_total": 25,
-          "crece": 9,
-          "baja": 9,
+          "crece": 8,
+          "baja": 10,
           "estac": 4,
-          "s/e": 0,
-          "altura_promedio_m": 5.21,
+          "s/e": 3,
+          "altura_promedio_m": 5.17,
           "altura_max_m": 33.72,
-          "altura_min_m": 1.32
+          "altura_min_m": 1.12
         }
       },
       {
@@ -888,6 +971,7 @@
             "variacion_m": 0.1,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           },
@@ -897,6 +981,7 @@
             "variacion_m": 0.08,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "12:00"
           }
@@ -914,41 +999,45 @@
       },
       {
         "nombre": "DE LA PLATA",
-        "estado_general": "crece",
+        "estado_general": "baja",
         "puertos": [
           {
             "nombre": "BUENOS AIRES",
-            "altura_m": 1.4,
-            "variacion_m": 0.4,
+            "altura_m": 0.54,
+            "variacion_m": -0.86,
             "periodo": "12",
-            "estado": "crece",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "LA PLATA",
-            "altura_m": 0.8,
-            "variacion_m": 0.2,
+            "altura_m": 0.4,
+            "variacion_m": -0.4,
             "periodo": "12",
-            "estado": "crece",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "BRAGA",
-            "altura_m": 1.6,
-            "variacion_m": 0.8,
+            "altura_m": 0.85,
+            "variacion_m": -0.75,
             "periodo": "12",
-            "estado": "crece",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-02-05",
-            "hora": "00:00"
+            "hora": "12:00"
           },
           {
             "nombre": "SANTA TERESITA",
             "altura_m": null,
             "variacion_m": null,
             "periodo": "12",
-            "estado": "desconocido",
+            "estado": "s/e",
+            "estado_raw": "S/E.",
             "fecha": "2026-02-05",
             "hora": "00:00"
           },
@@ -958,19 +1047,20 @@
             "variacion_m": 0.38,
             "periodo": "12",
             "estado": "crece",
+            "estado_raw": "CRECE",
             "fecha": "2026-02-05",
             "hora": "00:00"
           }
         ],
         "resumen": {
           "puertos_total": 5,
-          "crece": 4,
-          "baja": 0,
+          "crece": 1,
+          "baja": 3,
           "estac": 0,
-          "s/e": 0,
-          "altura_promedio_m": 1.21,
-          "altura_max_m": 1.6,
-          "altura_min_m": 0.8
+          "s/e": 1,
+          "altura_promedio_m": 0.71,
+          "altura_max_m": 1.04,
+          "altura_min_m": 0.4
         }
       }
     ]
