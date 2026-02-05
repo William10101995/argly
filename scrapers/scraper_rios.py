@@ -58,16 +58,22 @@ def parse_fecha_hora(raw):
 
 
 def normalizar_estado(raw):
-    raw = raw.strip().upper()
-    if raw == "CRECE":
-        return "crece"
-    if raw == "BAJA":
-        return "baja"
-    if raw.startswith("ESTAC"):
-        return "estac"
-    if raw in ("S/E", "SE"):
-        return "s/e"
-    return "desconocido"
+    if not raw:
+        return "s/e", None
+
+    raw_clean = raw.strip().upper()
+
+    if raw_clean == "CRECE":
+        return "crece", raw_clean
+    if raw_clean == "BAJA":
+        return "baja", raw_clean
+    if raw_clean.startswith("ESTAC"):
+        return "estac", raw_clean
+    if raw_clean in ("S/E", "SE", "S / E", "S.E.", "S/E."):
+        return "s/e", raw_clean
+
+    # Estado inesperado
+    return "s/e", raw_clean
 
 
 def obtener_estado_rios():
@@ -134,7 +140,7 @@ def obtener_estado_rios():
         periodo = cols[3].get_text(strip=True)
         fecha_hora_raw = cols[4].get_text(strip=True)
         fecha, hora = parse_fecha_hora(fecha_hora_raw)
-        estado = normalizar_estado(cols[5].get_text(strip=True))
+        estado, estado_raw = normalizar_estado(cols[5].get_text(strip=True))
 
         rios[rio].append(
             {
@@ -143,6 +149,7 @@ def obtener_estado_rios():
                 "variacion_m": variacion,
                 "periodo": periodo,
                 "estado": estado,
+                "estado_raw": estado_raw,
                 "fecha": fecha,
                 "hora": hora,
             }
@@ -179,7 +186,13 @@ def obtener_estado_rios():
                 key=lambda e: sum(1 for p in puertos if p["estado"] == e),
             )
         except ValueError:
-            estado_general = "desconocido"
+            estado_general = "s/e"
+
+        if resumen["puertos_total"] > 0:
+            ratio_sin_estado = resumen["s/e"] / resumen["puertos_total"]
+
+            if ratio_sin_estado > 0.5:
+                estado_general = "s/e"
 
         resultado["rios"].append(
             {

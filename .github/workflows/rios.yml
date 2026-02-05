@@ -8,7 +8,6 @@ permissions:
 
 on:
   schedule:
-    - cron: "30 12 * * *" # 09:30 AR
     - cron: "30 15 * * *" # 12:30 AR
   workflow_dispatch:
 
