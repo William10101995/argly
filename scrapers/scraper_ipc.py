@@ -3,7 +3,11 @@ import requests
 import re
 import json
 import os
+from pathlib import Path
 from utils import save_dataset_json
+
+
+
 
 ARCHIVO_JSON = "ipc_historico.json"
 
@@ -11,6 +15,35 @@ URL = "https://www.indec.gob.ar/Nivel4/Tema/3/5/31"
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
+
+# CARGA HISTORICO DE IPC EN JSON
+def cargar_historico() -> list:
+    """
+    Lee todos los archivos JSON de data/ipc/ (excepto latest.json)
+    y retorna una lista con todos los registros históricos.
+    """
+    data_dir = Path(__file__).resolve().parents[1] / "data" / "ipc"
+    if not data_dir.exists():
+        return []
+
+    vistos = set()
+    historico = []
+    for archivo in sorted(data_dir.glob("*.json")):
+        if archivo.name == "latest.json":
+            continue
+        try:
+            with open(archivo, "r", encoding="utf-8") as f:
+                datos = json.load(f)
+            if datos and isinstance(datos, list):
+                for item in datos:
+                    clave = (item.get("mes"), item.get("anio"))
+                    if clave not in vistos:
+                        vistos.add(clave)
+                        historico.append(item)
+        except Exception:
+            continue
+
+    return historico
 
 # NORMALIZAR FECHA
 def normalizar_fecha(fecha: str | None) -> str | None:
@@ -45,6 +78,8 @@ MESES = {
     "noviembre": 11,
     "diciembre": 12,
 }
+
+
 
 # REQUEST
 
@@ -119,7 +154,7 @@ resultado = {
 
 # CARGAR HISTÓRICO
 
-historico = []
+historico = cargar_historico()
 
 # EVITAR DUPLICADOS (mes + año)
 
@@ -129,11 +164,7 @@ ya_existe = any(
 )
 
 if not ya_existe:
-    historico.append(resultado)
     print("✔ Nuevo registro agregado")
+    save_dataset_json(dataset="ipc", data=[resultado])
 else:
     print("ℹ El registro ya existe, no se agregó")
-
-# GUARDAR JSON
-
-save_dataset_json(dataset="ipc", data=historico)
