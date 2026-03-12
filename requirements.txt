@@ -4,3 +4,4 @@ flask-limiter
 gunicorn
 beautifulsoup4
 requests
+flask-compress
