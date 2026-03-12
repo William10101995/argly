@@ -55,11 +55,11 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
   - Plazo sugerido según perfil de riesgo
 
 - 💊 **Medicamentos (Vademécum Nacional)**
-  - Búsqueda de medicamentos por nombre o droga
+  - Búsqueda de medicamentos por nombre
   - Información de presentación, laboratorio y tipo de venta
   - Precios ordenados de menor a mayor
 
-- 🌎 **Geografía de Argentina**
+- 🌎 **Censo Demográfico y Habitacional**
   - Provincias y municipios por provincia con sus respectivos centroides geográficos.
   - Datos de población y vivienda del **Último Censo Nacional (INDEC)** de cada municipio.
 
@@ -239,7 +239,7 @@ GET /api/medicamentos/<medicamento>
 
 ---
 
-### 🌎 Geografía
+### 🌎 Censo Demográfico y Habitacional
 
 **Listado completo de provincias con municipios y datos censales**
 
