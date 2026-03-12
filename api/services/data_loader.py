@@ -381,3 +381,16 @@ def get_construccion():
     data = _load_latest("construccion")
     # Como guardamos la data dentro de una lista [{}], retornamos el primer elemento
     return data[0] if data else None
+
+
+# -------- PROVINCIAS --------
+
+
+def get_provincias():
+    """
+    Devuelve el dataset completo de provincias y municipios
+    """
+    data = _load_latest("provincias")
+    if not data:
+        return None
+    return data

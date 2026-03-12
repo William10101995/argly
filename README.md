@@ -48,6 +48,21 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
 - 🧱 **ICC (Índice del Costo de la Construcción)**
   - Costo de la construcción en pesos y variaciones porcentuales vigentes
 
+- 💳 **Scoring crediticio**
+  - Evaluación de perfil crediticio a partir de los datos de la central de deudores del BCRA
+  - Recomendación de préstamo máximo
+  - Cuota estimada del nuevo préstamo
+  - Plazo sugerido según perfil de riesgo
+
+- 💊 **Medicamentos (Vademécum Nacional)**
+  - Búsqueda de medicamentos por nombre o droga
+  - Información de presentación, laboratorio y tipo de venta
+  - Precios ordenados de menor a mayor
+
+- 🌎 **Geografía de Argentina**
+  - Provincias y municipios por provincia con sus respectivos centroides geográficos.
+  - Datos de población y vivienda del **Último Censo Nacional (INDEC)** de cada municipio.
+
 ## 🌐 Endpoints disponibles
 
 La API se encuentra disponible públicamente en: `https://api.argly.com.ar`
@@ -184,6 +199,54 @@ GET /api/rios/rio/<nombre_rio>
 
 ```
 GET /api/construccion
+```
+
+---
+
+### 💳 Scoring crediticio
+
+**Evaluación del perfil crediticio utilizando datos públicos del
+Banco Central de la República Argentina.**
+
+El modelo utiliza heurísticas financieras basadas en:
+
+- situación crediticia
+- cantidad de entidades acreedoras
+- días de atraso
+- flags legales
+- ratio deuda/ingreso
+- TNA personalizada
+
+```
+GET /api/credito/<cuil>/<salario_mensual>/<tna>
+```
+
+- El modelo de scoring crediticio es **heurístico** y está diseñado para evaluación preliminar de riesgo.
+- No reemplaza modelos estadísticos o regulatorios utilizados por entidades financieras.
+
+---
+
+### 💊 Medicamentos
+
+**Búsqueda de medicamentos en el vademécum nacional**
+
+Permite buscar medicamentos por nombre y devuelve
+los resultados ordenados por precio de menor a mayor.
+
+```
+GET /api/medicamentos/<medicamento>
+```
+
+---
+
+### 🌎 Geografía
+
+**Listado completo de provincias con municipios y datos censales**
+
+Datos geográficos de provincias y municipios de Argentina, incluyendo información de población y vivienda del **Último Censo Nacional (INDEC)** por municipio.
+
+```
+GET /api/provincias
 ```
 
 ## 🔄 Actualización de datos

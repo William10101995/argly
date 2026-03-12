@@ -5,6 +5,9 @@ from .uvi import uvi_bp
 from .uva import uva_bp
 from .rios import rios_bp
 from .construccion import construccion_bp
+from .credit import credit_bp
+from .medicamentos import medicamentos_bp
+from .provincias import provincias_bp
 
 
 def register_routes(app):
@@ -15,3 +18,6 @@ def register_routes(app):
     app.register_blueprint(uva_bp)
     app.register_blueprint(rios_bp)
     app.register_blueprint(construccion_bp)
+    app.register_blueprint(credit_bp)
+    app.register_blueprint(medicamentos_bp)
+    app.register_blueprint(provincias_bp)
