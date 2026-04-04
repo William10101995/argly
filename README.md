@@ -3,6 +3,7 @@
 ![ICL](https://github.com/William10101995/argly/actions/workflows/icl.yml/badge.svg)
 ![IPC](https://github.com/William10101995/argly/actions/workflows/ipc.yml/badge.svg)
 ![UVA](https://github.com/William10101995/argly/actions/workflows/uva.yml/badge.svg)
+![CER](https://github.com/William10101995/argly/actions/workflows/cer.yml/badge.svg)
 ![UVI](https://github.com/William10101995/argly/actions/workflows/uvi.yml/badge.svg)
 ![ICC](https://github.com/William10101995/argly/actions/workflows/construccion.yml/badge.svg)
 ![RIOS](https://github.com/William10101995/argly/actions/workflows/rios.yml/badge.svg)
