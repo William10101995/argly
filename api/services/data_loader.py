@@ -343,6 +343,70 @@ def get_uva_range(desde: str, hasta: str):
 
     return result
 
+# -------- CER --------
+
+
+def get_cer():
+    data = _load_latest("cer")
+    if not data:
+        return None
+    item = data[0]
+    return {"fecha": item.get("fecha"), "valor": item.get("valor")}
+
+
+def get_cer_history():
+    cer_path = BASE_DATA_PATH / "cer"
+
+    if not cer_path.exists():
+        return []
+
+    files = [
+        f for f in cer_path.iterdir() if f.suffix == ".json" and f.name != "latest.json"
+    ]
+
+    result = []
+
+    for file in files:
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            if not data:
+                continue
+
+            item = data[0]
+            result.append(
+                {
+                    "fecha": item.get("fecha") or file.stem,
+                    "valor": item.get("valor"),
+                }
+            )
+
+        except Exception:
+            continue
+
+    result.sort(key=lambda x: datetime.strptime(x["fecha"], "%d/%m/%Y"))
+    return result
+
+
+def get_cer_range(desde: str, hasta: str):
+    historico = get_cer_history()
+
+    try:
+        d_desde = datetime.strptime(desde, "%Y-%m-%d").date()
+        d_hasta = datetime.strptime(hasta, "%Y-%m-%d").date()
+    except ValueError:
+        return []
+
+    result = []
+
+    for item in historico:
+        fecha = datetime.strptime(item["fecha"], "%d/%m/%Y").date()
+        if d_desde <= fecha <= d_hasta:
+            result.append(item)
+
+    return result
+
 
 # -------- RIOS --------
 

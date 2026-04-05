@@ -1,0 +1,39 @@
+name: Scraper CER
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "20 12 * * *" # 09:00 AR
+    - cron: "20 13 * * *" # 10:00 AR
+    - cron: "20 14 * * *" # 11:00 AR
+  workflow_dispatch:
+
+jobs:
+  cer:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run scraper CER
+        run: |
+          python scrapers/scraper_cer.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/cer
+          git commit -m "chore: update CER" || echo "No changes"
+          git pull --rebase origin main
+          git push

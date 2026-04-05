@@ -3,6 +3,7 @@
 ![ICL](https://github.com/William10101995/argly/actions/workflows/icl.yml/badge.svg)
 ![IPC](https://github.com/William10101995/argly/actions/workflows/ipc.yml/badge.svg)
 ![UVA](https://github.com/William10101995/argly/actions/workflows/uva.yml/badge.svg)
+![CER](https://github.com/William10101995/argly/actions/workflows/cer.yml/badge.svg)
 ![UVI](https://github.com/William10101995/argly/actions/workflows/uvi.yml/badge.svg)
 ![ICC](https://github.com/William10101995/argly/actions/workflows/construccion.yml/badge.svg)
 ![RIOS](https://github.com/William10101995/argly/actions/workflows/rios.yml/badge.svg)
@@ -43,6 +44,11 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
 
 - 🏦 **UVA (Unidad de Valor Adquisitivo)**
   - Valor vigente del UVA
+  - Histórico
+  - Histórico por rango de fechas
+ 
+- 📉 **CER (Coeficiente de Estabilización de Referencia)**
+  - Valor vigente del CER
   - Histórico
   - Histórico por rango de fechas
 
@@ -202,6 +208,28 @@ GET /api/uva/range?desde=AAAA-MM-DD&hasta=AAAA-MM-DD
 
 ---
 
+### 📉 CER
+
+**Valor y fecha de publicación de la CER del día en curso**
+
+```
+GET /api/cer
+```
+
+**Historico de la CER**
+
+```
+GET /api/cer/history
+```
+
+**CER en un rango de fechas**
+
+```
+GET /api/cer/range?desde=AAAA-MM-DD&hasta=AAAA-MM-DD
+```
+
+---
+
 ### 🌊 Estado de los ríos
 
 **Nivel de los ríos en cada puerto**
@@ -283,6 +311,7 @@ Los datos se mantienen actualizados mediante **GitHub Actions (cron jobs)**:
 - 📉 IPC: **día 10, 11, 12, 13 y 14 de cada mes**
 - 🏠 UVI: **todos los días a las 09:00, 10:00 y 11:00**
 - 🏦 UVA: **todos los días a las 09:00, 10:00 y 11:00**
+- 📉 CER: **todos los días a las 09:00, 10:00 y 11:00**
 - 🌊 Ríos: **todos los días a las 12:30**
 - 🧱 ICC: **día 15, 16 y 17 de cada mes**
 - 🛒 Canasta: **día 12, 13, 14 y 15 de cada mes**
