@@ -56,6 +56,14 @@ ROW_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Prioridades de búsqueda de PDF, de más específica a menos
+_PDF_PATTERNS = [
+    # 1. Nombre exacto del informe que nos interesa (canasta básica, no crianza)
+    lambda h: "canasta" in h and "crianza" not in h and h.endswith(".pdf"),
+    # 2. Cualquier PDF que no sea de crianza (fallback)
+    lambda h: h.endswith(".pdf") and "crianza" not in h,
+]
+
 
 def _parse_float(text: str) -> float:
     return float(text.strip().replace(".", "").replace(",", "."))
@@ -81,18 +89,16 @@ def _get_pdf_url() -> str:
         timeout=30,
     )
     soup = BeautifulSoup(result.stdout, "html.parser")
+    hrefs = [a["href"] for a in soup.find_all("a", href=True)]
 
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if "canasta" in href.lower() and href.endswith(".pdf"):
-            return _to_absolute_url(href)
+    for pattern in _PDF_PATTERNS:
+        for href in hrefs:
+            if pattern(href.lower()):
+                url = _to_absolute_url(href)
+                print(f"      PDF seleccionado: {href}")
+                return url
 
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if href.endswith(".pdf"):
-            return _to_absolute_url(href)
-
-    raise ValueError("No se encontró ningún PDF en la página del INDEC")
+    raise ValueError("No se encontró el PDF de Canasta Básica en la página del INDEC")
 
 
 def _download_pdf(pdf_url: str) -> bytes:
@@ -154,16 +160,44 @@ def _download_pdf(pdf_url: str) -> bytes:
             return f.read()
 
 
+def _extract_pages(pdf) -> tuple:
+    """
+    Devuelve (page_fecha, page_cba, page_cbt) buscando por contenido
+    en lugar de asumir índices fijos.
+    """
+    texts = [p.extract_text() or "" for p in pdf.pages]
+
+    # La página de fecha tiene "Buenos Aires,"
+    page_fecha = next(
+        (t for t in texts if "Buenos Aires," in t),
+        texts[2] if len(texts) > 2 else "",
+    )
+
+    # CBA: página que menciona "Alimentaria" y tiene filas de datos
+    page_cba = next(
+        (t for t in texts if "Alimentaria" in t and ROW_RE.search(t)),
+        texts[3] if len(texts) > 3 else "",
+    )
+
+    # CBT: página que menciona "Básica Total" y tiene filas de datos
+    page_cbt = next(
+        (t for t in texts if "Básica Total" in t and ROW_RE.search(t)),
+        texts[4] if len(texts) > 4 else "",
+    )
+
+    return page_fecha, page_cba, page_cbt
+
+
 def _parse_pdf(pdf_bytes: bytes) -> dict:
     with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
-        page3 = pdf.pages[2].extract_text() or ""
-        page4 = pdf.pages[3].extract_text() or ""
-        page5 = pdf.pages[4].extract_text() or ""
+        page_fecha, page_cba, page_cbt = _extract_pages(pdf)
 
     # Fecha de publicación
     fecha_pub = None
     match = re.search(
-        r"Buenos Aires,\s+(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})", page3, re.IGNORECASE
+        r"Buenos Aires,\s+(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})",
+        page_fecha,
+        re.IGNORECASE,
     )
     if match:
         day = match.group(1).zfill(2)
@@ -172,12 +206,18 @@ def _parse_pdf(pdf_bytes: bytes) -> dict:
         if mes_str in MESES_ES:
             fecha_pub = f"{year}-{MESES_ES[mes_str]}-{day}"
 
-    # Filas de datos
-    cba_rows = ROW_RE.findall(page4)
-    cbt_rows = ROW_RE.findall(page5)
+    cba_rows = ROW_RE.findall(page_cba)
+    cbt_rows = ROW_RE.findall(page_cbt)
 
     if not cba_rows or not cbt_rows:
-        raise ValueError("No se encontraron filas de datos en el PDF")
+        print("[DEBUG] Primeros 500 chars de page_cba:")
+        print(page_cba[:500])
+        print("[DEBUG] Primeros 500 chars de page_cbt:")
+        print(page_cbt[:500])
+        raise ValueError(
+            f"No se encontraron filas de datos en el PDF. "
+            f"CBA rows: {len(cba_rows)}, CBT rows: {len(cbt_rows)}"
+        )
 
     cba_last = cba_rows[-1]
     cbt_last = cbt_rows[-1]
