@@ -8,6 +8,7 @@
 ![ICC](https://github.com/William10101995/argly/actions/workflows/construccion.yml/badge.svg)
 ![RIOS](https://github.com/William10101995/argly/actions/workflows/rios.yml/badge.svg)
 ![Combustibles](https://github.com/William10101995/argly/actions/workflows/combustibles.yml/badge.svg)
+![CBA y CBT](https://github.com/William10101995/argly/actions/workflows/canasta.yml/badge.svg)
 [![Base URL API](https://img.shields.io/badge/website-online-brightgreen)](https://argly.com.ar)
 ![GitHub stars](https://img.shields.io/github/stars/William10101995/argly)
 
@@ -46,7 +47,7 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
   - Valor vigente del UVA
   - Histórico
   - Histórico por rango de fechas
- 
+
 - 📉 **CER (Coeficiente de Estabilización de Referencia)**
   - Valor vigente del CER
   - Histórico
