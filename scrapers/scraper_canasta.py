@@ -167,9 +167,14 @@ def _extract_pages(pdf) -> tuple:
     """
     texts = [p.extract_text() or "" for p in pdf.pages]
 
-    # La página de fecha tiene "Buenos Aires,"
+    # La página de fecha tiene "Buenos Aires," y el nombre de algún mes
     page_fecha = next(
-        (t for t in texts if "Buenos Aires," in t),
+        (
+            t
+            for t in texts
+            if "Buenos Aires," in t
+            and any(f"de {mes}" in t.lower() for mes in MESES_ES)
+        ),
         texts[2] if len(texts) > 2 else "",
     )
 
@@ -194,10 +199,9 @@ def _parse_pdf(pdf_bytes: bytes) -> dict:
 
     # Fecha de publicación
     fecha_pub = None
+    page_fecha_norm = " ".join(page_fecha.split())
     match = re.search(
-        r"Buenos Aires,\s+(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})",
-        page_fecha,
-        re.IGNORECASE,
+        r"Buenos Aires, (\d{1,2}) de (\w+) de (\d{4})", page_fecha_norm, re.IGNORECASE
     )
     if match:
         day = match.group(1).zfill(2)
