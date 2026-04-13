@@ -9,6 +9,7 @@
 ![RIOS](https://github.com/William10101995/argly/actions/workflows/rios.yml/badge.svg)
 ![Combustibles](https://github.com/William10101995/argly/actions/workflows/combustibles.yml/badge.svg)
 ![CBA y CBT](https://github.com/William10101995/argly/actions/workflows/canasta.yml/badge.svg)
+![Desaparecidos](https://github.com/William10101995/argly/actions/workflows/personas.yml/badge.svg)
 [![Base URL API](https://img.shields.io/badge/website-online-brightgreen)](https://argly.com.ar)
 ![GitHub stars](https://img.shields.io/github/stars/William10101995/argly)
 

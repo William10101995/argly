@@ -1,0 +1,41 @@
+name: Scraper Personas
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+	#una vez al mes, el día 12 a las 5:15 am
+    - cron: "15 5 12 * *"
+  workflow_dispatch:
+
+jobs:
+  personas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run scraper Personas
+        run: |
+          python scrapers/scraper_personas_desaparecidas.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/personas_desaparecidas
+          git commit -m "chore: update personas desaparecidas" || echo "No changes"
+          git pull --rebase origin main
+          git push
