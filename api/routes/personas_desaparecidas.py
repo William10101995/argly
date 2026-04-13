@@ -34,33 +34,3 @@ def personas_desaparecidas():
         return error(str(e), 503)
     except Exception as e:
         return error(f"Error interno: {e}", 500)
-
-
-@personas_desaparecidas_bp.route("/personas-desaparecidas/resumen", methods=["GET"])
-def personas_desaparecidas_resumen():
-    """
-    Resumen estadístico: total de personas y cantidad por año de desaparición.
-    Útil como punto de entrada ligero antes de pedir el dataset completo.
-    """
-    try:
-        data = get_resumen()
-        return success(data)
-    except FileNotFoundError as e:
-        return error(str(e), 503)
-    except Exception as e:
-        return error(f"Error interno: {e}", 500)
-
-
-@personas_desaparecidas_bp.route("/personas-desaparecidas/history", methods=["GET"])
-def personas_desaparecidas_por_anio():
-    """
-    Dataset completo agrupado por año.
-    Ideal para construir gráficos de evolución temporal.
-    """
-    try:
-        data = get_por_anio()
-        return success(data)
-    except FileNotFoundError as e:
-        return error(str(e), 503)
-    except Exception as e:
-        return error(f"Error interno: {e}", 500)
