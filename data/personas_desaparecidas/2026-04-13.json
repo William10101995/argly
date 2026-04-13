@@ -1,0 +1,2478 @@
+{
+  "fuente": "SIFEBU - Ministerio de Seguridad de la Nación",
+  "url_fuente": "https://www.argentina.gob.ar/seguridad/personasextraviadas",
+  "total": 199,
+  "resumen_por_anio": {
+    "1990": 1,
+    "1997": 1,
+    "2002": 1,
+    "2003": 1,
+    "2005": 2,
+    "2006": 2,
+    "2007": 1,
+    "2008": 3,
+    "2009": 5,
+    "2010": 3,
+    "2011": 7,
+    "2012": 9,
+    "2013": 6,
+    "2014": 18,
+    "2015": 8,
+    "2016": 10,
+    "2017": 8,
+    "2018": 17,
+    "2019": 7,
+    "2020": 6,
+    "2021": 12,
+    "2022": 10,
+    "2023": 7,
+    "2024": 10,
+    "2025": 8,
+    "2026": 16,
+    "sin_fecha": 20
+  },
+  "por_anio": {
+    "1990": [
+      {
+        "nombre": "Blanca Susana Sola",
+        "slug": "sola",
+        "url": "https://www.argentina.gob.ar/persona-buscada/sola",
+        "fecha_desaparicion": "1990-03-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/sola_blanca_susana.jpg"
+      }
+    ],
+    "1997": [
+      {
+        "nombre": "Mariano Damián Arias",
+        "slug": "arias",
+        "url": "https://www.argentina.gob.ar/persona-buscada/arias",
+        "fecha_desaparicion": "1997-01-02",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/mariano-damian-arias.jpg"
+      }
+    ],
+    "2002": [
+      {
+        "nombre": "María de los Ángeles Verón",
+        "slug": "veron",
+        "url": "https://www.argentina.gob.ar/persona-buscada/veron",
+        "fecha_desaparicion": "2002-04-03",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$5.000.000"
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/maria-de-los-angeles-veron.jpg"
+      }
+    ],
+    "2003": [
+      {
+        "nombre": "Ivan Eladio Torres Millacura",
+        "slug": "torres-millacura-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/torres-millacura-0",
+        "fecha_desaparicion": "2003-10-02",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/12/foto-millacura-1.jpg"
+      }
+    ],
+    "2005": [
+      {
+        "nombre": "María Florencia Pennacchi",
+        "slug": "pennacchi",
+        "url": "https://www.argentina.gob.ar/persona-buscada/pennacchi",
+        "fecha_desaparicion": "2005-03-16",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/maria-florencia-pennachi.jpg"
+      },
+      {
+        "nombre": "Mariela Bessonart",
+        "slug": "bessonart",
+        "url": "https://www.argentina.gob.ar/persona-buscada/bessonart",
+        "fecha_desaparicion": "2005-09-25",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/mariela-bessonart.jpg"
+      }
+    ],
+    "2006": [
+      {
+        "nombre": "Jorge Julio López",
+        "slug": "lopez-6",
+        "url": "https://www.argentina.gob.ar/persona-buscada/lopez-6",
+        "fecha_desaparicion": "2006-09-18",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$5.000.000"
+        },
+        "descripcion": "Jorge Julio LOPEZ (Se busca paradero) Recompensa: $5.000.000 L.E. Nº : 5.021.561 Fecha de nacimiento: 25/11/1929 Nacionalidad: Argentina Vista por última vez: 18 de septiembre del año 2006 Víctima de terrorismo de Estado durante la dictadura cívico militar argentina del periodo comprendido entre los años 1976 y 1983. Como sobreviviente de la represión ilegal del denominado “circuito Camps”, fue llamado a brindar testimonio en varias oportunidades en el marco de procesos judiciales desarrollados en el ámbito de la justicia federal de la cuidad de La Plata. Desde el día 18 de septiembre del año 2006 permanece desaparecido.",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2020/09/julio_lopez_buscar_2.jpg"
+      },
+      {
+        "nombre": "Milagros de los Angeles Cordero",
+        "slug": "cordero",
+        "url": "https://www.argentina.gob.ar/persona-buscada/cordero",
+        "fecha_desaparicion": "2006-12-02",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/milagros-delosangeles_cordero.jpg"
+      }
+    ],
+    "2007": [
+      {
+        "nombre": "José Marcelo Guzmán",
+        "slug": "guzman-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/guzman-0",
+        "fecha_desaparicion": "2007-09-01",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/jose-marcelo-guzman_0.jpg"
+      }
+    ],
+    "2008": [
+      {
+        "nombre": "Cristian Fernando Luna",
+        "slug": "luna",
+        "url": "https://www.argentina.gob.ar/persona-buscada/luna",
+        "fecha_desaparicion": "2008-03-11",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/cristian-fernando-luna.jpg"
+      },
+      {
+        "nombre": "Nicolás Sabena",
+        "slug": "sabena",
+        "url": "https://www.argentina.gob.ar/persona-buscada/sabena",
+        "fecha_desaparicion": "2008-09-14",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/nicolas-sabena.jpg"
+      },
+      {
+        "nombre": "Sofia Yasmin Herrera",
+        "slug": "herrera",
+        "url": "https://www.argentina.gob.ar/persona-buscada/herrera",
+        "fecha_desaparicion": "2008-09-28",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2017/04/foto-sofia-y-herrera.jpg"
+      }
+    ],
+    "2009": [
+      {
+        "nombre": "Natalia Liliana Soledad Acosta",
+        "slug": "acosta",
+        "url": "https://www.argentina.gob.ar/persona-buscada/acosta",
+        "fecha_desaparicion": "2009-05-29",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/09/natalia-l-s-acosta_2.jpg"
+      },
+      {
+        "nombre": "Nayelly Lujan Garcia Servin",
+        "slug": "garcia-servin-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/garcia-servin-0",
+        "fecha_desaparicion": "2009-07-22",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": null
+        },
+        "descripcion": "Nayelly Lujan GARCIA SERVIN, fecha de nacimiento 22/07/2009, fue vista por última vez el 23 de octubre de 2024, en calle Orkeke N° 800, ciudad de Pico Truncado, Provincia de Santa Cruz, abordando un rodado marca Ford modelo Eco Sport, dominio AA 601 EE, utilizado por su padrastro, Juan Ignacio Esteban APAZA, denunciado por la posible comisión del delito de corrupción y sustracción o retención de una persona con la intención de menoscabar su integridad sexual.",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/11/garcia-servin.jpg"
+      },
+      {
+        "nombre": "Jazmín  Sires Zabala",
+        "slug": "sires-zabala",
+        "url": "https://www.argentina.gob.ar/persona-buscada/sires-zabala",
+        "fecha_desaparicion": "2009-10-15",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/zabala_sires_jazmin.jpg"
+      },
+      {
+        "nombre": "Yamila Elizabeth Cuello",
+        "slug": "cuello",
+        "url": "https://www.argentina.gob.ar/persona-buscada/cuello",
+        "fecha_desaparicion": "2009-10-25",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/yamila-elizabeth-cuello-a.jpg"
+      },
+      {
+        "nombre": "Débora Magalí Gómez",
+        "slug": "gomez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gomez",
+        "fecha_desaparicion": "2009-12-20",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/debora-magali-gomez.jpg"
+      }
+    ],
+    "2010": [
+      {
+        "nombre": "Lucas Pietelski",
+        "slug": "pietelski",
+        "url": "https://www.argentina.gob.ar/persona-buscada/pietelski",
+        "fecha_desaparicion": "2010-08-30",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/lucas-pietelski.jpg"
+      },
+      {
+        "nombre": "Agostina Nadín Sorich",
+        "slug": "sorich",
+        "url": "https://www.argentina.gob.ar/persona-buscada/sorich",
+        "fecha_desaparicion": "2010-10-15",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/sorich_agostina_nadin.jpg"
+      },
+      {
+        "nombre": "Paola Vanesa Martínez Bustos",
+        "slug": "martinez-bustos",
+        "url": "https://www.argentina.gob.ar/persona-buscada/martinez-bustos",
+        "fecha_desaparicion": "2010-12-06",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$3.000.000"
+        },
+        "descripcion": "Paola Vanesa MARTINEZ BUSTOS (paradero) (INFORMACION REQUERIDA POR LA JUSTICIA LEY 26.538) Recompensa $3.000.000 DNI Nº 27.968.278 Nacionalidad: argentina Nacida el 17 de marzo de 1980 Se presume que ha sido víctima del delito de trata de personas (Ley Nº 26.364). Fue vista por última vez el 6 de diciembre de 2010 en la Provincia de Mendoza, de 1.55 metros de altura, tez blanca y contextura mediana, con dos tatuajes: uno de ellos es un dibujo de una rosa roja en el hombro izquierdo, además posee un piercing en la parte inferior derecha del mentón y una cicatriz producto de una quemadura en el sector derecho de la espalda.",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/06/paola-vanesa-martinez-bustos.jpg"
+      }
+    ],
+    "2011": [
+      {
+        "nombre": "Juan Alberto Palacios",
+        "slug": "palacios",
+        "url": "https://www.argentina.gob.ar/persona-buscada/palacios",
+        "fecha_desaparicion": "2011-02-22",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/juan-alberto-palacios.jpg"
+      },
+      {
+        "nombre": "María del Carmen Cash",
+        "slug": "cash",
+        "url": "https://www.argentina.gob.ar/persona-buscada/cash",
+        "fecha_desaparicion": "2011-07-08",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/07/maria_del_carmen_cash_buscar_2022-02.jpg"
+      },
+      {
+        "nombre": "Paula Perassi",
+        "slug": "perassi",
+        "url": "https://www.argentina.gob.ar/persona-buscada/perassi",
+        "fecha_desaparicion": "2011-09-18",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/paula-perassi.jpg"
+      },
+      {
+        "nombre": "Daniel Francisco Solano",
+        "slug": "solano",
+        "url": "https://www.argentina.gob.ar/persona-buscada/solano",
+        "fecha_desaparicion": "2011-11-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/daniel-francisco-solano.jpg"
+      },
+      {
+        "nombre": "Germán Sergio Roberto Casarini",
+        "slug": "casarini",
+        "url": "https://www.argentina.gob.ar/persona-buscada/casarini",
+        "fecha_desaparicion": "2011-11-26",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/german_casarini.jpg"
+      },
+      {
+        "nombre": "Ariel Iván Llampa",
+        "slug": "llampa",
+        "url": "https://www.argentina.gob.ar/persona-buscada/llampa",
+        "fecha_desaparicion": "2011-12-08",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/ariel-ivan-llampa.jpg"
+      },
+      {
+        "nombre": "Néstor Zárate Durán",
+        "slug": "zarate-duran",
+        "url": "https://www.argentina.gob.ar/persona-buscada/zarate-duran",
+        "fecha_desaparicion": "2011-12-13",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/nestor-zarate-duran.jpg"
+      }
+    ],
+    "2012": [
+      {
+        "nombre": "Antonio Tomasini",
+        "slug": "tomasini",
+        "url": "https://www.argentina.gob.ar/persona-buscada/tomasini",
+        "fecha_desaparicion": "2012-02-12",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/antonio-tomasini.jpg"
+      },
+      {
+        "nombre": "Florencia Lourdes Gonzalez",
+        "slug": "gonzalez-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gonzalez-0",
+        "fecha_desaparicion": "2012-02-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/florencia-lourdes-gonzalez.jpg"
+      },
+      {
+        "nombre": "Facundo Rivera Alegre",
+        "slug": "rivera-alegre",
+        "url": "https://www.argentina.gob.ar/persona-buscada/rivera-alegre",
+        "fecha_desaparicion": "2012-02-19",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/facundo-rivera-alegre.jpg"
+      },
+      {
+        "nombre": "Nataly Gonzalo",
+        "slug": "gonzalo",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gonzalo",
+        "fecha_desaparicion": "2012-03-04",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$3.000.000"
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2017/04/gonzalo-nataly-con-progresion.jpg"
+      },
+      {
+        "nombre": "Jimena Natalia Arias",
+        "slug": "arias-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/arias-0",
+        "fecha_desaparicion": "2012-03-06",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/jimena-natali-arias.jpg"
+      },
+      {
+        "nombre": "Darío Luis Lemongi",
+        "slug": "lemongi",
+        "url": "https://www.argentina.gob.ar/persona-buscada/lemongi",
+        "fecha_desaparicion": "2012-03-11",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/luis-dario-lemongi.jpg"
+      },
+      {
+        "nombre": "Carlos Norberto Painevil",
+        "slug": "painevil",
+        "url": "https://www.argentina.gob.ar/persona-buscada/painevil",
+        "fecha_desaparicion": "2012-06-02",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/carlos-alberto-painevil.jpg"
+      },
+      {
+        "nombre": "Zarlet Rowina Clavijo Martinez",
+        "slug": "clavijo-martinez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/clavijo-martinez",
+        "fecha_desaparicion": "2012-06-04",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/zarlet-rowina-clavijo-martinez.jpg"
+      },
+      {
+        "nombre": "Guido Rubén Segura",
+        "slug": "segura",
+        "url": "https://www.argentina.gob.ar/persona-buscada/segura",
+        "fecha_desaparicion": "2012-07-18",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/guido-ruben-segura.jpg"
+      }
+    ],
+    "2013": [
+      {
+        "nombre": "Sandra Ovejero",
+        "slug": "ovejero",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ovejero",
+        "fecha_desaparicion": "2013-06-03",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/sandra-ovejero.jpg"
+      },
+      {
+        "nombre": "Jorge Ezequiel  Ledesma",
+        "slug": "ledesma-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ledesma-0",
+        "fecha_desaparicion": "2013-07-25",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/11/afiche_difusion_ledesma_jorge_ezequiel_-_foto.png"
+      },
+      {
+        "nombre": "Juan René Torres",
+        "slug": "torres",
+        "url": "https://www.argentina.gob.ar/persona-buscada/torres",
+        "fecha_desaparicion": "2013-10-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/juan-rene-torres.jpg"
+      },
+      {
+        "nombre": "Lanfang Wang",
+        "slug": "wang",
+        "url": "https://www.argentina.gob.ar/persona-buscada/wang",
+        "fecha_desaparicion": "2013-10-23",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/lanfang-wang.jpg"
+      },
+      {
+        "nombre": "Pedro Ezequiel Moreno",
+        "slug": "moreno",
+        "url": "https://www.argentina.gob.ar/persona-buscada/moreno",
+        "fecha_desaparicion": "2013-11-02",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/pedro-ezequiel-moreno.jpg"
+      },
+      {
+        "nombre": "Nataly Mamani",
+        "slug": "mamani",
+        "url": "https://www.argentina.gob.ar/persona-buscada/mamani",
+        "fecha_desaparicion": "2013-12-27",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/mamani-nataly.jpg"
+      }
+    ],
+    "2014": [
+      {
+        "nombre": "Cristian Osvaldo  Mariscal Calvimontes",
+        "slug": "cristian-osvaldo",
+        "url": "https://www.argentina.gob.ar/persona-buscada/cristian-osvaldo",
+        "fecha_desaparicion": "2014-01-18",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/marsical_calvimontes_cristian_osvaldo.jpg"
+      },
+      {
+        "nombre": "Graciela Esther Quiroga",
+        "slug": "quiroga",
+        "url": "https://www.argentina.gob.ar/persona-buscada/quiroga",
+        "fecha_desaparicion": "2014-02-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/graciela_esther_quiroga.jpg"
+      },
+      {
+        "nombre": "Silvia Gloria Gallardo",
+        "slug": "gallardo",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gallardo",
+        "fecha_desaparicion": "2014-02-12",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$2.000.000"
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/silvia_gloria_gallardo.jpg"
+      },
+      {
+        "nombre": "Gloria Beatriz Valenzuela",
+        "slug": "valenzuela",
+        "url": "https://www.argentina.gob.ar/persona-buscada/valenzuela",
+        "fecha_desaparicion": "2014-02-13",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/gloria-beatriz-valenzuela.jpg"
+      },
+      {
+        "nombre": "Andrés Ramón Ponce",
+        "slug": "ponce",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ponce",
+        "fecha_desaparicion": "2014-02-22",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/andres-ramon-ponce.png"
+      },
+      {
+        "nombre": "Carlos Eduardo De la Torre",
+        "slug": "de-la-torre",
+        "url": "https://www.argentina.gob.ar/persona-buscada/de-la-torre",
+        "fecha_desaparicion": "2014-02-22",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/de_la_torre_carlos_eduardo.jpg"
+      },
+      {
+        "nombre": "Mariana Griselda Gonzalez",
+        "slug": "gonzalez-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gonzalez-1",
+        "fecha_desaparicion": "2014-03-08",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/mariana-griselda-gonzalez.jpg"
+      },
+      {
+        "nombre": "Osvaldo Ezequiel Brizuela",
+        "slug": "brizuela",
+        "url": "https://www.argentina.gob.ar/persona-buscada/brizuela",
+        "fecha_desaparicion": "2014-05-12",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/osvaldo-ezequiel-brizuela.jpg"
+      },
+      {
+        "nombre": "Cesar Eduardo Monzón",
+        "slug": "monzon",
+        "url": "https://www.argentina.gob.ar/persona-buscada/monzon",
+        "fecha_desaparicion": "2014-05-15",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/monzon_cesar_eduardo.jpg"
+      },
+      {
+        "nombre": "Orlando Luján Fernández",
+        "slug": "fernandez-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/fernandez-0",
+        "fecha_desaparicion": "2014-06-15",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/orlando-fabian-fernandez.jpg"
+      },
+      {
+        "nombre": "Mirta Noemí Aguirre",
+        "slug": "aguirre-2",
+        "url": "https://www.argentina.gob.ar/persona-buscada/aguirre-2",
+        "fecha_desaparicion": "2014-06-18",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/aguierre_mirta_noemi.jpg"
+      },
+      {
+        "nombre": "Nicolás Christian Godoy Lucas",
+        "slug": "godoy-lucas",
+        "url": "https://www.argentina.gob.ar/persona-buscada/godoy-lucas",
+        "fecha_desaparicion": "2014-07-14",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/nicolas-christian-godoy-lucas-a.jpg"
+      },
+      {
+        "nombre": "Roberto Sorondo",
+        "slug": "sorondo",
+        "url": "https://www.argentina.gob.ar/persona-buscada/sorondo",
+        "fecha_desaparicion": "2014-07-28",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/sorondo-roberto.jpg"
+      },
+      {
+        "nombre": "Roque Abel Ortiz",
+        "slug": "ortiz",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ortiz",
+        "fecha_desaparicion": "2014-09-16",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/abel-roque-ortiz.jpg"
+      },
+      {
+        "nombre": "Damián Carlos Stefanini",
+        "slug": "stefanini",
+        "url": "https://www.argentina.gob.ar/persona-buscada/stefanini",
+        "fecha_desaparicion": "2014-10-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/stefanini_damian_carlos.jpg"
+      },
+      {
+        "nombre": "Lucas Alberto Ferreyra",
+        "slug": "ferreyra",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ferreyra",
+        "fecha_desaparicion": "2014-11-14",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/lucas-alberto-ferreyra-2018.jpg"
+      },
+      {
+        "nombre": "Darío Ismael Romero",
+        "slug": "romero-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/romero-0",
+        "fecha_desaparicion": "2014-11-18",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/dario-ismael_romero.jpg"
+      },
+      {
+        "nombre": "Mirian Silvana Lopez",
+        "slug": "ramirez-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ramirez-0",
+        "fecha_desaparicion": "2014-11-25",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/mirian-silvana-lopez.jpg"
+      }
+    ],
+    "2015": [
+      {
+        "nombre": "Alberto Jorge Lambert Nuñez",
+        "slug": "lambert-nunez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/lambert-nunez",
+        "fecha_desaparicion": "2015-02-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/alberto-jorge-lambert-nunez.jpg"
+      },
+      {
+        "nombre": "Ariel Eduardo Frutos",
+        "slug": "frutos",
+        "url": "https://www.argentina.gob.ar/persona-buscada/frutos",
+        "fecha_desaparicion": "2015-03-01",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/ariel-eduardo-frutos.jpg"
+      },
+      {
+        "nombre": "José Miguel Mamani",
+        "slug": "mamani-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/mamani-0",
+        "fecha_desaparicion": "2015-03-20",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/jose-miguel-mamani.jpg"
+      },
+      {
+        "nombre": "Diana Estefanía Colman",
+        "slug": "colman",
+        "url": "https://www.argentina.gob.ar/persona-buscada/colman",
+        "fecha_desaparicion": "2015-06-19",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/colman_diana_estefania.jpg"
+      },
+      {
+        "nombre": "Alejandro Ezequiel Centurión Torales",
+        "slug": "centurion-torales",
+        "url": "https://www.argentina.gob.ar/persona-buscada/centurion-torales",
+        "fecha_desaparicion": "2015-06-29",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/alejandro-ezequiel-centurion-torales.jpg"
+      },
+      {
+        "nombre": "Diego Osvaldo Vinci",
+        "slug": "vinci",
+        "url": "https://www.argentina.gob.ar/persona-buscada/vinci",
+        "fecha_desaparicion": "2015-07-13",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/diego_osvaldo_vinci.jpg"
+      },
+      {
+        "nombre": "Brisa Ayelén Pereyra",
+        "slug": "pereyra",
+        "url": "https://www.argentina.gob.ar/persona-buscada/pereyra",
+        "fecha_desaparicion": "2015-07-21",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/brisa-ayelen-pereyra.jpg"
+      },
+      {
+        "nombre": "Mario Nuncio Ramón Pero",
+        "slug": "pero",
+        "url": "https://www.argentina.gob.ar/persona-buscada/pero",
+        "fecha_desaparicion": "2015-08-21",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/pero_mario_nuncio_ramon.jpg"
+      }
+    ],
+    "2016": [
+      {
+        "nombre": "Cintia Elizabeth  Tolaba",
+        "slug": "tolaba",
+        "url": "https://www.argentina.gob.ar/persona-buscada/tolaba",
+        "fecha_desaparicion": "2016-01-02",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/02/progresion_cet.jpg"
+      },
+      {
+        "nombre": "Mirta Emilia Vera",
+        "slug": "vera-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/vera-1",
+        "fecha_desaparicion": "2016-01-16",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/afiche_difusion_vera_mirta_emilia_-_foto.jpg"
+      },
+      {
+        "nombre": "Rosa Elizabeth Toledo",
+        "slug": "toledo-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/toledo-0",
+        "fecha_desaparicion": "2016-02-06",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/toledo_rosa_elizabeth.jpg"
+      },
+      {
+        "nombre": "Laura Patricia Garcete",
+        "slug": "garcete",
+        "url": "https://www.argentina.gob.ar/persona-buscada/garcete",
+        "fecha_desaparicion": "2016-08-01",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/laura-patricia-garcete.jpg"
+      },
+      {
+        "nombre": "Pedro Juan Aguirre",
+        "slug": "aguirre-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/aguirre-0",
+        "fecha_desaparicion": "2016-10-04",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/pedro-juan-aguirre.jpg"
+      },
+      {
+        "nombre": "Emmanuel  Bonnefon",
+        "slug": "bonnefon",
+        "url": "https://www.argentina.gob.ar/persona-buscada/bonnefon",
+        "fecha_desaparicion": "2016-10-21",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/Emmanuel-bonnefon.jpg"
+      },
+      {
+        "nombre": "Ángel Damián Leal de Brito",
+        "slug": "leal-de-brito",
+        "url": "https://www.argentina.gob.ar/persona-buscada/leal-de-brito",
+        "fecha_desaparicion": "2016-10-29",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/anngel-Damian_leal-de-brito.jpg"
+      },
+      {
+        "nombre": "José Rodolfo Sotelo",
+        "slug": "sotelo-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/sotelo-0",
+        "fecha_desaparicion": "2016-11-30",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/jose-rodolfo-sotelo.jpg"
+      },
+      {
+        "nombre": "Maira Iris Benitez",
+        "slug": "benitez-2",
+        "url": "https://www.argentina.gob.ar/persona-buscada/benitez-2",
+        "fecha_desaparicion": "2016-12-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/maira-iris-benitez.jpg"
+      },
+      {
+        "nombre": "Claudia Alicia Ferro",
+        "slug": "ferro",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ferro",
+        "fecha_desaparicion": "2016-12-26",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": null
+        },
+        "descripcion": "51 años al momento de su ausencia. Ciudad Autónoma de Buenos Aires. Recompensa destinada a aquellas personas que, sin haber intervenido en el hecho delictual, brinden datos útiles que sirvan para dar con el paradero de Claudia Alicia Ferro, desaparecida desde el día 26/12/2016.",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/claudia-ferro.jpg"
+      }
+    ],
+    "2017": [
+      {
+        "nombre": "Juan Alejandro Narváez",
+        "slug": "narvaez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/narvaez",
+        "fecha_desaparicion": "2017-03-19",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/juan-alejandro-narvaez.png"
+      },
+      {
+        "nombre": "Marcelo Omar Alegre",
+        "slug": "alegre",
+        "url": "https://www.argentina.gob.ar/persona-buscada/alegre",
+        "fecha_desaparicion": "2017-03-31",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/horacio-omar-alegre.jpg"
+      },
+      {
+        "nombre": "Lucas Sebastián Bolotti",
+        "slug": "bolotti",
+        "url": "https://www.argentina.gob.ar/persona-buscada/bolotti",
+        "fecha_desaparicion": "2017-07-19",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$2.000.000"
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/afiche_difusion_bolotti_lucas_sebastian_-_foto.jpg"
+      },
+      {
+        "nombre": "Ingrid Liz Maydana Quispe",
+        "slug": "maydana-quispe",
+        "url": "https://www.argentina.gob.ar/persona-buscada/maydana-quispe",
+        "fecha_desaparicion": "2017-09-01",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/maydana-quispe-ingrid-liz.png"
+      },
+      {
+        "nombre": "Mariano González Schwindt",
+        "slug": "gonzalez-schwindt",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gonzalez-schwindt",
+        "fecha_desaparicion": "2017-12-06",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/gonzalez_schwindt_mariano.jpg"
+      },
+      {
+        "nombre": "Ezequiel Franco Mesa Toledo",
+        "slug": "mesa-toledo",
+        "url": "https://www.argentina.gob.ar/persona-buscada/mesa-toledo",
+        "fecha_desaparicion": "2017-12-10",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/Ezequiel%20Franco%20Mesa%20Toledo.jpg"
+      },
+      {
+        "nombre": "Nicolaza Deonicia López Solis",
+        "slug": "lopez-solis",
+        "url": "https://www.argentina.gob.ar/persona-buscada/lopez-solis",
+        "fecha_desaparicion": "2017-12-18",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/nicolaza-deonicia-lopez-sol.jpg"
+      },
+      {
+        "nombre": "Elvis Martín Benitez",
+        "slug": "benitez-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/benitez-1",
+        "fecha_desaparicion": "2017-12-22",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$2.000.000"
+        },
+        "descripcion": "DNI: 42.922.041 Nacionalidad: Argentina Fecha de nacimiento: 29/01/1999 Visto por última vez: 22/12/2017 Habría sido visto por última vez el 22 de diciembre de 2017 a las 08:00 horas, cuando se retiró de su domicilio ubicado en Manzana Nº 36, PC. 04, Barrio Marfilia de Mujeres Argentinas, ciudad de Resistencia, provincia de Chaco. Descargá el afiche",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/benitez_elvin_martin.jpg"
+      }
+    ],
+    "2018": [
+      {
+        "nombre": "Nadir Liria Roy",
+        "slug": "roy",
+        "url": "https://www.argentina.gob.ar/persona-buscada/roy",
+        "fecha_desaparicion": "2018-01-14",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/04/nadir_liria_roy_.jpg"
+      },
+      {
+        "nombre": "Candela Agustina Correas de Melo",
+        "slug": "correas-de-melo",
+        "url": "https://www.argentina.gob.ar/persona-buscada/correas-de-melo",
+        "fecha_desaparicion": "2018-02-03",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/correas-de-melo-candela-agustina.jpg"
+      },
+      {
+        "nombre": "José Luis Alvarado",
+        "slug": "alvarado",
+        "url": "https://www.argentina.gob.ar/persona-buscada/alvarado",
+        "fecha_desaparicion": "2018-02-22",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/jose-luis-alvarado.jpg"
+      },
+      {
+        "nombre": "María Magdalena Curaqueo",
+        "slug": "curaqueo",
+        "url": "https://www.argentina.gob.ar/persona-buscada/curaqueo",
+        "fecha_desaparicion": "2018-02-23",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/04/curaqueo_maria_magdalena_.jpg"
+      },
+      {
+        "nombre": "Lixia Chen",
+        "slug": "chen",
+        "url": "https://www.argentina.gob.ar/persona-buscada/chen",
+        "fecha_desaparicion": "2018-03-02",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/chen-lixia.jpg"
+      },
+      {
+        "nombre": "Juan Hernán Sanchez",
+        "slug": "sanchez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/sanchez",
+        "fecha_desaparicion": "2018-03-25",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/juan-hernan-sanchez.jpg"
+      },
+      {
+        "nombre": "Cristian Alejandro Santos",
+        "slug": "santos",
+        "url": "https://www.argentina.gob.ar/persona-buscada/santos",
+        "fecha_desaparicion": "2018-04-10",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/cristian-alejandro-santos.jpg"
+      },
+      {
+        "nombre": "Ramón Antonio Rodriguez",
+        "slug": "rodriguez-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/rodriguez-1",
+        "fecha_desaparicion": "2018-04-27",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/rodriguez-ramon-antonio.jpg"
+      },
+      {
+        "nombre": "Khevin Antonny Oshiro Guerra",
+        "slug": "oshiro-guerra",
+        "url": "https://www.argentina.gob.ar/persona-buscada/oshiro-guerra",
+        "fecha_desaparicion": "2018-05-02",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/oshiro_guerra_khevin_antonny.jpg"
+      },
+      {
+        "nombre": "Raúl Coria",
+        "slug": "coria",
+        "url": "https://www.argentina.gob.ar/persona-buscada/coria",
+        "fecha_desaparicion": "2018-06-29",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/coria_raul.jpg"
+      },
+      {
+        "nombre": "Ignacio Amado Herrera",
+        "slug": "herrera-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/herrera-1",
+        "fecha_desaparicion": "2018-07-06",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/ignacio-amadeo-herrera.jpg"
+      },
+      {
+        "nombre": "Lidia Ramona López Mujica",
+        "slug": "lopez-mujica",
+        "url": "https://www.argentina.gob.ar/persona-buscada/lopez-mujica",
+        "fecha_desaparicion": "2018-07-12",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/lopez_mujica_lidia_ramona.jpg"
+      },
+      {
+        "nombre": "Mathieu Pierre Martin",
+        "slug": "martin",
+        "url": "https://www.argentina.gob.ar/persona-buscada/martin",
+        "fecha_desaparicion": "2018-08-08",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/martin_mathieu_pierre_foto_3.jpg"
+      },
+      {
+        "nombre": "Carlos Alberto Wyss",
+        "slug": "wyss",
+        "url": "https://www.argentina.gob.ar/persona-buscada/wyss",
+        "fecha_desaparicion": "2018-08-15",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/wyss-carlos-alberto.jpg"
+      },
+      {
+        "nombre": "Jhon Cledin Gutierrez Zeballos",
+        "slug": "gutierrez-zeballos",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gutierrez-zeballos",
+        "fecha_desaparicion": "2018-08-19",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/gutierrez-zeballos-jhon-cledin.jpg"
+      },
+      {
+        "nombre": "Irene del Carmen Tevez",
+        "slug": "tevez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/tevez",
+        "fecha_desaparicion": "2018-11-04",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/tevez-irene-del-carmen.jpg"
+      },
+      {
+        "nombre": "Roxana Paola Villalba",
+        "slug": "villalba",
+        "url": "https://www.argentina.gob.ar/persona-buscada/villalba",
+        "fecha_desaparicion": "2018-12-07",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/afiche_villalba_roxana_paola_foto.jpg"
+      }
+    ],
+    "2019": [
+      {
+        "nombre": "Cintia Marianela Merida",
+        "slug": "merida",
+        "url": "https://www.argentina.gob.ar/persona-buscada/merida",
+        "fecha_desaparicion": "2019-02-16",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/cintia-marianela-merida.jpg"
+      },
+      {
+        "nombre": "Isabel Judhit Torres",
+        "slug": "torres-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/torres-0",
+        "fecha_desaparicion": "2019-04-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/torres_isabel_judhit.jpg"
+      },
+      {
+        "nombre": "Tiziano Sebastián Echeverría",
+        "slug": "echeverria",
+        "url": "https://www.argentina.gob.ar/persona-buscada/echeverria",
+        "fecha_desaparicion": "2019-04-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/echeverria_tiziano_sebastian.jpg"
+      },
+      {
+        "nombre": "Jacqueline Tamara Pedroza",
+        "slug": "pedroza-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/pedroza-0",
+        "fecha_desaparicion": "2019-05-08",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/pedroza-jacqueline-tamara.jpg"
+      },
+      {
+        "nombre": "Claudio Fabián  Di Benedetto",
+        "slug": "di-benedetto",
+        "url": "https://www.argentina.gob.ar/persona-buscada/di-benedetto",
+        "fecha_desaparicion": "2019-06-13",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/di_benedetto_claudio_fabian.jpg"
+      },
+      {
+        "nombre": "María Cristina López",
+        "slug": "lopez-4",
+        "url": "https://www.argentina.gob.ar/persona-buscada/lopez-4",
+        "fecha_desaparicion": "2019-07-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/lopez_maria_cristina.jpg"
+      },
+      {
+        "nombre": "Raúl Héctor Nogales",
+        "slug": "nogales",
+        "url": "https://www.argentina.gob.ar/persona-buscada/nogales",
+        "fecha_desaparicion": "2019-10-31",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/nogales_raul_hector.jpg"
+      }
+    ],
+    "2020": [
+      {
+        "nombre": "Emmanuel Arbello",
+        "slug": "arbello",
+        "url": "https://www.argentina.gob.ar/persona-buscada/arbello",
+        "fecha_desaparicion": "2020-01-31",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/arbello_emmanuel.jpg"
+      },
+      {
+        "nombre": "Matiás Sebastián Albo",
+        "slug": "albo",
+        "url": "https://www.argentina.gob.ar/persona-buscada/albo",
+        "fecha_desaparicion": "2020-05-27",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/afiche_difusion_albo_matias_sebastian_-_foto.jpg"
+      },
+      {
+        "nombre": "Mariana Stephanie Lastra",
+        "slug": "lastra",
+        "url": "https://www.argentina.gob.ar/persona-buscada/lastra",
+        "fecha_desaparicion": "2020-09-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/11/afiche_difusion_lastra_mariana_stephanie_-_foto.png"
+      },
+      {
+        "nombre": "Juan Eduardo Medina",
+        "slug": "medina",
+        "url": "https://www.argentina.gob.ar/persona-buscada/medina",
+        "fecha_desaparicion": "2020-09-12",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/imagen_juan_eduardo_medina.jpeg"
+      },
+      {
+        "nombre": "Yanina Jesica Arce",
+        "slug": "arce-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/arce-0",
+        "fecha_desaparicion": "2020-10-27",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/07/afiche_difusion_arce_yanina_yesica_-_foto.png"
+      },
+      {
+        "nombre": "Marcelo Francisco Barreyra",
+        "slug": "barreyra",
+        "url": "https://www.argentina.gob.ar/persona-buscada/barreyra",
+        "fecha_desaparicion": "2020-10-28",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/afiche_difusion_barreyra_marcelo_francisco_.jpg"
+      }
+    ],
+    "2021": [
+      {
+        "nombre": "Julio Alberto Ortega",
+        "slug": "ortega",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ortega",
+        "fecha_desaparicion": "2021-03-10",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/04/afiche_difusion_ortega_julio_alberto_-_foto.jpg"
+      },
+      {
+        "nombre": "Tehuel De la Torre",
+        "slug": "de-la-torre-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/de-la-torre-0",
+        "fecha_desaparicion": "2021-03-11",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$5.000.000"
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/01/tehuel_de_la_torre_buscar-0_.jpg"
+      },
+      {
+        "nombre": "Gabriel Enrique García Gurrea",
+        "slug": "garcia-gurrea",
+        "url": "https://www.argentina.gob.ar/persona-buscada/garcia-gurrea",
+        "fecha_desaparicion": "2021-05-20",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/06/afiche_difusion_garcia_gurrea_gabriel_enrique_-_foto.jpg"
+      },
+      {
+        "nombre": "Vicente Pantaleón  Benítez Cañete",
+        "slug": "benitez-canete",
+        "url": "https://www.argentina.gob.ar/persona-buscada/benitez-canete",
+        "fecha_desaparicion": "2021-06-14",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/07/afiche_difusion_benitez_canete_vicente_pantaleon_-_foto.jpg"
+      },
+      {
+        "nombre": "Toribio  Vera",
+        "slug": "vera-3",
+        "url": "https://www.argentina.gob.ar/persona-buscada/vera-3",
+        "fecha_desaparicion": "2021-06-22",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/06/afiche_difusion_vera_toribio_-_foto.png"
+      },
+      {
+        "nombre": "Rubén Carlos Arabales Troncoso",
+        "slug": "arabales-troncoso",
+        "url": "https://www.argentina.gob.ar/persona-buscada/arabales-troncoso",
+        "fecha_desaparicion": "2021-08-12",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/08/afiche_difusion_arabales_troncoso_ruben_carlos_-_foto.jpg"
+      },
+      {
+        "nombre": "Omar Alejandro  Avendaño",
+        "slug": "avendano",
+        "url": "https://www.argentina.gob.ar/persona-buscada/avendano",
+        "fecha_desaparicion": "2021-11-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/12/afiche_difusion_avendano_omar_alejandro_-_foto.png"
+      },
+      {
+        "nombre": "Eliana Virginia  Sullca Mancilla",
+        "slug": "sullca-mancilla",
+        "url": "https://www.argentina.gob.ar/persona-buscada/sullca-mancilla",
+        "fecha_desaparicion": "2021-11-12",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/11/afiche_difusion_sullca_mancilla_eliana_virginia_-_foto.png"
+      },
+      {
+        "nombre": "Cristian  Santos Llanos",
+        "slug": "santos-llanos",
+        "url": "https://www.argentina.gob.ar/persona-buscada/santos-llanos",
+        "fecha_desaparicion": "2021-11-12",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/11/afiche_difusion_santos_llanos_cristian_-_foto.png"
+      },
+      {
+        "nombre": "Tomás Gregorio Riquelme",
+        "slug": "riquelme",
+        "url": "https://www.argentina.gob.ar/persona-buscada/riquelme",
+        "fecha_desaparicion": "2021-11-28",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/12/afiche_difusion_riquelme_tomas_gregorio_-_foto.png"
+      },
+      {
+        "nombre": "Jemina Catalina Aguirre",
+        "slug": "aguirre-5",
+        "url": "https://www.argentina.gob.ar/persona-buscada/aguirre-5",
+        "fecha_desaparicion": "2021-12-02",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$3.000.000"
+        },
+        "descripcion": "Jemina Catalina AGUIRRE (PARADERO) D.N.I: Nº 40.447.594 Fecha de Nacimiento: 8-8-1996 Nacionalidad: Argentina Fecha de desaparición: 02/12/2021 Jemina Catalina AGUIRRE, fue vista por última vez en fecha 02 de diciembre de 2021, en n Avenida 25 de Mayo Prolongación, Barrio Santa Bárbara de la ciudad de Fontana provincia del Chaco, víctima de violencia de género por parte de su pareja, como también que la ciudadana AGUIRRE ejercía la prostitución, lo que indicaría una presunción como posible víctima de trata de personas, se encontraba vistiendo buzo color gris con detalles color blanco marca “Puma”, remera y short color negro y ojotas color verde. De contextura robusta, de 1,60 metros de estatura, tez morena, cabello lacio largo color negro, ojos color oscuro, como característica posee una cicatriz en su frente del lado derecho y en su pierna izquierda, posee una dificultad para caminar (renguera), como así también un tatuaje en su brazo derecho a la altura del codo con una imagen de una “corona” y en su antebrazo derecho una imagen de un “alacrán”.",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/05/aguirre_jemina.png"
+      },
+      {
+        "nombre": "Villafuerte Sardinas Joel Braian",
+        "slug": "joel-braian",
+        "url": "https://www.argentina.gob.ar/persona-buscada/joel-braian",
+        "fecha_desaparicion": "2021-12-08",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/09/afiche_difusion_villafuerte_sardinas_joel_braianfoto.png"
+      }
+    ],
+    "2022": [
+      {
+        "nombre": "Juan Carlos Woldryk",
+        "slug": "woldryk",
+        "url": "https://www.argentina.gob.ar/persona-buscada/woldryk",
+        "fecha_desaparicion": "2022-03-30",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$3.000.000"
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/04/afiche_difusion_woldryk_juan_carlos_-_foto.jpg"
+      },
+      {
+        "nombre": "Osvaldo Faustino  Hernández",
+        "slug": "hernandez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/hernandez",
+        "fecha_desaparicion": "2022-05-15",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/08/afiche_difusion_hernandez_osvaldo_faustino_-_foto.jpg"
+      },
+      {
+        "nombre": "Norma Márquez",
+        "slug": "marquez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/marquez",
+        "fecha_desaparicion": "2022-06-24",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/afiche_difusion_marquez_norma_-_foto.jpeg"
+      },
+      {
+        "nombre": "Alejandro Mauricio Herrera",
+        "slug": "herrera-3",
+        "url": "https://www.argentina.gob.ar/persona-buscada/herrera-3",
+        "fecha_desaparicion": "2022-06-25",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/09/herrera-alejandro-mauricio.jpg"
+      },
+      {
+        "nombre": "Jorge Eduardo  Gatica",
+        "slug": "gatica",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gatica",
+        "fecha_desaparicion": "2022-09-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/09/gatica-jorge-eduardo-foto_3.jpg"
+      },
+      {
+        "nombre": "Pedro Antonio Ojeda",
+        "slug": "ojeda-3",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ojeda-3",
+        "fecha_desaparicion": "2022-09-13",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/03/afiche_difusion_ojeda_pedro_antonio_-_foto.jpeg"
+      },
+      {
+        "nombre": "Emanuel Eugenio Alfonso",
+        "slug": "alfonso",
+        "url": "https://www.argentina.gob.ar/persona-buscada/alfonso",
+        "fecha_desaparicion": "2022-09-26",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/11/afiche_difusion_alfonso_emanuel_eugenio_-_foto.jpg"
+      },
+      {
+        "nombre": "Percy Laura Mendoza",
+        "slug": "laura-mendoza",
+        "url": "https://www.argentina.gob.ar/persona-buscada/laura-mendoza",
+        "fecha_desaparicion": "2022-10-01",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/afiche_difusion_laura_mendoza_percy_-_foto.png"
+      },
+      {
+        "nombre": "Carlos Rafael  Ramirez",
+        "slug": "ramirez-6",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ramirez-6",
+        "fecha_desaparicion": "2022-11-16",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/04/afiche_difusion_ramirez_carlos_rafael_-_foto.jpeg"
+      },
+      {
+        "nombre": "Rodrigo Vladimir  Flores Paz",
+        "slug": "flores-paz",
+        "url": "https://www.argentina.gob.ar/persona-buscada/flores-paz",
+        "fecha_desaparicion": "2022-11-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2022/12/afiche_difusion_flores_paz_rodrigo_vladimir_-_foto.png"
+      }
+    ],
+    "2023": [
+      {
+        "nombre": "Ángel Miguel Franco",
+        "slug": "franco-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/franco-1",
+        "fecha_desaparicion": "2023-01-29",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/04/afiche_difusion_franco_angel_miguel_-_foto.png"
+      },
+      {
+        "nombre": "Eduardo Andres  Carmona",
+        "slug": "carmona",
+        "url": "https://www.argentina.gob.ar/persona-buscada/carmona",
+        "fecha_desaparicion": "2023-02-08",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/06/afiche_difusion_carmona_eduardo_andres_-_foto.png"
+      },
+      {
+        "nombre": "Bernardo Salvador Ponce",
+        "slug": "ponce-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ponce-1",
+        "fecha_desaparicion": "2023-03-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/04/afiche_difusion_ponce_bernardo_salvador_-_foto.png"
+      },
+      {
+        "nombre": "Mateo Nicolás Rodríguez",
+        "slug": "rodriguez-5",
+        "url": "https://www.argentina.gob.ar/persona-buscada/rodriguez-5",
+        "fecha_desaparicion": "2023-04-14",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/05/afiche_difusion_rodriguez_mateo_nicolas_-_foto.png"
+      },
+      {
+        "nombre": "Juan Clemente  Juarez",
+        "slug": "juarez-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/juarez-0",
+        "fecha_desaparicion": "2023-05-21",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/06/afiche_difusion_juarez_juan_clemente_-_foto.png"
+      },
+      {
+        "nombre": "Roque Jacinto  Gomez",
+        "slug": "gomez-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gomez-1",
+        "fecha_desaparicion": "2023-06-29",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/07/afichue_difusion_gomez_roque_jacinto_-_foto.png"
+      },
+      {
+        "nombre": "Catriel Uriel  Ferreyra",
+        "slug": "ferreyra-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ferreyra-0",
+        "fecha_desaparicion": "2023-11-02",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/02/ferreyra_catriel_uriel_-_foto.jpg"
+      }
+    ],
+    "2024": [
+      {
+        "nombre": "Johanna Elizabeth  Zamorano",
+        "slug": "zamorano",
+        "url": "https://www.argentina.gob.ar/persona-buscada/zamorano",
+        "fecha_desaparicion": "2024-01-30",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$5.000.000"
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/02/zamorano_johanna_elizabeth_-_foto.png"
+      },
+      {
+        "nombre": "Mabel Olga Albornoz",
+        "slug": "albornoz-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/albornoz-0",
+        "fecha_desaparicion": "2024-05-08",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/09/albornoz-mabel-olga.jpg"
+      },
+      {
+        "nombre": "Alexis Alan Rearte",
+        "slug": "rearte",
+        "url": "https://www.argentina.gob.ar/persona-buscada/rearte",
+        "fecha_desaparicion": "2024-05-14",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/02/rearte_alexis_alan_-_foto.jpg"
+      },
+      {
+        "nombre": "Enrique Héctor Fabiani",
+        "slug": "fabiani",
+        "url": "https://www.argentina.gob.ar/persona-buscada/fabiani",
+        "fecha_desaparicion": "2024-06-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/09/fabiani-enrique-hector.jpg"
+      },
+      {
+        "nombre": "Loan Danilo Peña",
+        "slug": "pena",
+        "url": "https://www.argentina.gob.ar/persona-buscada/pena",
+        "fecha_desaparicion": "2024-06-13",
+        "recompensa": {
+          "tiene_recompensa": true,
+          "monto": "$20.000.000"
+        },
+        "descripcion": "Loan Danilo PEÑA (Paradero) (INFORMACIÓN REQUERIDA POR LA JUSTICIA LEY 26.538) Recompensa $20.000.000 Nacionalidad: Argentino Fecha de nacimiento: 8 de mayo de 2019 D.N.I.: 57.621.765 Visto por última vez el día 13/06/2024 en el Paraje Algarrobar de la localidad de 9 de Julio, departamento de San Roque, provincia de Corrientes; de tez trigueña, delgado, con ojos marrones, cabello corto castaño oscuro; vestía una remera negra con letras rosadas con la palabra “Messi”, pantalón largo color negro y zapatillas verdes; de 80 cm de altura aproximadamente, tiene una cicatriz ubicada en el remolino de la cabeza.",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/06/loan_d_pena_fotos.jpg"
+      },
+      {
+        "nombre": "Arnoldo Leandro Quiroga",
+        "slug": "quiroga-2",
+        "url": "https://www.argentina.gob.ar/persona-buscada/quiroga-2",
+        "fecha_desaparicion": "2024-07-20",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/10/arnoldo_leandro_quiroga_-_foto.jpg"
+      },
+      {
+        "nombre": "Claudio Martín Ferreyra",
+        "slug": "ferreyra-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ferreyra-1",
+        "fecha_desaparicion": "2024-08-22",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/10/ferreyra_claudio_martin_-_foto.jpeg"
+      },
+      {
+        "nombre": "María Noel Gordillo Otaduy",
+        "slug": "gordillo-otaduy",
+        "url": "https://www.argentina.gob.ar/persona-buscada/gordillo-otaduy",
+        "fecha_desaparicion": "2024-10-21",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2024/11/gordillo_otaduy_maria_noel_-_foto.png"
+      },
+      {
+        "nombre": "Michael Djentcheu Nganden",
+        "slug": "djentcheu-nganden",
+        "url": "https://www.argentina.gob.ar/persona-buscada/djentcheu-nganden",
+        "fecha_desaparicion": "2024-10-23",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/05/djentcheu_nganden_michael_-_foto.jpeg"
+      },
+      {
+        "nombre": "Miguel Angel Albarracín",
+        "slug": "albarracin",
+        "url": "https://www.argentina.gob.ar/persona-buscada/albarracin",
+        "fecha_desaparicion": "2024-11-23",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/11/whatsapp_image_2025-11-07_at_11.57.20.jpeg"
+      }
+    ],
+    "2025": [
+      {
+        "nombre": "Diego Santiago Suarez",
+        "slug": "suarez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/suarez",
+        "fecha_desaparicion": "2025-02-15",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/07/diego-s-suarez.jpg"
+      },
+      {
+        "nombre": "Mónica Beatriz   Olguin",
+        "slug": "olguin",
+        "url": "https://www.argentina.gob.ar/persona-buscada/olguin",
+        "fecha_desaparicion": "2025-08-20",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/11/whatsapp_image_2025-11-19_at_14.14.42.jpeg"
+      },
+      {
+        "nombre": "Marcela Liliana Zelarayan",
+        "slug": "zelarayan",
+        "url": "https://www.argentina.gob.ar/persona-buscada/zelarayan",
+        "fecha_desaparicion": "2025-10-04",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/10/marcela-liliana-zelarayan.jpg"
+      },
+      {
+        "nombre": "Elena María Machado",
+        "slug": "machado-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/machado-0",
+        "fecha_desaparicion": "2025-10-08",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/10/machado_elena_maria.jpg"
+      },
+      {
+        "nombre": "Jorge Alberto Orduña",
+        "slug": "orduna-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/orduna-0",
+        "fecha_desaparicion": "2025-11-09",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/11/whatsapp_image_2025-11-13_at_12.26.30.jpeg"
+      },
+      {
+        "nombre": "Tamara Torrez",
+        "slug": "torrez-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/torrez-0",
+        "fecha_desaparicion": "2025-11-20",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/12/tamara_torrez_0.png"
+      },
+      {
+        "nombre": "Jose Encina Gonzalez",
+        "slug": "encina-gonzalez-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/encina-gonzalez-0",
+        "fecha_desaparicion": "2025-12-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/01/jose-encina-gonzales.jpg"
+      },
+      {
+        "nombre": "David Sebastian Roldan",
+        "slug": "roldan",
+        "url": "https://www.argentina.gob.ar/persona-buscada/roldan",
+        "fecha_desaparicion": "2025-12-24",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/01/roldan_-_foto.jpeg"
+      }
+    ],
+    "2026": [
+      {
+        "nombre": "Cristian Jonatan Sosa",
+        "slug": "sosa-5",
+        "url": "https://www.argentina.gob.ar/persona-buscada/sosa-5",
+        "fecha_desaparicion": "2026-01-07",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/03/sosa-cristian.jpg"
+      },
+      {
+        "nombre": "Florencia Abigaíl Tsuchida",
+        "slug": "tsuchida",
+        "url": "https://www.argentina.gob.ar/persona-buscada/tsuchida",
+        "fecha_desaparicion": "2026-01-14",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/04/tsuchida-florencia-abigail.jpg"
+      },
+      {
+        "nombre": "Domingo Isaac Ledesma",
+        "slug": "ledesma-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/ledesma-1",
+        "fecha_desaparicion": "2026-01-15",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/03/ledesma_domingo_isaac_-_foto_.png"
+      },
+      {
+        "nombre": "Oscar Cayetano Olmos",
+        "slug": "olmos",
+        "url": "https://www.argentina.gob.ar/persona-buscada/olmos",
+        "fecha_desaparicion": "2026-01-26",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/01/olmos_oscar-cayetano.jpg"
+      },
+      {
+        "nombre": "Ronald Andrés Acosta Escobar",
+        "slug": "acosta-escobar",
+        "url": "https://www.argentina.gob.ar/persona-buscada/acosta-escobar",
+        "fecha_desaparicion": "2026-02-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/02/acosta-escobar-ronald-a.jpg"
+      },
+      {
+        "nombre": "Candela Morena Álvarez",
+        "slug": "alvarez-3",
+        "url": "https://www.argentina.gob.ar/persona-buscada/alvarez-3",
+        "fecha_desaparicion": "2026-02-05",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/02/alvarez-candela-morena.png"
+      },
+      {
+        "nombre": "Benjamín Esteban Kler",
+        "slug": "kler",
+        "url": "https://www.argentina.gob.ar/persona-buscada/kler",
+        "fecha_desaparicion": "2026-02-10",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/02/kler-benjamin-esteban.jpeg"
+      },
+      {
+        "nombre": "Cristian Ricardo Batista",
+        "slug": "batista-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/batista-0",
+        "fecha_desaparicion": "2026-02-14",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/03/batista-cristian-ricardo.jpg"
+      },
+      {
+        "nombre": "Santiago Paredes Gonzalez",
+        "slug": "paredes-gonzalez",
+        "url": "https://www.argentina.gob.ar/persona-buscada/paredes-gonzalez",
+        "fecha_desaparicion": "2026-02-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/02/paredes-gonzalez-santiago.jpg"
+      },
+      {
+        "nombre": "Antonio Paredes Miranda",
+        "slug": "paredes-miranda",
+        "url": "https://www.argentina.gob.ar/persona-buscada/paredes-miranda",
+        "fecha_desaparicion": "2026-02-17",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/02/paredes-miranda_antonio.jpg"
+      },
+      {
+        "nombre": "Kevin Alan Hernandez",
+        "slug": "hernandez-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/hernandez-0",
+        "fecha_desaparicion": "2026-02-22",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/03/kevin-alan-hernandez.jpg"
+      },
+      {
+        "nombre": "Agustín Ezequiel López",
+        "slug": "lopez-8",
+        "url": "https://www.argentina.gob.ar/persona-buscada/lopez-8",
+        "fecha_desaparicion": "2026-02-25",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/03/lopez-agustin-ezequiel.jpg"
+      },
+      {
+        "nombre": "Esteban Gabriel Trejo",
+        "slug": "trejo",
+        "url": "https://www.argentina.gob.ar/persona-buscada/trejo",
+        "fecha_desaparicion": "2026-02-28",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/03/trejo-esteban.jpeg"
+      },
+      {
+        "nombre": "Jorge Alejandro López",
+        "slug": "lopez-9",
+        "url": "https://www.argentina.gob.ar/persona-buscada/lopez-9",
+        "fecha_desaparicion": "2026-03-03",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/03/jorge-a-lopez.jpg"
+      },
+      {
+        "nombre": "Elian Stefano Alberto Rueda",
+        "slug": "rueda",
+        "url": "https://www.argentina.gob.ar/persona-buscada/rueda",
+        "fecha_desaparicion": "2026-03-07",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/04/foto_e_rueda.jpg"
+      },
+      {
+        "nombre": "Marianela Noemí Pereyra",
+        "slug": "pereyra-0",
+        "url": "https://www.argentina.gob.ar/persona-buscada/pereyra-0",
+        "fecha_desaparicion": "2026-04-12",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/04/pereyra-marianela-noemi.jpg"
+      }
+    ]
+  },
+  "sin_fecha": [
+    {
+      "nombre": "Ramona Nicolasa Mercado",
+      "slug": "mercado",
+      "url": "https://www.argentina.gob.ar/persona-buscada/mercado",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": "$8.000.000"
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/10/mercado_ramona_nicolasa.jpg"
+    },
+    {
+      "nombre": "Alicia Athenas Pichon Troszynski  y Sofía Belén Troszynski (paraderos).",
+      "slug": "y-sofia-belen-troszynski-paraderos",
+      "url": "https://www.argentina.gob.ar/persona-buscada/y-sofia-belen-troszynski-paraderos",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": null
+      },
+      "descripcion": "Dispóngase el incremento de las recompensas oportunamente ofrecidas mediante RESOL-2023-535-APN-MSG, a la suma total de PESOS CINCO MILLONES ($5.000.000), cada una, destinada a aquellas personas que, sin haber intervenido en los hechos delictuales, brinden datos útiles que permitan dar con el paradero de la menor Alicia Athenas PICHON TROSZYNSKI, de nacionalidad argentina y francesa, DNI N° 51.712.304 y pasaporte francés N° 18CE52953; y con la captura de Sofía Belén TROSZYNSKI, de nacionalidad argentina y polaca, DNI N° 33.391.229 y pasaporte polaco EK-0980939.",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/2023/08/alicia_athenas_pichon_troszynski.jpg"
+    },
+    {
+      "nombre": "Aída de Jesús Cabrera",
+      "slug": "cabrera-0",
+      "url": "https://www.argentina.gob.ar/persona-buscada/cabrera-0",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": "$2.000.000"
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/aida-de-jesus-cabrera.jpg"
+    },
+    {
+      "nombre": "Nicolás Capovilla",
+      "slug": "capovilla",
+      "url": "https://www.argentina.gob.ar/persona-buscada/capovilla",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": null
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/nicolas-capovilla.jpg"
+    },
+    {
+      "nombre": "Miriam Carolina Chavarría",
+      "slug": "chavarria",
+      "url": "https://www.argentina.gob.ar/persona-buscada/chavarria",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": "$3.000.000"
+      },
+      "descripcion": "DNI : 26.345.101 Nacionalidad : Argentina Fecha de Nacimiento: 09/02/1978. Recompensa destinada personas que aporten información que sirva para dar con el paradero de Miriam Carolina Chavarría, quien en fecha 26/08/19 luego de una discusión con su pareja en la ciudad de Salta, habiendo antecedentes de violencia se retiró del hogar y se perdió el rastro de ella hasta el día 03/09/19 donde se registra una atención el Hospital Wenceslao Gallardo de la localidad de Palpalá, provincia de Jujuy. Rasgos Particulares: Meñique mano izquierda inmovilizado por operación.",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/2021/11/chavarria_miriam_carolina_.jpg"
+    },
+    {
+      "nombre": "Julio Facundo Pavón",
+      "slug": "pavon",
+      "url": "https://www.argentina.gob.ar/persona-buscada/pavon",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": false,
+        "monto": null
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/afiche_difusion_pavon_julio_facundo_-_foto.jpg"
+    },
+    {
+      "nombre": "Victorio Joursin",
+      "slug": "joursin",
+      "url": "https://www.argentina.gob.ar/persona-buscada/joursin",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": "$2.000.000"
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/joursin_victorio.jpg"
+    },
+    {
+      "nombre": "Juan Romero",
+      "slug": "romero-4",
+      "url": "https://www.argentina.gob.ar/persona-buscada/romero-4",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": false,
+        "monto": null
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/romero_juan.jpg"
+    },
+    {
+      "nombre": "Arshak Karhanyan",
+      "slug": "karhanyan",
+      "url": "https://www.argentina.gob.ar/persona-buscada/karhanyan",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": "$5.000.000"
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/2019/03/arshak_karhanyan_buscar_2021_arshak-buscar_ok.jpg"
+    },
+    {
+      "nombre": "Delia Gerónimo Polijo",
+      "slug": "geronimo-polijo",
+      "url": "https://www.argentina.gob.ar/persona-buscada/geronimo-polijo",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": "$3.000.000"
+      },
+      "descripcion": "DNI: 45.485.584; Fecha de Nacimiento: 18 de febrero de 2004; Nacionalidad: Boliviana. Vista por última vez el 18 de septiembre de 2018. Ultimo domicilio sito en Pasaje La Guarida S/N, Localidad de La Paz, Depto. San Javier, Provincia de Córdoba. 14 años al momento de su ausencia.",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/geronimo-polijo-delia.jpg"
+    },
+    {
+      "nombre": "Gastón Omar León",
+      "slug": "leon",
+      "url": "https://www.argentina.gob.ar/persona-buscada/leon",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": "$3.000.000"
+      },
+      "descripcion": "DNI: 32.429.385. Fecha de nacimiento: 17/09/1986. Nacionalidad: Argentina. Recompensa destinada a aquellas personas que sin haber intervenido en el hecho delictual, brinden datos útiles que permitan dar con el paradero de Gastón Omar León  con último domicilio conocido en la calle Juan de la Piedra Nº 456, ciudad de Puerto Madryn, provincia de Chubut, quien se ausentara de su hogar el día 24 de mayo del 2018.",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/leon-gaston-omar.png"
+    },
+    {
+      "nombre": "Omar Héctor Horacio Benvenuto",
+      "slug": "benvenuto-0",
+      "url": "https://www.argentina.gob.ar/persona-buscada/benvenuto-0",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": null
+      },
+      "descripcion": "Ofrécese, como recompensa, dentro del territorio de la REPÚBLICA ARGENTINA, la suma de PESOS QUINIENTOS MIL ($ 1.000.000.-), destinada a aquellas personas que, sin haber intervenido en el hecho delictual, brinden datos útiles que sirvan para dar con el paradero de Omar Héctor Horacio BENVENUTO.",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/benvenuto-omar-h-h.jpg"
+    },
+    {
+      "nombre": "Rosa Romero",
+      "slug": "romero-1",
+      "url": "https://www.argentina.gob.ar/persona-buscada/romero-1",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": false,
+        "monto": null
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/rosa-romero.png"
+    },
+    {
+      "nombre": "Hilario José Patrignani",
+      "slug": "patrignani-0",
+      "url": "https://www.argentina.gob.ar/persona-buscada/patrignani-0",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": false,
+        "monto": null
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/hilario-jose-patrignani_0.jpg"
+    },
+    {
+      "nombre": "Erika Soledad Del Valle Peralta",
+      "slug": "del-valle-peralta",
+      "url": "https://www.argentina.gob.ar/persona-buscada/del-valle-peralta",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": false,
+        "monto": null
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/erika-soledad-del-valle-peralta.jpg"
+    },
+    {
+      "nombre": "Sonia Guerrero",
+      "slug": "guerrero",
+      "url": "https://www.argentina.gob.ar/persona-buscada/guerrero",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": false,
+        "monto": null
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/sonia-guerrero.jpg"
+    },
+    {
+      "nombre": "Carlos Alberto Arancibia",
+      "slug": "arancibia",
+      "url": "https://www.argentina.gob.ar/persona-buscada/arancibia",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": false,
+        "monto": null
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/carlos-alberto-arancibia.jpg"
+    },
+    {
+      "nombre": "Soledad Elvira Olivera",
+      "slug": "olivera",
+      "url": "https://www.argentina.gob.ar/persona-buscada/olivera",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": null
+      },
+      "descripcion": "29 años al momento de su ausencia. Fue vista por última vez el 18 de noviembre de 2011, cuando se retiraba de su domicilio sito en el Barrio El Paraíso Ana Curi, del distrito Tres de Mayo, departamento de Lavalle Provincia de Mendoza. Fecha de nacimiento: 17/08/1983. Hija de Luisa y Enrique Olivera.",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/soledad-elvira-olivera.jpg"
+    },
+    {
+      "nombre": "Maximiliano Javier Sosa",
+      "slug": "sosa",
+      "url": "https://www.argentina.gob.ar/persona-buscada/sosa",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": null
+      },
+      "descripcion": "Desaparecido entre los días 18 y 21 de diciembre de 2015. Se encontraba junto a su abuela materna Patricia Daniela Sayago y al conviviente de ésta: Ariel Fernando Malagueño, con quienes fue visto por última vez en la localidad de Montefiore, departamento 9 de julio, Provincia de Santa Fe. Búsqueda de paradero. Fecha de nacimiento: 01/07/2012",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/maximiliano-sosa.png"
+    },
+    {
+      "nombre": "Fernanda Isabella Aguirre",
+      "slug": "aguirre",
+      "url": "https://www.argentina.gob.ar/persona-buscada/aguirre",
+      "fecha_desaparicion": null,
+      "recompensa": {
+        "tiene_recompensa": true,
+        "monto": null
+      },
+      "descripcion": "Trámites Turnos Trámites a distancia Atención a la ciudadanía Acerca de la República Argentina Nuestro país Leyes argentinas Organismos Mapa del Estado Acerca de Argentina.gob.ar Acerca de este sitio Términos y condiciones Sugerencias",
+      "foto_url": "https://www.argentina.gob.ar/sites/default/files/fernanda-i-aguirre.jpg"
+    }
+  ]
+}
