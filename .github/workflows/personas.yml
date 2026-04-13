@@ -8,7 +8,6 @@ on:
     branches:
       - main
   schedule:
-	#una vez al mes, el día 12 a las 5:15 am
     - cron: "15 5 12 * *"
   workflow_dispatch:
 
