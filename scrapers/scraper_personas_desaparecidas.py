@@ -332,39 +332,18 @@ def _extraer_recompensa(soup: BeautifulSoup) -> dict:
     """
     Extrae si hay recompensa y su monto.
 
-    El sitio puede renderizar el campo de varias formas:
-      a) En la misma línea:  "Recompensa: $5.000.000"
-      b) Etiqueta y valor en nodos HTML separados (strong + texto suelto),
-         que al hacer get_text() pueden quedar con espacios extra o en
-         líneas contiguas: "Recompensa:" / "$5.000.000"
-
-    Estrategia:
-      1. Buscar monto en la misma línea que contiene "Recompensa" (espacios flexibles)
-      2. Si no, buscar el monto en la línea inmediatamente siguiente
-      3. Si aparece "Recompensa" pero no hay monto → tiene_recompensa=True, monto=None
+    El HTML tiene el monto en: <p class="recompensa"><b>Recompensa: $ 5.000.000</b></p>
+    Apuntamos directo a ese selector. Como fallback también buscamos en get_text()
+    para cubrir variantes de estructura.
     """
-    _MONTO_RE = re.compile(r"\$\s*[\d.,]+")
-
-    lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
-
-    for i, line in enumerate(lines):
-        if not re.search(r"recompensa", line, re.I):
-            continue
-
-        # Caso 1: monto en la misma línea
-        m = _MONTO_RE.search(line)
+    # Selector exacto según HTML inspeccionado
+    nodo = soup.select_one("p.recompensa")
+    if nodo:
+        texto = nodo.get_text(" ", strip=True).replace("\xa0", " ")
+        m = re.search(r"\$\s*([\d.,]+)", texto)
         if m:
-            monto = re.sub(r"\s+", "", m.group())
-            return {"tiene_recompensa": True, "monto": monto}
-
-        # Caso 2: monto en la línea siguiente
-        if i + 1 < len(lines):
-            m = _MONTO_RE.search(lines[i + 1])
-            if m:
-                monto = re.sub(r"\s+", "", m.group())
-                return {"tiene_recompensa": True, "monto": monto}
-
-        # Caso 3: etiqueta presente pero monto no encontrado
+            numero = re.sub(r"\s+", "", m.group(1))
+            return {"tiene_recompensa": True, "monto": f"${numero}"}
         return {"tiene_recompensa": True, "monto": None}
 
     return {"tiene_recompensa": False, "monto": None}
@@ -372,34 +351,22 @@ def _extraer_recompensa(soup: BeautifulSoup) -> dict:
 
 def _extraer_descripcion(soup: BeautifulSoup) -> str | None:
     """
-    Extrae el bloque de texto descriptivo de la ficha (contexto del caso).
-    Es el párrafo largo que aparece debajo de los campos estructurados.
-    Excluye líneas que son etiquetas de campos (tienen ':') o son muy cortas.
+    Extrae el texto de la ficha desde el nodo exacto que lo contiene:
+      div.field-name-body > div.field-items > div.field-item
+
+    Ese div puede contener uno o más <p> con el texto del caso.
+    Se concatenan y limpian nbsp y espacios múltiples.
     """
-    # El contenido está típicamente en párrafos dentro del área principal
-    # Tomamos párrafos con al menos 80 caracteres para evitar capturar etiquetas
-    candidates = []
-    for p in soup.find_all(["p", "div"]):
-        text = p.get_text(" ", strip=True)
-        # Párrafo sustancial que no sea una etiqueta de campo ni el boilerplate del sitio
-        if (
-            len(text) >= 80
-            and not re.match(
-                r"^(Fecha|Recompensa|L\.E\.|Nacimiento|Nacionalidad|Vista|Visto)",
-                text,
-                re.I,
-            )
-            and "Ministerio de Seguridad solicita" not in text
-            and "argentina.gob.ar" not in text
-            and "compartir en" not in text.lower()
-        ):
-            candidates.append(text)
-
-    if not candidates:
-        return None
-
-    # El párrafo más largo es el más probable que sea la descripción del caso
-    return max(candidates, key=len)
+    field_body = soup.select_one(
+        "div.field-name-body div.field-item, "
+        "div.field-type-text-with-summary div.field-item"
+    )
+    if field_body:
+        texto = field_body.get_text(" ", strip=True)
+        texto = re.sub(r"\s+", " ", texto.replace("\xa0", " ")).strip()
+        if texto:
+            return texto
+    return None
 
 
 def _scrape_detalle(stub: dict) -> dict:
