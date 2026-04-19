@@ -67,9 +67,20 @@ def after_request(response):
             (time.monotonic() - g.get("analytics_start", time.monotonic())) * 1000
         )
 
-        # Ignorar rutas de sistema y health checks
         skip_prefixes = ("/static", "/favicon", "/_", "/health", "/api/admin")
         if request.path.startswith(skip_prefixes):
+            return response
+
+        ua = (request.headers.get("User-Agent") or "").lower()
+        skip_agents = (
+            "vercel-favicon",
+            "bot",
+            "crawler",
+            "spider",
+            "pingdom",
+            "uptimerobot",
+        )
+        if any(agent in ua for agent in skip_agents):
             return response
 
         data = {
@@ -82,7 +93,6 @@ def after_request(response):
             "country": _get_country(),
         }
 
-        # Thread daemon: muere con el proceso, no bloquea el shutdown
         t = threading.Thread(target=_insert_log, args=(data,), daemon=True)
         t.start()
 
