@@ -307,7 +307,7 @@ Datos geográficos de provincias y municipios de Argentina, incluyendo informaci
 GET /api/provincias
 ```
 
-### Personas Desaparecidas y Extraviadas (SIFEBU)
+### 👤 Personas Desaparecidas y Extraviadas (SIFEBU)
 
 **Listado completo de personas desaparecidas y extraviadas de Argentina**
 
