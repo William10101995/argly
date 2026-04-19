@@ -76,7 +76,7 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
   - Provincias y municipios por provincia con sus respectivos centroides geográficos.
   - Datos de población y vivienda del **Último Censo Nacional (INDEC)** de cada municipio.
 
-- **Personas Desaparecidas y Extraviadas (SIFEBU)**
+- 👤 **Personas Desaparecidas y Extraviadas (SIFEBU)**
   - Listado completo de personas desaparecidas y extraviadas de Argentina, con información detallada de cada caso.
 
 ## 🌐 Endpoints disponibles
