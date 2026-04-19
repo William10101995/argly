@@ -3,6 +3,8 @@ from api.utils.analytics import get_supabase
 from api.utils.responses import success
 from api.extensions import limiter
 from collections import defaultdict
+from datetime import datetime, timezone, timedelta
+
 
 admin_bp = Blueprint("admin", __name__, url_prefix="/api/admin")
 
@@ -17,11 +19,12 @@ def resumen():
 @admin_bp.get("/estadisticas/serie-temporal")
 @limiter.limit("30 per minute")
 def serie_temporal():
+    desde = (datetime.now(timezone.utc) - timedelta(hours=72)).isoformat()
     filas = (
         get_supabase()
         .table("api_logs_hourly")
         .select("hour, total_requests, error_count, avg_response_ms")
-        .gte("hour", "now() - interval '72 hours'")
+        .gte("hour", desde)
         .order("hour")
         .execute()
     )
@@ -31,13 +34,14 @@ def serie_temporal():
 @admin_bp.get("/estadisticas/endpoints")
 @limiter.limit("30 per minute")
 def endpoints():
+    desde = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
     filas = (
         get_supabase()
         .table("api_logs_daily")
         .select(
             "endpoint, total_requests, error_count, unique_callers, avg_response_ms"
         )
-        .gte("day", "now() - interval '30 days'")
+        .gte("day", desde)
         .order("total_requests", desc=True)
         .limit(20)
         .execute()

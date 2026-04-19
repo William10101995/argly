@@ -1,0 +1,23 @@
+name: Refresh analytics views
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh materialized views
+        run: |
+          curl -s -X POST \
+            "${{ secrets.SUPABASE_URL }}/rest/v1/rpc/refresh_analytics_views" \
+            -H "apikey: ${{ secrets.SUPABASE_SERVICE_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_SERVICE_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{}'
+          echo "Views refreshed at $(date -u)"
