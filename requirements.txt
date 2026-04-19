@@ -7,3 +7,4 @@ requests
 flask-compress
 pdfplumber
 curl_cffi
+supabase
