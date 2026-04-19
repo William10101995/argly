@@ -76,6 +76,9 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
   - Provincias y municipios por provincia con sus respectivos centroides geográficos.
   - Datos de población y vivienda del **Último Censo Nacional (INDEC)** de cada municipio.
 
+- **Personas Desaparecidas y Extraviadas (SIFEBU)**
+  - Listado completo de personas desaparecidas y extraviadas de Argentina, con información detallada de cada caso.
+
 ## 🌐 Endpoints disponibles
 
 La API se encuentra disponible públicamente en: `https://api.argly.com.ar`
@@ -304,6 +307,22 @@ Datos geográficos de provincias y municipios de Argentina, incluyendo informaci
 GET /api/provincias
 ```
 
+### Personas Desaparecidas y Extraviadas (SIFEBU)
+
+**Listado completo de personas desaparecidas y extraviadas de Argentina**
+
+Datos detallados de todas las personas desaparecidas y/o extraviadas de argentina, incluyendo nombre y apellido, fecha de desaparición, descripción y si se ofrece recompensa o no. Datos obtenidos del **SIFEBU (Sistema Federal de Busqueda de Personas Desaparecidas y Extraviadas).**
+
+```
+GET /api/personas-desaparecidas
+```
+
+**Listado de personas desaparecidas y extraviadas por año**
+
+```
+GET /api/personas-desaparecidas?anio=XXXX
+```
+
 ## 🔄 Actualización de datos
 
 Los datos se mantienen actualizados mediante **GitHub Actions (cron jobs)**:
@@ -317,6 +336,7 @@ Los datos se mantienen actualizados mediante **GitHub Actions (cron jobs)**:
 - 🌊 Ríos: **todos los días a las 12:30**
 - 🧱 ICC: **día 15, 16 y 17 de cada mes**
 - 🛒 Canasta: **día 12, 13, 14 y 15 de cada mes**
+- 👤 Personas desaparecidas: **día 12 de cada mes.**
 
 ## 🧪 Desarrollo local
 
