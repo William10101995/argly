@@ -79,6 +79,9 @@ def after_request(response):
             "spider",
             "pingdom",
             "uptimerobot",
+            "curl",
+            "headlesschrome",
+            "headless",
         )
         if any(agent in ua for agent in skip_agents):
             return response
