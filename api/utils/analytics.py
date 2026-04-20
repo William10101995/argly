@@ -71,6 +71,10 @@ def after_request(response):
         if request.path.startswith(skip_prefixes):
             return response
 
+        # Ignorar redirecciones internas de Flask (trailing slash)
+        if response.status_code == 308:
+            return response
+
         ua = (request.headers.get("User-Agent") or "").lower()
         skip_agents = (
             "vercel-favicon",
