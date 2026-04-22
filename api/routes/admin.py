@@ -19,16 +19,8 @@ def resumen():
 @admin_bp.get("/estadisticas/serie-temporal")
 @limiter.limit("30 per minute")
 def serie_temporal():
-    desde = (datetime.now(timezone.utc) - timedelta(hours=72)).isoformat()
-    filas = (
-        get_supabase()
-        .table("api_logs_hourly")
-        .select("hour, total_requests, error_count, avg_response_ms")
-        .gte("hour", desde)
-        .order("hour")
-        .execute()
-    )
-    return success(filas.data)
+    resultado = get_supabase().rpc("get_hourly_series", {"hours_back": 72}).execute()
+    return success(resultado.data)
 
 
 @admin_bp.get("/estadisticas/endpoints")
