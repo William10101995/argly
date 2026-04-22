@@ -34,8 +34,6 @@ def endpoints():
             "endpoint, total_requests, error_count, unique_callers, avg_response_ms"
         )
         .gte("day", desde)
-        .order("total_requests", desc=True)
-        .limit(20)
         .execute()
     )
 
