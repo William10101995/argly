@@ -61,12 +61,6 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
 - 🧱 **ICC (Índice del Costo de la Construcción)**
   - Costo de la construcción en pesos y variaciones porcentuales vigentes
 
-- 💳 **Scoring crediticio**
-  - Evaluación de perfil crediticio a partir de los datos de la central de deudores del BCRA
-  - Recomendación de préstamo máximo
-  - Cuota estimada del nuevo préstamo
-  - Plazo sugerido según perfil de riesgo
-
 - 💊 **Medicamentos (Vademécum Nacional)**
   - Búsqueda de medicamentos por nombre
   - Información de presentación, laboratorio y tipo de venta
@@ -258,29 +252,6 @@ GET /api/rios/rio/<nombre_rio>
 ```
 GET /api/construccion
 ```
-
----
-
-### 💳 Scoring crediticio
-
-**Evaluación del perfil crediticio utilizando datos públicos del
-Banco Central de la República Argentina.**
-
-El modelo utiliza heurísticas financieras basadas en:
-
-- situación crediticia
-- cantidad de entidades acreedoras
-- días de atraso
-- flags legales
-- ratio deuda/ingreso
-- TEA personalizada
-
-```
-GET /api/credito/<cuil>/<salario_mensual>/<tea>
-```
-
-- El modelo de scoring crediticio es **heurístico** y está diseñado para evaluación preliminar de riesgo.
-- No reemplaza modelos estadísticos o regulatorios utilizados por entidades financieras.
 
 ---
 
