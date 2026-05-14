@@ -1,9 +1,21 @@
+# api/services/diputados_service.py
 import json
 import os
+import unicodedata
 
 DATA_PATH = os.path.join(
     os.path.dirname(__file__), "..", "..", "data", "diputados", "diputados.json"
 )
+
+
+def normalizar(texto):
+    texto = (
+        unicodedata.normalize("NFD", texto)
+        .encode("ascii", "ignore")
+        .decode("utf-8")
+        .lower()
+    )
+    return " ".join(texto.split())
 
 
 def get_diputados(distrito=None, bloque=None):
@@ -16,17 +28,17 @@ def get_diputados(distrito=None, bloque=None):
     diputados = data["datos"]
 
     if distrito:
-        distrito_normalizado = distrito.replace("-", " ")
+        distrito_normalizado = normalizar(distrito.replace("-", " "))
         diputados = [
-            d
-            for d in diputados
-            if d["distrito"].lower() == distrito_normalizado.lower()
+            d for d in diputados if normalizar(d["distrito"]) == distrito_normalizado
         ]
 
     if bloque:
-        bloque_normalizado = bloque.replace("-", " ")
+        bloque_normalizado = normalizar(bloque.replace("-", " "))
         diputados = [
-            d for d in diputados if bloque_normalizado.lower() in d["bloque"].lower()
+            d
+            for d in diputados
+            if normalizar(d["bloque"].replace("-", " ")) == bloque_normalizado
         ]
 
     return {"total": len(diputados), "fuente": data["fuente"], "datos": diputados}
