@@ -1,0 +1,40 @@
+name: Scraper ICL Adelanto
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 13 1 * *" # día 1, ~10:00 AR
+    - cron: "0 13 2 * *" # reintento día 2
+    - cron: "0 13 16 * *" # día 16, ~10:00 AR
+    - cron: "0 13 17 * *" # reintento día 17
+  workflow_dispatch:
+
+jobs:
+  icl-adelanto:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run fetcher ICL adelanto
+        run: |
+          python scrapers/scraper_icl_adelanto.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/icl_adelanto
+          git commit -m "chore: update ICL adelanto" || echo "No changes"
+          git pull --rebase origin main
+          git push

@@ -45,6 +45,7 @@ El proyecto está pensado como **fuente de verdad basada en JSON**, con una API 
 
 - 📈 **ICL (Índice de Contratos de Locación)**
   - Valor vigente del ICL
+  - Proyección de los próximos 15 días
   - Histórico
   - Histórico por rango de fechas
 
@@ -141,6 +142,12 @@ GET /v1/combustibles/promedio?provincia=<provincia>&combustible<combustible>
 
 ```
 GET /v1/icl
+```
+
+**Proyección del ICL a 15 días (adelanto publicado por el BCRA)**
+
+```
+GET /v1/icl/adelanto
 ```
 
 **Historico del ICL**

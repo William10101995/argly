@@ -1,7 +1,12 @@
 # api/routes/v1/icl.py
 import re
 from flask import Blueprint, request
-from api.services.data_loader import get_icl, get_icl_history, get_icl_range
+from api.services.data_loader import (
+    get_icl,
+    get_icl_history,
+    get_icl_range,
+    get_icl_adelanto,
+)
 from api.utils.responses import success, error
 
 PARAMS_VALIDOS = {"desde", "hasta", "historico"}
@@ -17,6 +22,14 @@ def validar_fecha(valor, nombre):
             400,
         )
     return None
+
+
+@icl_v1_bp.route("/adelanto", methods=["GET"])
+def obtener_icl_adelanto():
+    data = get_icl_adelanto()
+    if not data:
+        return error("No hay proyección de ICL disponible en este momento", 404)
+    return success(data)
 
 
 @icl_v1_bp.route("/", methods=["GET"])
@@ -64,4 +77,4 @@ def obtener_icl():
     data = get_icl()
     if not data:
         return error("No hay datos de ICL disponibles", 404)
-    return success(data)
+    return success(data)    

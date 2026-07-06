@@ -580,3 +580,10 @@ def get_smvm_range(desde: str, hasta: str):
             result.append(item)
 
     return result
+
+# -------- ICL ADELANTO --------
+
+
+def get_icl_adelanto():
+    data = _load_latest("icl_adelanto")
+    return data if data else None
