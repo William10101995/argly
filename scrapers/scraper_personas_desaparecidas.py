@@ -303,7 +303,7 @@ def _extraer_fecha_desaparicion(soup: BeautifulSoup) -> str | None:
 
     Nunca extrae fechas de líneas con "Fecha de nacimiento".
     """
-    lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
+    lines = [line.strip() for line in soup.get_text("\n").splitlines() if line.strip()]
 
     for etiqueta, ancla in _ETIQUETAS_DESAPARICION:
         for i, line in enumerate(lines):

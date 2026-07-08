@@ -77,4 +77,4 @@ def obtener_icl():
     data = get_icl()
     if not data:
         return error("No hay datos de ICL disponibles", 404)
-    return success(data)    
+    return success(data)

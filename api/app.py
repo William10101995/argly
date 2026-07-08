@@ -14,10 +14,13 @@ def create_app():
     app.json.sort_keys = False
     app.url_map.strict_slashes = False
     compress.init_app(app)
-    cors.init_app(app, resources={
-    r"/api/*": {"origins": app.config["CORS_ORIGINS"]},
-    r"/v1/*":  {"origins": app.config["CORS_ORIGINS"]},
-})
+    cors.init_app(
+        app,
+        resources={
+            r"/api/*": {"origins": app.config["CORS_ORIGINS"]},
+            r"/v1/*": {"origins": app.config["CORS_ORIGINS"]},
+        },
+    )
     limiter.init_app(app)
 
     register_routes(app)

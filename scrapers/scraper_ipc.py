@@ -2,12 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import json
-import os
 from pathlib import Path
 from utils import save_dataset_json
-
-
-
 
 ARCHIVO_JSON = "ipc_historico.json"
 
@@ -45,6 +41,7 @@ def cargar_historico() -> list:
 
     return historico
 
+
 # NORMALIZAR FECHA
 def normalizar_fecha(fecha: str | None) -> str | None:
     """
@@ -78,7 +75,6 @@ MESES = {
     "noviembre": 11,
     "diciembre": 12,
 }
-
 
 
 # REQUEST
