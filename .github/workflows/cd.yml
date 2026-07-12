@@ -1,0 +1,19 @@
+name: CD - Deploy to AWS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    permissions:
+      id-token: write
+      contents: read
+    uses: xlmriosx/shared-library/.github/workflows/AWS-Lambda-deploy.yml@main
+    with:
+      ecr-repository: 'argly-api'
+      function-name: 'argly-function'
+      aws-region: 'sa-east-1'
+    secrets:
+      aws-role-arn: ${{ secrets.AWS_ROLE_ARN }}
