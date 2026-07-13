@@ -465,7 +465,7 @@ Diagramas de arquitectura y flujos del sistema:
 
 ## 👤 Autor
 
-Proyecto desarrollado y mantenido por **William López**.
+Proyecto desarrollado por **William López**.
 
 ## 🤝 Colaboradores
 
