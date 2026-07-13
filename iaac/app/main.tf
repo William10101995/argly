@@ -23,5 +23,11 @@ module "apigateway" {
   custom_domain_name   = "api.argly.com.ar"
   certificate_arn      = module.acm.certificate_arn
   
+  cors_allow_origins = [
+    "https://argly.com.ar",
+    "https://www.argly.com.ar",
+    "http://localhost:3000"
+  ]
+
   depends_on = [module.acm]
 }
