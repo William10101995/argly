@@ -1,0 +1,17 @@
+name: CI Pipeline
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  python-ci:
+    name: Call Python CI from Shared Library
+    uses: xlmriosx/shared-library/.github/workflows/ci-python.yml@main
+    with:
+      working-directory: '.'
+      pytest-target: 'test'
+      python-version: '3.12'
+    secrets:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}

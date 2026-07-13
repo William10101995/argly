@@ -25,7 +25,7 @@ def normalizar_fecha(fecha: str | None) -> str | None:
         if len(y) == 2:
             y = "20" + y
         return f"{d}/{m}/{y}"
-    except:
+    except Exception:
         return fecha
 
 

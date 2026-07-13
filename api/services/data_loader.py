@@ -3,7 +3,6 @@ from pathlib import Path
 import unicodedata
 from datetime import datetime
 
-
 BASE_DATA_PATH = Path(__file__).resolve().parents[2] / "data"
 
 
@@ -580,6 +579,7 @@ def get_smvm_range(desde: str, hasta: str):
             result.append(item)
 
     return result
+
 
 # -------- ICL ADELANTO --------
 

@@ -274,7 +274,7 @@ def _save(data: dict):
     if should_update:
         with open(latest_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"[OK] Actualizado: data/canasta/latest.json")
+        print("[OK] Actualizado: data/canasta/latest.json")
 
 
 def run():

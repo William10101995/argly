@@ -1,5 +1,5 @@
 # api/routes/legacy/rios.py
-from flask import Blueprint, request
+from flask import Blueprint
 from api.services.data_loader import get_rios, get_rio_by_nombre
 from api.utils.responses import success, error
 

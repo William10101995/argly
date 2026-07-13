@@ -1,9 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import time
-import json
 import re
-from pathlib import Path
 from utils import save_dataset_json
 
 # CONFIGURACIÓN

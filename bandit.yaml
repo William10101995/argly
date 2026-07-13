@@ -1,0 +1,9 @@
+# Archivo de configuración para Bandit (Escaneo de Seguridad)
+skips:
+  - B112 # try_except_continue (Usado en el data_loader al iterar)
+  - B113 # request_without_timeout (Timeouts omitidos en algunos scrapers)
+  - B404 # blacklist (Subprocess usado intencionalmente para scrapers con curl)
+  - B501 # request_with_no_cert_validation (verify=False requerido para APIs del gobierno como BCRA)
+  - B603 # subprocess_without_shell_equals_true
+  - B607 # start_process_with_partial_path
+  - B101 # assert_used (usado en tests)

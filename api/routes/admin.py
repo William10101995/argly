@@ -1,10 +1,9 @@
-from flask import Blueprint, jsonify
+from flask import Blueprint
 from api.utils.analytics import get_supabase
 from api.utils.responses import success
 from api.extensions import limiter
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
-
 
 admin_bp = Blueprint("admin", __name__, url_prefix="/api/admin")
 

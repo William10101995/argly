@@ -12,7 +12,7 @@ def obtener_medicamentos(nombre):
 
         try:
             precio = float(precio)
-        except:
+        except ValueError:
             precio = None
 
         resultados.append(
