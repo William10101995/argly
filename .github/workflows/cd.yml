@@ -4,6 +4,23 @@ on:
   push:
     branches:
       - main
+  workflow_run:
+    workflows:
+      - "Scraper Canasta"
+      - "Scraper CER"
+      - "Scraper Combustibles"
+      - "Scraper ICC"
+      - "Scraper ICL"
+      - "Scraper ICL Adelanto"
+      - "Scraper IPC"
+      - "Scraper Personas"
+      - "Refresh analytics views"
+      - "Scraper Rios"
+      - "Scraper SMVM"
+      - "Scraper UVA"
+      - "Scraper UVI"
+    types:
+      - completed
 
 jobs:
   deploy:
