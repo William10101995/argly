@@ -1,0 +1,15 @@
+# Vulnerabilidades HIGH en paquetes de sistema de la imagen base de Lambda
+# (public.ecr.aws/lambda/python:3.12, Amazon Linux 2023).
+# Confirmado 2026-07-22: el repo amazonlinux aún no publica las versiones
+# parchadas (glib2 2.82.2-770, libacl 2.4.0-1.amzn2023.0.1).
+# Revisar y quitar esta lista cuando el mirror las incluya
+# (verificar con: dnf repoquery glib2 libacl dentro del contenedor).
+CVE-2026-58010
+CVE-2026-58011
+CVE-2026-58012
+CVE-2026-58013
+CVE-2026-58014
+CVE-2026-58015
+CVE-2026-58016
+CVE-2026-54369
+CVE-2026-54370
