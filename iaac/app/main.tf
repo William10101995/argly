@@ -13,6 +13,12 @@ module "lambda" {
   source       = "../modules/lambda"
   project_name = var.project_name
   image_uri    = module.ecr.image_uri
+
+  environment_variables = {
+    SUPABASE_URL         = data.aws_ssm_parameter.supabase_url.value
+    SUPABASE_SERVICE_KEY = data.aws_ssm_parameter.supabase_service_key.value
+    FLASK_ENV            = "production"
+  }
 }
 
 module "apigateway" {

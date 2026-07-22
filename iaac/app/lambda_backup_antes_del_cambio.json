@@ -1,0 +1,41 @@
+{
+    "FunctionName": "argly-function",
+    "FunctionArn": "arn:aws:lambda:sa-east-1:499290258933:function:argly-function",
+    "Role": "arn:aws:iam::499290258933:role/argly-lambda-role",
+    "CodeSize": 0,
+    "Description": "",
+    "Timeout": 15,
+    "MemorySize": 512,
+    "LastModified": "2026-07-16T20:58:44.000+0000",
+    "CodeSha256": "96a703fc114f3e510d0b11c4f5812e2b9548a8eb8f228979882e83c00cc68e47",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "f25717fe-3434-4790-be06-2e975ee089b3",
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Image",
+    "ImageConfigResponse": {
+        "ImageConfig": {
+            "Command": [
+                "api.index.handler"
+            ],
+            "WorkingDirectory": ""
+        }
+    },
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/argly-function"
+    }
+}

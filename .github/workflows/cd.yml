@@ -14,7 +14,6 @@ on:
       - "Scraper ICL Adelanto"
       - "Scraper IPC"
       - "Scraper Personas"
-      - "Refresh analytics views"
       - "Scraper Rios"
       - "Scraper SMVM"
       - "Scraper UVA"
@@ -29,9 +28,9 @@ jobs:
       contents: read
     uses: xlmriosx/shared-library/.github/workflows/AWS-Lambda-deploy.yml@main
     with:
-      ecr-repository: 'argly-api'
-      function-name: 'argly-function'
-      aws-region: 'sa-east-1'
+      ecr-repository: "argly-api"
+      function-name: "argly-function"
+      aws-region: "sa-east-1"
     secrets:
       AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
