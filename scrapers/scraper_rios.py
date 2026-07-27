@@ -86,7 +86,7 @@ def obtener_estado_rios():
         "api_key": SCRAPERAPI_KEY,
         "url": TARGET_URL,
         "keep_headers": "true",  # Mantiene nuestros headers (útil para simular navegador)
-        "premium": "true",  # Usar plan pago si está disponible
+        "ultra_premium": "true",  # Usar plan pago si está disponible
         "country_code": "ar",  # Opcional: Si tienes plan pago, descomenta esto para forzar IP argentina
     }
 
