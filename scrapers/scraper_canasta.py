@@ -1,8 +1,3 @@
-"""
-Scraper: Canasta Básica Alimentaria y Total - INDEC
-Fuente: https://www.indec.gob.ar/indec/web/Nivel3-Tema-4-43
-"""
-
 import io
 import json
 import os
