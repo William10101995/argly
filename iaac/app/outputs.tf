@@ -32,3 +32,16 @@ output "cert_validation_value" {
   description = "DNS Valor para validar el certificado ACM"
   value       = module.acm.certificate_validation_value
 }
+
+output "cloudfront_distribution_domain" {
+  description = "Dominio de CloudFront - usar para pruebas previas y para el corte de DNS"
+  value       = module.cloudfront_api.distribution_domain_name
+}
+
+output "cert_validation_name_cloudfront" {
+  value = module.acm_cloudfront.certificate_validation_name
+}
+
+output "cert_validation_value_cloudfront" {
+  value = module.acm_cloudfront.certificate_validation_value
+}

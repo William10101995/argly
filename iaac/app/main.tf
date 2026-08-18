@@ -37,3 +37,20 @@ module "apigateway" {
 
   depends_on = [module.acm]
 }
+
+module "acm_cloudfront" {
+  source             = "../modules/acm_cloudfront"
+  custom_domain_name = "api.argly.com.ar"
+
+  providers = {
+    aws.us_east_1 = aws.us_east_1
+  }
+}
+
+module "cloudfront_api" {
+  source             = "../modules/cloudfront_api"
+  project_name       = var.project_name
+  custom_domain_name = "api.argly.com.ar"
+  apigw_domain_name  = replace(module.apigateway.api_endpoint, "https://", "")
+  certificate_arn    = module.acm_cloudfront.certificate_arn
+}
