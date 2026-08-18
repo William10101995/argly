@@ -37,9 +37,12 @@ def _get_client_ip() -> str:
 
 
 def _get_country() -> str | None:
-    """Vercel agrega el país en el header x-vercel-ip-country."""
-    return request.headers.get("X-Vercel-IP-Country")
-
+    """CloudFront agrega el país en CloudFront-Viewer-Country.
+    Se mantiene el fallback a Vercel por compatibilidad con tráfico legacy."""
+    return (
+        request.headers.get("CloudFront-Viewer-Country")
+        or request.headers.get("X-Vercel-IP-Country")
+    )
 
 def _insert_log(data: dict) -> None:
     """
