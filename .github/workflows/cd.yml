@@ -18,6 +18,7 @@ on:
       - "Scraper SMVM"
       - "Scraper UVA"
       - "Scraper UVI"
+      - "Scraper Rios Comahue"
     types:
       - completed
 
