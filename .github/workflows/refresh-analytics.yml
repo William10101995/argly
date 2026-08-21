@@ -1,6 +1,9 @@
 name: Refresh analytics views
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 * * * *"
   workflow_dispatch:
