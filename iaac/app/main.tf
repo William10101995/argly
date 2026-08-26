@@ -18,6 +18,8 @@ module "lambda" {
     SUPABASE_URL         = data.aws_ssm_parameter.supabase_url.value
     SUPABASE_SERVICE_KEY = data.aws_ssm_parameter.supabase_service_key.value
     FLASK_ENV            = "production"
+    S3_DATA_BUCKET = "argly-data"
+    S3_DATA_REGION = "us-east-1"
   }
 }
 

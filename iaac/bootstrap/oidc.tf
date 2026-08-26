@@ -73,6 +73,13 @@ resource "aws_iam_role_policy" "github_actions_policy" {
         ]
         # Restringido a la función Lambda exacta
         Resource = "arn:aws:lambda:${var.aws_region}:*:function:${var.project_name}-function"
+      },
+            {
+        Effect = "Allow"
+        Action = [
+          "s3:PutObject"
+        ]
+        Resource = "arn:aws:s3:::argly-data/dolares/*"
       }
     ]
   })

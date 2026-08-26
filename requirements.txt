@@ -9,3 +9,4 @@ pdfplumber
 curl_cffi
 supabase
 apig-wsgi
+boto3
