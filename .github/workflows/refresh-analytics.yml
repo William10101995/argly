@@ -6,6 +6,7 @@ on:
       - main
   schedule:
     - cron: "0 * * * *"
+    - cron: "0 5 1 * *"
   workflow_dispatch:
 
 jobs:
@@ -14,10 +15,31 @@ jobs:
     steps:
       - name: Refresh materialized views
         run: |
-          curl -s -X POST \
+          response=$(curl -s -o /tmp/resp.json -w "%{http_code}" -X POST \
             "${{ secrets.SUPABASE_URL }}/rest/v1/rpc/refresh_analytics_views" \
             -H "apikey: ${{ secrets.SUPABASE_SERVICE_KEY }}" \
             -H "Authorization: Bearer ${{ secrets.SUPABASE_SERVICE_KEY }}" \
             -H "Content-Type: application/json" \
-            -d '{}'
-          echo "Views refreshed at $(date -u)"
+            -d '{}')
+          echo "HTTP status: $response"
+          cat /tmp/resp.json
+          if [ "$response" -ge 300 ]; then
+            echo "::error::Refresh de analytics falló con status $response"
+            exit 1
+          fi
+
+      - name: Purge old logs (solo día 1 de cada mes)
+        if: github.event.schedule == '0 5 1 * *'
+        run: |
+          response=$(curl -s -o /tmp/purge.json -w "%{http_code}" -X POST \
+            "${{ secrets.SUPABASE_URL }}/rest/v1/rpc/purge_old_logs" \
+            -H "apikey: ${{ secrets.SUPABASE_SERVICE_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_SERVICE_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{"retention_days": 180}')
+          echo "HTTP status: $response"
+          cat /tmp/purge.json
+          if [ "$response" -ge 300 ]; then
+            echo "::error::Purga de logs falló con status $response"
+            exit 1
+          fi

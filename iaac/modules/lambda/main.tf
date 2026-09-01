@@ -42,10 +42,22 @@ resource "aws_iam_role_policy" "lambda_s3_read" {
 
   policy = jsonencode({
     Version = "2012-10-17"
-    Statement = [{
-      Effect   = "Allow"
-      Action   = ["s3:GetObject"]
-      Resource = "arn:aws:s3:::argly-data/dolares/*"
-    }]
+    Statement = [
+      {
+        Effect   = "Allow"
+        Action   = ["s3:GetObject"]
+        Resource = "arn:aws:s3:::argly-data/dolares/*"
+      },
+      {
+        Effect   = "Allow"
+        Action   = ["s3:ListBucket"]
+        Resource = "arn:aws:s3:::argly-data"
+        Condition = {
+          StringLike = {
+            "s3:prefix" = ["dolares/*"]
+          }
+        }
+      }
+    ]
   })
 }
