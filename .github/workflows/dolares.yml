@@ -7,7 +7,7 @@ permissions:
 on:
   schedule:
     # cada 20 min, 12:00-21:00 UTC (~09:00-18:00 AR), lunes a viernes
-    - cron: "*/20 12-21 * * 1-5"
+    - cron: "6,26,46 12-21 * * 1-5"
   workflow_dispatch:
 
 jobs:
