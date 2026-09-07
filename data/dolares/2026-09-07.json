@@ -6,45 +6,45 @@
       "fuente": "bna.com.ar"
     },
     "blue": {
-      "compra": 1520.0,
-      "venta": 1540.0,
-      "variacion": 0.0,
-      "fecha_actualizacion": "07/09/2026 - 14:40",
+      "compra": 1525.0,
+      "venta": 1545.0,
+      "variacion": 0.32,
+      "fecha_actualizacion": "07/09/2026 - 17:45",
       "fuente": "ambito.com"
     },
     "mayorista": {
-      "compra": 1499.0,
-      "venta": 1508.0,
-      "variacion": 0.0,
-      "fecha_actualizacion": "07/09/2026 - 10:24",
+      "compra": 1502.5,
+      "venta": 1511.5,
+      "variacion": 0.23,
+      "fecha_actualizacion": "07/09/2026 - 16:17",
       "fuente": "ambito.com"
     },
     "bolsa": {
-      "compra": 1525.92,
-      "venta": 1525.92,
-      "variacion": 0.0,
-      "fecha_actualizacion": "07/09/2026 - 14:40",
+      "compra": 1528.21,
+      "venta": 1528.21,
+      "variacion": 0.2,
+      "fecha_actualizacion": "07/09/2026 - 17:45",
       "fuente": "ambito.com"
     },
     "contadoconliqui": {
-      "compra": 1570.59,
-      "venta": 1570.59,
-      "variacion": -0.76,
-      "fecha_actualizacion": "07/09/2026 - 14:40",
+      "compra": 1570.36,
+      "venta": 1570.36,
+      "variacion": -0.8,
+      "fecha_actualizacion": "07/09/2026 - 17:45",
       "fuente": "ambito.com"
     },
     "cripto": {
-      "compra": 1582.45,
-      "venta": 1582.45,
-      "variacion": 0.0,
-      "fecha_actualizacion": "07/09/2026 - 14:40",
+      "compra": 1583.27,
+      "venta": 1583.27,
+      "variacion": -0.06,
+      "fecha_actualizacion": "07/09/2026 - 17:45",
       "fuente": "ambito.com"
     },
     "tarjeta": {
       "compra": 1480.0,
       "venta": 1989.0,
       "variacion": 0.0,
-      "fecha_actualizacion": "07/09/2026 - 14:40",
+      "fecha_actualizacion": "07/09/2026 - 17:45",
       "fuente": "ambito.com"
     },
     "_meta": {
