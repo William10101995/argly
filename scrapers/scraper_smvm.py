@@ -32,7 +32,19 @@ def descargar_csv():
 # ------------------------
 # PARSEAR CSV
 # ------------------------
-def parsear_csv(texto_csv: str):
+def parsear_csv(texto_csv: str, hoy: datetime | None = None):
+    """
+    El CSV de datos.gob.ar publica con antelación valores que todavía no
+    entraron en vigencia (el Consejo del Salario anuncia aumentos futuros
+    con meses de anticipación). Por eso NO tomamos directamente el máximo
+    de todo el archivo: filtramos primero por fecha <= hoy, y de esos
+    registros ya vigentes tomamos el más reciente.
+
+    Esto hace que el scraper se actualice solo mes a mes a medida que cada
+    fecha de vigencia llega, y se autocorrige si alguna corrida mensual
+    se salta (no depende de "avanzar un registro" respecto al guardado).
+    """
+    hoy = hoy or datetime.now()
     reader = csv.DictReader(texto_csv.splitlines())
 
     registros = []
@@ -40,6 +52,11 @@ def parsear_csv(texto_csv: str):
     for row in reader:
         try:
             fecha_dt = datetime.strptime(row["indice_tiempo"], "%Y-%m-%d")
+
+            # Descartar valores que el CSV ya publicó pero todavía no
+            # entraron en vigencia.
+            if fecha_dt > hoy:
+                continue
 
             registros.append(
                 {
@@ -58,9 +75,9 @@ def parsear_csv(texto_csv: str):
             continue
 
     if not registros:
-        raise ValueError("No se pudieron parsear registros del CSV")
+        raise ValueError("No se pudieron parsear registros vigentes del CSV")
 
-    # ordenar por fecha descendente
+    # ordenar por fecha descendente → el primero es el vigente hoy
     registros.sort(key=lambda x: x["fecha_dt"], reverse=True)
 
     return registros[0]
@@ -109,7 +126,7 @@ def main():
     ultimo.pop("fecha_dt")
     ultimo["fuente"] = FUENTE
 
-    print("✔ Último SMVM detectado:")
+    print("✔ Último SMVM vigente detectado:")
     print(f"   Fecha: {ultimo['vigente_desde']}")
     print(f"   Mensual: ${ultimo['smvm']:,.2f}")
 
