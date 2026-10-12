@@ -1,14 +1,14 @@
 {
   "fuente": "SIFEBU - Ministerio de Seguridad de la Nación",
   "url_fuente": "https://www.argentina.gob.ar/seguridad/personasextraviadas",
-  "total": 219,
+  "total": 221,
   "resumen_por_anio": {
     "1990": 1,
     "1997": 1,
     "2002": 1,
     "2003": 1,
     "2004": 1,
-    "2005": 2,
+    "2005": 3,
     "2006": 2,
     "2007": 1,
     "2008": 4,
@@ -28,7 +28,7 @@
     "2022": 10,
     "2023": 8,
     "2024": 10,
-    "2025": 12,
+    "2025": 13,
     "2026": 28,
     "sin_fecha": 20
   },
@@ -127,6 +127,18 @@
         },
         "descripcion": "38 años al momento de su ausencia (25/09/2005). Villa María, provincia de Córdoba.",
         "foto_url": "https://www.argentina.gob.ar/sites/default/files/mariela-bessonart.jpg"
+      },
+      {
+        "nombre": "Eva Ester Acosta",
+        "slug": "acosta-3",
+        "url": "https://www.argentina.gob.ar/persona-buscada/acosta-3",
+        "fecha_desaparicion": "2005-10-31",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Fecha de desaparición: 31/10/2005 Edad al momento de su ausencia: 28 años Lugar de desaparición: Catamarca, Catamarca",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/10/acosta_eva_ester.jpg"
       }
     ],
     "2006": [
@@ -2065,6 +2077,18 @@
         "foto_url": "https://www.argentina.gob.ar/sites/default/files/2025/11/whatsapp_image_2025-11-13_at_12.26.30.jpeg"
       },
       {
+        "nombre": "Miguel Angel Valenzuela",
+        "slug": "valenzuela-1",
+        "url": "https://www.argentina.gob.ar/persona-buscada/valenzuela-1",
+        "fecha_desaparicion": "2025-11-20",
+        "recompensa": {
+          "tiene_recompensa": false,
+          "monto": null
+        },
+        "descripcion": "Fecha de desaparición: 20/11/2025 Edad al momento de su ausencia: 79 años Lugar de desaparición: Berazategui, Buenos Aires",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/09/valenzuela_miguel_a.jpeg"
+      },
+      {
         "nombre": "Tamara Torrez",
         "slug": "torrez-0",
         "url": "https://www.argentina.gob.ar/persona-buscada/torrez-0",
@@ -2463,16 +2487,16 @@
         "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/08/cabrera_maira.jpeg"
       },
       {
-        "nombre": "Jhennifer  Fernández Tapia",
-        "slug": "fernandez-tapia",
-        "url": "https://www.argentina.gob.ar/persona-buscada/fernandez-tapia",
-        "fecha_desaparicion": "2026-08-18",
+        "nombre": "Claudia Itatí  García",
+        "slug": "garcia-6",
+        "url": "https://www.argentina.gob.ar/persona-buscada/garcia-6",
+        "fecha_desaparicion": "2026-08-14",
         "recompensa": {
           "tiene_recompensa": false,
           "monto": null
         },
-        "descripcion": "Fecha de desaparición: 18/08/2026 Edad al momento de su ausencia: 15 años Lugar de desaparición: Parque Avellaneda, CABA",
-        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/08/jhennifer_fernandez_tapia.jpeg"
+        "descripcion": "Fecha de desaparición: 14/08/2026 Edad al momento de su ausencia: 54 años Lugar de desaparición: Pilar, Buenos Aires",
+        "foto_url": "https://www.argentina.gob.ar/sites/default/files/2026/09/garcia_claudia_itati.png"
       }
     ]
   },
