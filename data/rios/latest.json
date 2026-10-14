@@ -1,61 +1,61 @@
 [
   {
     "source": "prefectura_naval_argentina",
-    "updated_at": "2026-10-14T19:36:14.079020+00:00",
+    "updated_at": "2026-10-14T20:50:17.457603+00:00",
     "rios": [
       {
         "nombre": "IGUAZU",
-        "estado_general": "crece",
+        "estado_general": "baja",
         "puertos": [
           {
             "nombre": "CAXIA (BRASIL)",
-            "altura_m": 116.85,
-            "variacion_m": 53.84,
+            "altura_m": 115.93,
+            "variacion_m": -0.92,
             "periodo": "24",
-            "estado": "crece",
-            "estado_raw": "CRECE",
-            "fecha": "2026-10-13",
+            "estado": "baja",
+            "estado_raw": "BAJA",
+            "fecha": "2026-10-14",
             "hora": "09:00"
           },
           {
             "nombre": "REPRESA CAPANEMA (BRASIL)",
-            "altura_m": 127.52,
-            "variacion_m": 31.45,
+            "altura_m": 147.31,
+            "variacion_m": 19.79,
             "periodo": "24",
             "estado": "crece",
             "estado_raw": "CRECE",
-            "fecha": "2026-10-13",
+            "fecha": "2026-10-14",
             "hora": "09:00"
           },
           {
             "nombre": "ANDRESITO",
             "altura_m": 7.63,
-            "variacion_m": 0.33,
-            "periodo": "24",
-            "estado": "crece",
-            "estado_raw": "CRECE",
+            "variacion_m": -0.07,
+            "periodo": "12",
+            "estado": "baja",
+            "estado_raw": "BAJA",
             "fecha": "2026-10-14",
             "hora": "12:00"
           },
           {
             "nombre": "IGUAZU",
-            "altura_m": 32.1,
-            "variacion_m": 0.0,
+            "altura_m": 32.3,
+            "variacion_m": 0.2,
             "periodo": "2",
             "estado": "s/e",
-            "estado_raw": "EVACUACION ESTAC.",
+            "estado_raw": "EVACUACION CRECE",
             "fecha": "2026-10-14",
-            "hora": "12:00"
+            "hora": "16:00"
           }
         ],
         "resumen": {
           "puertos_total": 4,
-          "crece": 3,
-          "baja": 0,
+          "crece": 1,
+          "baja": 2,
           "estac": 0,
           "s/e": 1,
-          "altura_promedio_m": 71.02,
-          "altura_max_m": 127.52,
+          "altura_promedio_m": 75.79,
+          "altura_max_m": 147.31,
           "altura_min_m": 7.63
         }
       },
@@ -65,33 +65,33 @@
         "puertos": [
           {
             "nombre": "GUAYRA (BRASIL)",
-            "altura_m": 164.62,
-            "variacion_m": 5.27,
+            "altura_m": 171.36,
+            "variacion_m": 6.74,
             "periodo": "24",
             "estado": "crece",
             "estado_raw": "CRECE",
-            "fecha": "2026-10-13",
+            "fecha": "2026-10-14",
             "hora": "09:00"
           },
           {
             "nombre": "REPRESA ITAIPU (BRASIL)",
-            "altura_m": 204.26,
-            "variacion_m": 31.08,
+            "altura_m": 216.48,
+            "variacion_m": 12.22,
             "periodo": "24",
             "estado": "crece",
             "estado_raw": "CRECE",
-            "fecha": "2026-10-13",
+            "fecha": "2026-10-14",
             "hora": "09:00"
           },
           {
             "nombre": "LIBERTAD",
-            "altura_m": 31.5,
+            "altura_m": 31.6,
             "variacion_m": 0.1,
-            "periodo": "1",
+            "periodo": "2",
             "estado": "s/e",
             "estado_raw": "EVACUACION CRECE",
             "fecha": "2026-10-14",
-            "hora": "14:00"
+            "hora": "16:00"
           },
           {
             "nombre": "ELDORADO",
@@ -115,23 +115,23 @@
           },
           {
             "nombre": "PUERTO MANI",
-            "altura_m": 8.65,
-            "variacion_m": 0.37,
-            "periodo": "12",
+            "altura_m": 8.71,
+            "variacion_m": 0.06,
+            "periodo": "4",
             "estado": "crece",
             "estado_raw": "CRECE",
             "fecha": "2026-10-14",
-            "hora": "12:00"
+            "hora": "16:00"
           },
           {
             "nombre": "SANTA ANA",
-            "altura_m": 10.13,
-            "variacion_m": 0.05,
+            "altura_m": 10.17,
+            "variacion_m": 0.04,
             "periodo": "2",
             "estado": "s/e",
             "estado_raw": "EVACUACION CRECE",
             "fecha": "2026-10-14",
-            "hora": "14:00"
+            "hora": "16:00"
           },
           {
             "nombre": "POSADAS",
@@ -145,13 +145,13 @@
           },
           {
             "nombre": "ITUZAINGO",
-            "altura_m": 4.5,
-            "variacion_m": 0.04,
+            "altura_m": 4.53,
+            "variacion_m": 0.03,
             "periodo": "2",
             "estado": "s/e",
             "estado_raw": "EVACUACION CRECE",
             "fecha": "2026-10-14",
-            "hora": "14:00"
+            "hora": "16:00"
           },
           {
             "nombre": "ITA IBATE",
@@ -380,8 +380,8 @@
           "baja": 1,
           "estac": 6,
           "s/e": 5,
-          "altura_promedio_m": 18.48,
-          "altura_max_m": 204.26,
+          "altura_promedio_m": 19.1,
+          "altura_max_m": 216.48,
           "altura_min_m": 2.18
         }
       },
@@ -798,22 +798,22 @@
           {
             "nombre": "ALVEAR",
             "altura_m": 10.44,
-            "variacion_m": 0.02,
-            "periodo": "6",
+            "variacion_m": 0.0,
+            "periodo": "2",
             "estado": "s/e",
-            "estado_raw": "ALERTA CRECE",
+            "estado_raw": "ALERTA ESTAC.",
             "fecha": "2026-10-14",
-            "hora": "14:00"
+            "hora": "16:00"
           },
           {
             "nombre": "LA CRUZ",
             "altura_m": 10.43,
-            "variacion_m": 0.01,
-            "periodo": "6",
+            "variacion_m": 0.0,
+            "periodo": "2",
             "estado": "s/e",
-            "estado_raw": "ALERTA CRECE",
+            "estado_raw": "ALERTA ESTAC.",
             "fecha": "2026-10-14",
-            "hora": "14:00"
+            "hora": "16:00"
           },
           {
             "nombre": "YAPEYU",
