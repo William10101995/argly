@@ -1,50 +1,50 @@
 {
-  "periodo": "2026-08",
-  "fecha_publicacion": "2026-09-10",
+  "periodo": "2026-09",
+  "fecha_publicacion": "2026-10-13",
   "fuente": "INDEC - Dirección Nacional de Estadísticas de Precios",
   "cba": {
-    "variacion_mensual": 2.6,
-    "variacion_acumulada_anio": 23.2,
-    "variacion_interanual": 39.6,
-    "adulto_equivalente": 235103.36,
+    "variacion_mensual": 1.7,
+    "variacion_acumulada_anio": 25.3,
+    "variacion_interanual": 40.0,
+    "adulto_equivalente": 239058.22,
     "hogares": {
       "hogar_1": {
         "integrantes": 3,
         "descripcion": "Mujer de 35 años, hijo de 18 años y madre de 61 años",
-        "valor": 578354.27
+        "valor": 588083.22
       },
       "hogar_2": {
         "integrantes": 4,
         "descripcion": "Varón de 35 años, mujer de 31 años, hijo de 6 años e hija de 8 años",
-        "valor": 726469.38
+        "valor": 738689.9
       },
       "hogar_3": {
         "integrantes": 5,
         "descripcion": "Varón y mujer de 30 años con hijos de 1, 3 y 5 años",
-        "valor": 764085.92
+        "valor": 776939.22
       }
     }
   },
   "cbt": {
-    "variacion_mensual": 2.6,
-    "variacion_acumulada_anio": 22.7,
-    "variacion_interanual": 38.3,
-    "adulto_equivalente": 519578.43,
+    "variacion_mensual": 1.7,
+    "variacion_acumulada_anio": 24.7,
+    "variacion_interanual": 38.7,
+    "adulto_equivalente": 528318.67,
     "hogares": {
       "hogar_1": {
         "integrantes": 3,
         "descripcion": "Mujer de 35 años, hijo de 18 años y madre de 61 años",
-        "valor": 1278162.94
+        "valor": 1299663.93
       },
       "hogar_2": {
         "integrantes": 4,
         "descripcion": "Varón de 35 años, mujer de 31 años, hijo de 6 años e hija de 8 años",
-        "valor": 1605497.35
+        "valor": 1632504.69
       },
       "hogar_3": {
         "integrantes": 5,
         "descripcion": "Varón y mujer de 30 años con hijos de 1, 3 y 5 años",
-        "valor": 1688629.9
+        "valor": 1717035.68
       }
     }
   }
