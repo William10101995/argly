@@ -9,42 +9,42 @@
       "compra": 1545.0,
       "venta": 1565.0,
       "variacion": 0.0,
-      "fecha_actualizacion": "22/10/2026 - 14:05",
+      "fecha_actualizacion": "22/10/2026 - 17:30",
       "fuente": "ambito.com"
     },
     "mayorista": {
       "compra": 1519.0,
       "venta": 1528.0,
       "variacion": 0.13,
-      "fecha_actualizacion": "22/10/2026 - 11:28",
+      "fecha_actualizacion": "22/10/2026 - 15:56",
       "fuente": "ambito.com"
     },
     "bolsa": {
-      "compra": 1554.49,
-      "venta": 1554.49,
-      "variacion": 0.4,
-      "fecha_actualizacion": "22/10/2026 - 14:05",
+      "compra": 1549.42,
+      "venta": 1549.42,
+      "variacion": 0.11,
+      "fecha_actualizacion": "22/10/2026 - 17:30",
       "fuente": "ambito.com"
     },
     "contadoconliqui": {
-      "compra": 1648.45,
-      "venta": 1648.45,
-      "variacion": 0.7,
-      "fecha_actualizacion": "22/10/2026 - 14:05",
+      "compra": 1630.81,
+      "venta": 1630.81,
+      "variacion": -0.3,
+      "fecha_actualizacion": "22/10/2026 - 17:30",
       "fuente": "ambito.com"
     },
     "cripto": {
-      "compra": 1645.11,
-      "venta": 1645.11,
-      "variacion": -0.11,
-      "fecha_actualizacion": "22/10/2026 - 14:05",
+      "compra": 1636.16,
+      "venta": 1636.16,
+      "variacion": -0.31,
+      "fecha_actualizacion": "22/10/2026 - 17:30",
       "fuente": "ambito.com"
     },
     "tarjeta": {
       "compra": 1500.0,
       "venta": 2015.0,
       "variacion": 0.32,
-      "fecha_actualizacion": "22/10/2026 - 14:05",
+      "fecha_actualizacion": "22/10/2026 - 17:30",
       "fuente": "ambito.com"
     },
     "_meta": {
