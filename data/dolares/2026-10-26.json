@@ -1,0 +1,59 @@
+[
+  {
+    "oficial": {
+      "compra": 1510.0,
+      "venta": 1560.0,
+      "fuente": "bna.com.ar"
+    },
+    "blue": {
+      "compra": 1555.0,
+      "venta": 1575.0,
+      "variacion": 0.64,
+      "fecha_actualizacion": "26/10/2026 - 15:35",
+      "fuente": "ambito.com"
+    },
+    "mayorista": {
+      "compra": 1532.0,
+      "venta": 1541.0,
+      "variacion": 0.75,
+      "fecha_actualizacion": "26/10/2026 - 14:47",
+      "fuente": "ambito.com"
+    },
+    "bolsa": {
+      "compra": 1568.66,
+      "venta": 1568.66,
+      "variacion": 0.41,
+      "fecha_actualizacion": "26/10/2026 - 15:35",
+      "fuente": "ambito.com"
+    },
+    "contadoconliqui": {
+      "compra": 1676.15,
+      "venta": 1676.15,
+      "variacion": 1.7,
+      "fecha_actualizacion": "26/10/2026 - 15:35",
+      "fuente": "ambito.com"
+    },
+    "cripto": {
+      "compra": 1672.89,
+      "venta": 1672.89,
+      "variacion": 0.0,
+      "fecha_actualizacion": "26/10/2026 - 15:35",
+      "fuente": "ambito.com"
+    },
+    "tarjeta": {
+      "compra": 1510.0,
+      "venta": 2028.0,
+      "variacion": 0.65,
+      "fecha_actualizacion": "26/10/2026 - 15:35",
+      "fuente": "ambito.com"
+    },
+    "_meta": {
+      "fuentes_consultadas": [
+        "ambito",
+        "dolarhoy",
+        "bna"
+      ],
+      "fuentes_fallidas": []
+    }
+  }
+]
