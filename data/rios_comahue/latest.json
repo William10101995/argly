@@ -9,13 +9,13 @@
         "tipo": "lago_origen",
         "confianza": "alta",
         "estacion_id": 24,
-        "temperatura_minima_c": 2.62,
         "precipitacion_mm": 0.0,
-        "humedad_relativa_pct": 68.86,
-        "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": 25.16,
         "altura_rio_m": 5.42,
+        "temperatura_minima_c": 5.26,
+        "temperatura_maxima_c": 24.1,
         "caudal_m3s": 361.0,
+        "humedad_relativa_pct": 69.55,
+        "temperatura_media_c": "sin dato registrado",
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
@@ -27,7 +27,7 @@
           },
           {
             "etiqueta_original": "Humedad Relativa Media Diaria",
-            "valor": 68.86
+            "valor": 69.55
           },
           {
             "etiqueta_original": "Precipitación Diaria",
@@ -35,14 +35,14 @@
           },
           {
             "etiqueta_original": "Temperatura Mínima Diaria",
-            "valor": 2.62
+            "valor": 5.26
           },
           {
             "etiqueta_original": "Temperatura Máxima Diaria",
-            "valor": 25.16
+            "valor": 24.1
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -50,25 +50,25 @@
         "tipo": "rio",
         "confianza": "alta",
         "estacion_id": 27,
-        "temperatura_minima_c": 3.32,
         "precipitacion_mm": 0.0,
-        "humedad_relativa_pct": 63.29,
+        "altura_rio_m": 3.5,
+        "temperatura_minima_c": 7.19,
+        "temperatura_maxima_c": 26.92,
+        "caudal_m3s": 355.0,
+        "humedad_relativa_pct": 54.87,
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": 23.4,
-        "altura_rio_m": 3.48,
-        "caudal_m3s": 356.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 3.48
+            "valor": 3.5
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 356.0
+            "valor": 355.0
           },
           {
             "etiqueta_original": "Humedad Relativa Media Diaria",
-            "valor": 63.29
+            "valor": 54.87
           },
           {
             "etiqueta_original": "Precipitación Diaria",
@@ -76,14 +76,14 @@
           },
           {
             "etiqueta_original": "Temperatura Mínima Diaria",
-            "valor": 3.32
+            "valor": 7.19
           },
           {
             "etiqueta_original": "Temperatura Máxima Diaria",
-            "valor": 23.4
+            "valor": 26.92
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -91,25 +91,25 @@
         "tipo": "rio",
         "confianza": "media",
         "estacion_id": 32,
-        "temperatura_minima_c": 6.67,
         "precipitacion_mm": 0.0,
-        "humedad_relativa_pct": 68.65,
+        "altura_rio_m": 1.67,
+        "temperatura_minima_c": 5.96,
+        "temperatura_maxima_c": 27.62,
+        "caudal_m3s": 37.0,
+        "humedad_relativa_pct": 67.71,
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": 24.28,
-        "altura_rio_m": 1.72,
-        "caudal_m3s": 44.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 1.72
+            "valor": 1.67
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 44.0
+            "valor": 37.0
           },
           {
             "etiqueta_original": "Humedad Relativa Media Diaria",
-            "valor": 68.65
+            "valor": 67.71
           },
           {
             "etiqueta_original": "Precipitación Diaria",
@@ -117,14 +117,14 @@
           },
           {
             "etiqueta_original": "Temperatura Mínima Diaria",
-            "valor": 6.67
+            "valor": 5.96
           },
           {
             "etiqueta_original": "Temperatura Máxima Diaria",
-            "valor": 24.28
+            "valor": 27.62
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -132,24 +132,24 @@
         "tipo": "dique",
         "confianza": "alta",
         "estacion_id": 26,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": "sin dato registrado",
+        "altura_rio_m": 2.95,
+        "temperatura_minima_c": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "caudal_m3s": 1120.0,
         "humedad_relativa_pct": "sin dato registrado",
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": 2.76,
-        "caudal_m3s": 1209.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 2.76
+            "valor": 2.95
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 1209.0
+            "valor": 1120.0
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -157,13 +157,13 @@
         "tipo": "rio",
         "confianza": "alta",
         "estacion_id": 25,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": "sin dato registrado",
+        "altura_rio_m": 2.61,
+        "temperatura_minima_c": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "caudal_m3s": 365.0,
         "humedad_relativa_pct": "sin dato registrado",
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": 2.61,
-        "caudal_m3s": 0.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
@@ -171,10 +171,10 @@
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 0.0
+            "valor": 365.0
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -182,21 +182,21 @@
         "tipo": "rio",
         "confianza": "alta",
         "estacion_id": 107,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": 0.0,
+        "altura_rio_m": 0.54,
+        "temperatura_minima_c": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "caudal_m3s": "sin dato registrado",
         "humedad_relativa_pct": "sin dato registrado",
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": 0.55,
-        "caudal_m3s": "sin dato registrado",
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 0.55
+            "valor": 0.54
           },
           {
             "etiqueta_original": "Humedad Relativa",
-            "valor": 23.02
+            "valor": 24.49
           },
           {
             "etiqueta_original": "Precipitación Diaria",
@@ -204,15 +204,15 @@
           },
           {
             "etiqueta_original": "Presión Atmosférica",
-            "valor": 1013.89
+            "valor": 1010.32
           },
           {
             "etiqueta_original": "Radiacion Solar",
-            "valor": 746.41
+            "valor": 662.6
           },
           {
             "etiqueta_original": "Temperatura",
-            "valor": 28.14
+            "valor": 26.97
           },
           {
             "etiqueta_original": "Dirección Viento",
@@ -220,10 +220,10 @@
           },
           {
             "etiqueta_original": "Viento Velocidad Máxima",
-            "valor": 4.7
+            "valor": 3.2
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       }
     ],
@@ -233,24 +233,24 @@
         "tipo": "rio",
         "confianza": "alta",
         "estacion_id": 33,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": "sin dato registrado",
+        "altura_rio_m": 2.53,
+        "temperatura_minima_c": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "caudal_m3s": 623.0,
         "humedad_relativa_pct": "sin dato registrado",
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": 2.42,
-        "caudal_m3s": 589.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 2.42
+            "valor": 2.53
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 589.0
+            "valor": 623.0
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -258,25 +258,25 @@
         "tipo": "rio",
         "confianza": "media",
         "estacion_id": 34,
-        "temperatura_minima_c": 7.21,
         "precipitacion_mm": 0.0,
-        "humedad_relativa_pct": 47.88,
+        "altura_rio_m": 2.87,
+        "temperatura_minima_c": 8.93,
+        "temperatura_maxima_c": 28.84,
+        "caudal_m3s": 247.0,
+        "humedad_relativa_pct": 53.84,
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": 28.11,
-        "altura_rio_m": 2.77,
-        "caudal_m3s": 216.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 2.77
+            "valor": 2.87
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 216.0
+            "valor": 247.0
           },
           {
             "etiqueta_original": "Humedad Relativa Media Diaria",
-            "valor": 47.88
+            "valor": 53.84
           },
           {
             "etiqueta_original": "Precipitación Diaria",
@@ -284,14 +284,14 @@
           },
           {
             "etiqueta_original": "Temperatura Mínima Diaria",
-            "valor": 7.21
+            "valor": 8.93
           },
           {
             "etiqueta_original": "Temperatura Máxima Diaria",
-            "valor": 28.11
+            "valor": 28.84
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -299,25 +299,25 @@
         "tipo": "rio",
         "confianza": "media",
         "estacion_id": 35,
-        "temperatura_minima_c": 7.9,
         "precipitacion_mm": 0.0,
-        "humedad_relativa_pct": 45.23,
+        "altura_rio_m": 2.18,
+        "temperatura_minima_c": 11.42,
+        "temperatura_maxima_c": 29.21,
+        "caudal_m3s": 369.0,
+        "humedad_relativa_pct": 40.29,
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": 25.86,
-        "altura_rio_m": 1.94,
-        "caudal_m3s": 350.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 1.94
+            "valor": 2.18
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 350.0
+            "valor": 369.0
           },
           {
             "etiqueta_original": "Humedad Relativa Media Diaria",
-            "valor": 45.23
+            "valor": 40.29
           },
           {
             "etiqueta_original": "Precipitación Diaria",
@@ -325,14 +325,14 @@
           },
           {
             "etiqueta_original": "Temperatura Mínima Diaria",
-            "valor": 7.9
+            "valor": 11.42
           },
           {
             "etiqueta_original": "Temperatura Máxima Diaria",
-            "valor": 25.86
+            "valor": 29.21
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -340,25 +340,25 @@
         "tipo": "rio",
         "confianza": "media",
         "estacion_id": 36,
-        "temperatura_minima_c": 10.54,
         "precipitacion_mm": "sin dato registrado",
-        "humedad_relativa_pct": 50.75,
+        "altura_rio_m": 1.77,
+        "temperatura_minima_c": 12.65,
+        "temperatura_maxima_c": 31.32,
+        "caudal_m3s": 517.0,
+        "humedad_relativa_pct": 45.71,
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": 26.21,
-        "altura_rio_m": 1.67,
-        "caudal_m3s": 489.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 1.67
+            "valor": 1.77
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 489.0
+            "valor": 517.0
           },
           {
             "etiqueta_original": "Humedad Relativa Media Diaria",
-            "valor": 50.75
+            "valor": 45.71
           },
           {
             "etiqueta_original": "Lluvia diaria corregida",
@@ -366,14 +366,14 @@
           },
           {
             "etiqueta_original": "Temperatura Mínima Diaria",
-            "valor": 10.54
+            "valor": 12.65
           },
           {
             "etiqueta_original": "Temperatura Máxima Diaria",
-            "valor": 26.21
+            "valor": 31.32
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -381,13 +381,13 @@
         "tipo": "dique",
         "confianza": "alta",
         "estacion_id": 37,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": "sin dato registrado",
+        "altura_rio_m": 1.89,
+        "temperatura_minima_c": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "caudal_m3s": 402.0,
         "humedad_relativa_pct": "sin dato registrado",
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": 1.89,
-        "caudal_m3s": 433.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
@@ -395,10 +395,10 @@
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 433.0
+            "valor": 402.0
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -406,17 +406,17 @@
         "tipo": "dique",
         "confianza": "alta",
         "estacion_id": 126,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": "sin dato registrado",
-        "humedad_relativa_pct": "sin dato registrado",
-        "temperatura_media_c": 17.95,
+        "altura_rio_m": 0.34,
+        "temperatura_minima_c": "sin dato registrado",
         "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": 0.32,
         "caudal_m3s": 8.0,
+        "humedad_relativa_pct": "sin dato registrado",
+        "temperatura_media_c": 18.82,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Hidrometrica del rio",
-            "valor": 0.32
+            "valor": 0.34
           },
           {
             "etiqueta_original": "Caudal Calculado curvaHQ",
@@ -424,10 +424,10 @@
           },
           {
             "etiqueta_original": "Temperatura media intervalo",
-            "valor": 17.95
+            "valor": 18.82
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -435,24 +435,24 @@
         "tipo": "toma_riego",
         "confianza": "media",
         "estacion_id": 41,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": "sin dato registrado",
+        "altura_rio_m": 1.54,
+        "temperatura_minima_c": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "caudal_m3s": 293.0,
         "humedad_relativa_pct": "sin dato registrado",
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": 1.59,
-        "caudal_m3s": 353.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 1.59
+            "valor": 1.54
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 353.0
+            "valor": 293.0
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -460,20 +460,20 @@
         "tipo": "canal_riego",
         "confianza": "media",
         "estacion_id": 109,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": "sin dato registrado",
+        "altura_rio_m": 1.78,
+        "temperatura_minima_c": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "caudal_m3s": "sin dato registrado",
         "humedad_relativa_pct": "sin dato registrado",
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": 1.77,
-        "caudal_m3s": "sin dato registrado",
         "mediciones_originales": [
           {
             "etiqueta_original": "altura hidrometro medida con sensor (presión o flotante)",
-            "valor": 1.77
+            "valor": 1.78
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       }
     ],
@@ -483,24 +483,24 @@
         "tipo": "rio",
         "confianza": "alta",
         "estacion_id": 22,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": "sin dato registrado",
+        "altura_rio_m": 2.22,
+        "temperatura_minima_c": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "caudal_m3s": 711.0,
         "humedad_relativa_pct": "sin dato registrado",
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": 2.23,
-        "caudal_m3s": 760.0,
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
-            "valor": 2.23
+            "valor": 2.22
           },
           {
             "etiqueta_original": "Caudal Medio Diario",
-            "valor": 760.0
+            "valor": 711.0
           }
         ],
-        "fecha_actualizacion": "29/10/2026",
+        "fecha_actualizacion": "30/10/2026",
         "estado_estacion": "operativa"
       },
       {
@@ -508,13 +508,13 @@
         "tipo": "rio",
         "confianza": "alta",
         "estacion_id": 21,
-        "temperatura_minima_c": "sin dato registrado",
         "precipitacion_mm": "sin dato registrado",
+        "altura_rio_m": "sin dato registrado",
+        "temperatura_minima_c": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "caudal_m3s": "sin dato registrado",
         "humedad_relativa_pct": "sin dato registrado",
         "temperatura_media_c": "sin dato registrado",
-        "temperatura_maxima_c": "sin dato registrado",
-        "altura_rio_m": "sin dato registrado",
-        "caudal_m3s": "sin dato registrado",
         "mediciones_originales": [
           {
             "etiqueta_original": "Altura Río/Lago",
