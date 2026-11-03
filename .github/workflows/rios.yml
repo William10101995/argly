@@ -2,6 +2,7 @@ name: Scraper Rios
 
 env:
   SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
+  AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
 
 permissions:
   contents: write
