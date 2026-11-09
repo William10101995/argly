@@ -1,0 +1,529 @@
+{
+  "fuente": "AIC - Autoridad Interjurisdiccional de Cuencas",
+  "url_fuente": "https://www.aic.gob.ar/sitio/estaciones",
+  "nota_metodologica": "La AIC no publica el mapeo estación->río. Fue reconstruido manualmente cruzando las páginas oficiales de Embalses y Caudales Programados de la AIC más fuentes geográficas públicas. Ver el campo 'confianza' de cada estación. Los campos sin medición figuran como 'sin dato registrado'. Cada estación conserva además 'mediciones_originales' con las etiquetas y valores tal cual los reporta la AIC, por si su nomenclatura de sensor no coincide con los campos estándar.",
+  "rios": {
+    "limay": [
+      {
+        "nombre": "Nahuel Huapi",
+        "tipo": "lago_origen",
+        "confianza": "alta",
+        "estacion_id": 24,
+        "temperatura_minima_c": 2.79,
+        "precipitacion_mm": 0.0,
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 5.27,
+        "temperatura_maxima_c": 26.74,
+        "humedad_relativa_pct": 71.96,
+        "caudal_m3s": 343.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 5.27
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 343.0
+          },
+          {
+            "etiqueta_original": "Humedad Relativa Media Diaria",
+            "valor": 71.96
+          },
+          {
+            "etiqueta_original": "Precipitación Diaria",
+            "valor": 0.0
+          },
+          {
+            "etiqueta_original": "Temperatura Mínima Diaria",
+            "valor": 2.79
+          },
+          {
+            "etiqueta_original": "Temperatura Máxima Diaria",
+            "valor": 26.74
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Villa Llanquín",
+        "tipo": "rio",
+        "confianza": "alta",
+        "estacion_id": 27,
+        "temperatura_minima_c": 3.32,
+        "precipitacion_mm": 0.0,
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 3.33,
+        "temperatura_maxima_c": 30.26,
+        "humedad_relativa_pct": 64.62,
+        "caudal_m3s": 333.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 3.33
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 333.0
+          },
+          {
+            "etiqueta_original": "Humedad Relativa Media Diaria",
+            "valor": 64.62
+          },
+          {
+            "etiqueta_original": "Precipitación Diaria",
+            "valor": 0.0
+          },
+          {
+            "etiqueta_original": "Temperatura Mínima Diaria",
+            "valor": 3.32
+          },
+          {
+            "etiqueta_original": "Temperatura Máxima Diaria",
+            "valor": 30.26
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Corralito",
+        "tipo": "rio",
+        "confianza": "media",
+        "estacion_id": 32,
+        "temperatura_minima_c": 4.73,
+        "precipitacion_mm": 0.0,
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 1.28,
+        "temperatura_maxima_c": 27.8,
+        "humedad_relativa_pct": 64.33,
+        "caudal_m3s": 9.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 1.28
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 9.0
+          },
+          {
+            "etiqueta_original": "Humedad Relativa Media Diaria",
+            "valor": 64.33
+          },
+          {
+            "etiqueta_original": "Precipitación Diaria",
+            "valor": 0.0
+          },
+          {
+            "etiqueta_original": "Temperatura Mínima Diaria",
+            "valor": 4.73
+          },
+          {
+            "etiqueta_original": "Temperatura Máxima Diaria",
+            "valor": 27.8
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Pichi Picún Leufú",
+        "tipo": "dique",
+        "confianza": "alta",
+        "estacion_id": 26,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 1.92,
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": 517.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 1.92
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 517.0
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Las Perlas",
+        "tipo": "rio",
+        "confianza": "alta",
+        "estacion_id": 25,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 2.78,
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": 410.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 2.78
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 410.0
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Paseo de la Costa (Neuquén Capital)",
+        "tipo": "rio",
+        "confianza": "alta",
+        "estacion_id": 107,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": 0.0,
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 0.78,
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": "sin dato registrado",
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 0.78
+          },
+          {
+            "etiqueta_original": "Humedad Relativa",
+            "valor": 19.59
+          },
+          {
+            "etiqueta_original": "Precipitación Diaria",
+            "valor": 0.0
+          },
+          {
+            "etiqueta_original": "Presión Atmosférica",
+            "valor": 1007.49
+          },
+          {
+            "etiqueta_original": "Radiacion Solar",
+            "valor": 51.06
+          },
+          {
+            "etiqueta_original": "Temperatura",
+            "valor": 30.47
+          },
+          {
+            "etiqueta_original": "Dirección Viento",
+            "valor": "----"
+          },
+          {
+            "etiqueta_original": "Viento Velocidad Máxima",
+            "valor": 3.7
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      }
+    ],
+    "neuquen": [
+      {
+        "nombre": "Chos Malal",
+        "tipo": "rio",
+        "confianza": "alta",
+        "estacion_id": 33,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 2.13,
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": 376.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 2.13
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 376.0
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Andacollo (Puente)",
+        "tipo": "rio",
+        "confianza": "media",
+        "estacion_id": 34,
+        "temperatura_minima_c": 5.87,
+        "precipitacion_mm": 0.0,
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 2.52,
+        "temperatura_maxima_c": 31.53,
+        "humedad_relativa_pct": 40.36,
+        "caudal_m3s": 171.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 2.52
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 171.0
+          },
+          {
+            "etiqueta_original": "Humedad Relativa Media Diaria",
+            "valor": 40.36
+          },
+          {
+            "etiqueta_original": "Precipitación Diaria",
+            "valor": 0.0
+          },
+          {
+            "etiqueta_original": "Temperatura Mínima Diaria",
+            "valor": 5.87
+          },
+          {
+            "etiqueta_original": "Temperatura Máxima Diaria",
+            "valor": 31.53
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Rahueco",
+        "tipo": "rio",
+        "confianza": "media",
+        "estacion_id": 35,
+        "temperatura_minima_c": 6.67,
+        "precipitacion_mm": 0.0,
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 1.72,
+        "temperatura_maxima_c": 29.21,
+        "humedad_relativa_pct": 31.75,
+        "caudal_m3s": 283.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 1.72
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 283.0
+          },
+          {
+            "etiqueta_original": "Humedad Relativa Media Diaria",
+            "valor": 31.75
+          },
+          {
+            "etiqueta_original": "Precipitación Diaria",
+            "valor": 0.0
+          },
+          {
+            "etiqueta_original": "Temperatura Mínima Diaria",
+            "valor": 6.67
+          },
+          {
+            "etiqueta_original": "Temperatura Máxima Diaria",
+            "valor": 29.21
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Balsa Huitrín",
+        "tipo": "rio",
+        "confianza": "media",
+        "estacion_id": 36,
+        "temperatura_minima_c": 9.48,
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 1.48,
+        "temperatura_maxima_c": 28.86,
+        "humedad_relativa_pct": 40.08,
+        "caudal_m3s": 392.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 1.48
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 392.0
+          },
+          {
+            "etiqueta_original": "Humedad Relativa Media Diaria",
+            "valor": 40.08
+          },
+          {
+            "etiqueta_original": "Lluvia diaria corregida",
+            "valor": 0.0
+          },
+          {
+            "etiqueta_original": "Temperatura Mínima Diaria",
+            "valor": 9.48
+          },
+          {
+            "etiqueta_original": "Temperatura Máxima Diaria",
+            "valor": 28.86
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Compensador El Chañar",
+        "tipo": "dique",
+        "confianza": "alta",
+        "estacion_id": 37,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 1.81,
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": 418.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 1.81
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 418.0
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Portezuelo Grande",
+        "tipo": "dique",
+        "confianza": "alta",
+        "estacion_id": 126,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": 18.52,
+        "altura_rio_m": 0.44,
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": 10.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Hidrometrica del rio",
+            "valor": 0.44
+          },
+          {
+            "etiqueta_original": "Caudal Calculado curvaHQ",
+            "valor": 10.0
+          },
+          {
+            "etiqueta_original": "Temperatura media intervalo",
+            "valor": 18.52
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Cipolletti Toma",
+        "tipo": "toma_riego",
+        "confianza": "media",
+        "estacion_id": 41,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 1.49,
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": 286.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 1.49
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 286.0
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Canal Principal",
+        "tipo": "canal_riego",
+        "confianza": "media",
+        "estacion_id": 109,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 1.91,
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": "sin dato registrado",
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "altura hidrometro medida con sensor (presión o flotante)",
+            "valor": 1.91
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      }
+    ],
+    "negro": [
+      {
+        "nombre": "Allen",
+        "tipo": "rio",
+        "confianza": "alta",
+        "estacion_id": 22,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": 2.36,
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": 741.0,
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": 2.36
+          },
+          {
+            "etiqueta_original": "Caudal Medio Diario",
+            "valor": 741.0
+          }
+        ],
+        "fecha_actualizacion": "09/11/2026",
+        "estado_estacion": "operativa"
+      },
+      {
+        "nombre": "Choele Choel (Bocatoma)",
+        "tipo": "rio",
+        "confianza": "alta",
+        "estacion_id": 21,
+        "temperatura_minima_c": "sin dato registrado",
+        "precipitacion_mm": "sin dato registrado",
+        "temperatura_media_c": "sin dato registrado",
+        "altura_rio_m": "sin dato registrado",
+        "temperatura_maxima_c": "sin dato registrado",
+        "humedad_relativa_pct": "sin dato registrado",
+        "caudal_m3s": "sin dato registrado",
+        "mediciones_originales": [
+          {
+            "etiqueta_original": "Altura Río/Lago",
+            "valor": "----"
+          }
+        ],
+        "fecha_actualizacion": "sin dato registrado",
+        "estado_estacion": "fuera_de_linea"
+      }
+    ]
+  }
+}
