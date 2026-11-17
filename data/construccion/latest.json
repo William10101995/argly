@@ -1,21 +1,21 @@
 [
   {
     "fuente": "INDEC ICC",
-    "mes": 9,
+    "mes": 10,
     "anio": 2026,
-    "fecha_publicacion": "16/10/2026",
-    "fecha_proximo_informe": "17/11/2026",
+    "fecha_publicacion": "17/11/2026",
+    "fecha_proximo_informe": "17/12/2026",
     "variaciones": {
-      "general": 1.5,
-      "materiales": 1.3,
-      "mano_obra": 1.6,
-      "gastos_generales": 1.5
+      "general": 1.7,
+      "materiales": 1.5,
+      "mano_obra": 1.8,
+      "gastos_generales": 1.8
     },
     "precio_m2_actual": {
-      "materiales": 811303.78,
-      "mano_obra": 930732.19,
-      "gastos_generales": 180912.83,
-      "total": 1922948.8
+      "materiales": 823473.34,
+      "mano_obra": 947485.37,
+      "gastos_generales": 184169.26,
+      "total": 1955127.97
     }
   }
 ]
