@@ -1,50 +1,50 @@
 [
   {
     "oficial": {
-      "compra": 1525.0,
-      "venta": 1575.0,
+      "compra": 1530.0,
+      "venta": 1580.0,
       "fuente": "bna.com.ar"
     },
     "blue": {
-      "compra": 1585.0,
-      "venta": 1605.0,
-      "variacion": 0.31,
-      "fecha_actualizacion": "17/11/2026 - 18:55",
+      "compra": 1610.0,
+      "venta": 1630.0,
+      "variacion": 1.56,
+      "fecha_actualizacion": "18/11/2026 - 17:20",
       "fuente": "ambito.com"
     },
     "mayorista": {
-      "compra": 1543.0,
-      "venta": 1552.0,
-      "variacion": 0.06,
-      "fecha_actualizacion": "17/11/2026 - 16:23",
+      "compra": 1550.5,
+      "venta": 1559.5,
+      "variacion": 0.48,
+      "fecha_actualizacion": "18/11/2026 - 15:08",
       "fuente": "ambito.com"
     },
     "bolsa": {
-      "compra": 1600.51,
-      "venta": 1600.51,
-      "variacion": 1.0,
-      "fecha_actualizacion": "17/11/2026 - 19:55",
+      "compra": 1629.84,
+      "venta": 1629.84,
+      "variacion": 1.8,
+      "fecha_actualizacion": "18/11/2026 - 17:20",
       "fuente": "ambito.com"
     },
     "contadoconliqui": {
-      "compra": 1696.41,
-      "venta": 1696.41,
-      "variacion": 1.0,
-      "fecha_actualizacion": "17/11/2026 - 19:55",
+      "compra": 1715.88,
+      "venta": 1715.88,
+      "variacion": 1.1,
+      "fecha_actualizacion": "18/11/2026 - 17:25",
       "fuente": "ambito.com"
     },
     "cripto": {
-      "compra": 1689.91,
-      "venta": 1689.91,
-      "variacion": 0.01,
-      "fecha_actualizacion": "17/11/2026 - 23:50",
+      "compra": 1712.57,
+      "venta": 1712.57,
+      "variacion": -0.23,
+      "fecha_actualizacion": "18/11/2026 - 17:20",
       "fuente": "ambito.com"
     },
     "tarjeta": {
-      "compra": 1525.0,
-      "venta": 2047.5,
-      "variacion": 0.0,
-      "fecha_actualizacion": "17/11/2026 - 18:55",
+      "compra": 1530.0,
+      "venta": 2054.0,
+      "variacion": 0.32,
+      "fecha_actualizacion": "18/11/2026 - 17:20",
       "fuente": "ambito.com"
     },
     "_meta": {
