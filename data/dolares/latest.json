@@ -22,22 +22,22 @@
     "bolsa": {
       "compra": 1701.05,
       "venta": 1701.05,
-      "variacion": 3.5,
-      "fecha_actualizacion": "20/11/2026 - 19:55",
+      "variacion": 0.0,
+      "fecha_actualizacion": "23/11/2026 - 19:55",
       "fuente": "ambito.com"
     },
     "contadoconliqui": {
-      "compra": 1799.14,
-      "venta": 1799.14,
-      "variacion": 3.2,
-      "fecha_actualizacion": "20/11/2026 - 19:55",
+      "compra": 1722.0,
+      "venta": 1722.0,
+      "variacion": -4.3,
+      "fecha_actualizacion": "23/11/2026 - 19:55",
       "fuente": "ambito.com"
     },
     "cripto": {
-      "compra": 1773.33,
-      "venta": 1773.33,
-      "variacion": -0.11,
-      "fecha_actualizacion": "20/11/2026 - 22:25",
+      "compra": 1759.19,
+      "venta": 1759.19,
+      "variacion": -0.3,
+      "fecha_actualizacion": "23/11/2026 - 20:45",
       "fuente": "ambito.com"
     },
     "tarjeta": {
